@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>brIΛn — AI Study Assistant</title>
+<link rel="stylesheet" href="style.css"></head><body><article>
+<h1>brIΛn</h1>
+<p class="subtitle">AI-powered study assistant in the Companion Panel</p>
+<h2 id="overview">Overview</h2>
+<p>The <strong>brIΛn</strong> tab in the Companion Panel lets you ask questions about the passage you're reading and generate study summaries. Three AI backends are supported: Anthropic's Claude (via your own API key), local Ollama models, and Apple Intelligence (on-device, where available).</p>
+<h2 id="opening">Opening brIΛn</h2>
+<p>Click the <strong>brIΛn</strong> tab in the Companion Panel header while in the Desk tab. You can also tap the AI icon that appears in the verse toolbar after selecting a verse.</p>
+<h2 id="claude">Setting up Claude</h2>
+<p>Go to <strong>Settings → AI → Claude API Key</strong> and enter your Anthropic API key. Once set, Claude is used in preference to Ollama for both the brIΛn tab and automatic chapter summaries.</p>
+<h2 id="ollama">Setting up Ollama</h2>
+<p>Install Ollama on your Mac and pull a model (e.g. <code>ollama pull mistral</code>). In Settings, enter your Ollama server URL (default <code>http://localhost:11434</code>) and select your model. Ollama runs entirely locally with no API costs.</p>
+<h2 id="apple-intelligence">Apple Intelligence</h2>
+<p>If Apple Intelligence is available on your device and enabled in System Settings, it can be selected as the AI engine in Settings. All processing happens on-device — no data is sent externally.</p>
+<h2 id="asking">Asking a question</h2>
+<p>Type any question in the brIΛn tab and press Return or tap Send. The AI responds in the context of the passage you are currently reading. You can ask for word meanings, historical background, theological context, or anything else relevant to your study.</p>
+<h2 id="summaries">Auto summaries</h2>
+<p>When enabled in Settings, a brief summary is generated automatically when you load a new chapter. Chapter 1 of any book generates a full book overview alongside the chapter summary.</p>
+<h2 id="history">Chat history</h2>
+<p>Conversations are saved as threads and sync to your other Apple devices via iCloud Drive. Tap the sidebar icon in the brIΛn tab to browse, search, and return to previous conversations.</p>
+</article></body></html>
