@@ -17,20 +17,65 @@
   --gold: #b8944e;
 }
 .brand {
-  display: inline-block;
-  margin-bottom: 36px;
   font-family: 'Playfair Display', serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.05em;
   text-decoration: none;
   color: var(--text);
+  align-items: center;
+  display:flex;
+  gap:6px;
 }
 
 .brand em {
-  font-style: italic;
+  font-style: normal;
   color: var(--gold);
 }
+
+/* HEADER */
+
+.site-header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  width:100%;
+  background:rgba(201,215,228,0.78);
+  backdrop-filter:blur(18px) saturate(180%);
+  -webkit-backdrop-filter:blur(18px) saturate(180%);
+  border-bottom:1px solid rgba(31,41,51,0.08);
+}
+
+.site-header nav{
+  max-width:1080px;
+  margin:0 auto;
+  height:58px;
+  padding:0 24px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.nav-links{
+  display:flex;
+  align-items:center;
+  gap:22px;
+  list-style:none;
+}
+
+.nav-links a{
+  font-size:13px;
+  font-weight:500;
+  color:var(--soft);
+  text-decoration:none;
+  font-family:'Inter', sans-serif;
+  font-style:normal;
+}
+
+.nav-links a:hover{
+  color:var(--text);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -42,29 +87,64 @@ body {
   color: var(--text);
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 60px 24px;
 }
 
 .container {
   width: 100%;
   max-width: 980px;
+  margin: 72px auto;
+  padding: 0 24px;
 }
 
+@media (max-width: 720px) {
+
+  .site-header nav{
+    padding:0 16px;
+  }
+
+  .brand{
+    font-size:14px;
+    letter-spacing:-0.02em;
+  }
+
+  .nav-links{
+    gap:14px;
+  }
+
+  .nav-links a{
+    font-size:12px;
+  }
+
+  h1{
+    font-family:'Playfair Display', serif;
+    font-size:clamp(40px, 3vw, 64px);
+    line-height:1.02;
+    font-weight:500;
+    margin-bottom:18px;
+  }
+
+  .subtitle{
+    font-size:11px;
+  }
+}
 .panel {
-  padding: 70px 64px;
+  border: 1px solid rgba(255,255,255,0.45);
+  border-radius: 34px;
+  padding: 58px 56px;
+  backdrop-filter: blur(18px);
+  box-shadow: 0 24px 60px rgba(31,41,51,0.12);
   text-align: center;
 }
 
 .logo {
-  width: 170px;
-  height: 170px;
+  width: 132px;
+  height: 132px;
   object-fit: cover;
-  border-radius: 36px;
-  margin-bottom: 36px;
-  box-shadow: 0 18px 44px rgba(31,41,51,0.18);
+  border-radius: 28px;
+  margin-bottom: 32px;
+  box-shadow:
+    0 14px 34px rgba(31,41,51,0.14),
+    0 4px 10px rgba(31,41,51,0.08);
 }
 
 .eyebrow {
@@ -77,7 +157,7 @@ body {
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(58px, 8vw, 92px);
+  font-size: clamp(29px, 4vw, 46px);
   line-height: 1;
   font-weight: 500;
   margin-bottom: 20px;
@@ -85,22 +165,22 @@ h1 {
 
 h1 em {
   color: var(--gold);
-  font-style: italic;
+  font-style: normal;
 }
 
 .subtitle {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   color: #8c6e38;
-  font-size: 28px;
+  font-size: 14px;
   margin-bottom: 40px;
 }
 
 .statement {
   max-width: 760px;
   margin: 0 auto;
-  font-size: 18px;
-  line-height: 1.9;
+  font-size: 14px;
+  line-height: 1.75;
   color: var(--soft);
 }
 
@@ -129,25 +209,33 @@ h1 em {
 </style>
 </head>
 <body>
+
+<header class="site-header">
+  <nav>
+    <a href="/" class="brand"><em>Studio Graphe</em> Academia</a>
+
+    <ul class="nav-links">
+      <li><a href="/academia/support.html">Support</a></li>
+      <li><a href="/academia/privacy.html">Privacy</a></li>
+      <li><a href="mailto:support@graphe.one">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
 <div class="container">
-  <a href="/" class="brand">
-  Studio <em>Graphē</em> One
-</a>
   <div class="panel">
-    <img src="/academia.jpeg" alt="Graphē One Academia" class="logo">
+    <img src="/assets/images/academia.png" alt="Graphē One Academia" class="logo">
 
-    <div class="eyebrow">Studio Graphē One</div>
-
-    <h1>Graphē One <em>Academia</em></h1>
+    <h1><em>Graphē One</em> Academia</h1>
 
     <div class="subtitle">Built for theological scholarship.</div>
 
     <div class="statement">
-      <strong>Graphē One Academia</strong> is conceived as a local-first theological research server designed to host archives, manuscripts, commentary systems, semantic structures, and scholarly environ's within a unified institutional workspace.
+      <strong>Graphē One Academia</strong> is conceived as a local-first theological research server designed to host archives, manuscripts, commentary systems, semantic structures, and scholarly environments within a unified institutional workspace.
       <br><br>
-      Rather than functioning merely as a reading application, Academia is conceptualized as a semantic archive environ capable of preserving, structuring, exploring, and extending theological knowledge across distributed scholarly systems.
+      Rather than functioning merely as a reading application, Academia is imagined as a semantic archive environment capable of preserving, structuring, exploring, and extending theological knowledge across distributed scholarly systems.
       <br><br>
-      The platform is a visionary filesystem-aware, archive-native, semantically extensible, institutionally scalable, and contemplative design.
+      The platform is envisioned as filesystem-aware, archive-native, semantically extensible, institutionally scalable, and contemplative by design.
     </div>
 
     <div class="footer">

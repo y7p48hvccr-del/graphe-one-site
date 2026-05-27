@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Support — Graphē One™ ScriptureStudy Pro</title>
+<title>Support — Graphē ScriptureStudy Pro</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Crimson+Pro:wght@300;400&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -15,7 +16,7 @@
     --text: #1a2a38; --text-muted: #4a6070;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Crimson Pro', Georgia, serif; background: var(--cream); color: var(--text); }
+  body { font-family: 'Crimson Pro', Georgia, serif; background: var(--cream); color: var(--text); -webkit-font-smoothing: antialiased; }
 
   .nav {
     background: var(--navy);
@@ -24,15 +25,9 @@
     align-items: center;
     justify-content: space-between;
   }
-  .nav-brand {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    text-decoration: none;
-  }
+  .nav-brand { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 300; color: rgba(255,255,255,0.85); text-decoration: none; }
   .nav-brand em { font-style: italic; color: var(--gold-light); }
-  .nav a { color: rgba(255,255,255,0.45); text-decoration: none; font-size: 14px; font-weight: 300; transition: color 0.2s; }
+  .nav a { color: rgba(255,255,255,0.45); text-decoration: none; font-size: 14px; font-weight: 300; }
   .nav a:hover { color: var(--gold-light); }
 
   .hero {
@@ -40,17 +35,11 @@
     padding: 80px 24px 60px;
     text-align: center;
   }
-  .hero h1 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(36px, 6vw, 56px);
-    font-weight: 300;
-    color: #fff;
-    margin-bottom: 12px;
-  }
+  .hero h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(36px, 6vw, 56px); font-weight: 300; color: #fff; margin-bottom: 12px; }
   .hero h1 em { font-style: italic; color: var(--gold-light); }
   .hero p { font-size: 18px; font-weight: 300; color: rgba(255,255,255,0.75); }
 
-  .content { max-width: 800px; margin: 0 auto; padding: 80px 24px; }
+  .content { max-width: 800px; margin: 0 auto; padding: 80px 24px 100px; }
 
   .section-title {
     font-family: 'Cormorant Garamond', serif;
@@ -63,24 +52,10 @@
   }
 
   .faq { margin-bottom: 48px; }
-
   .faq-item { margin-bottom: 28px; }
 
-  .faq-q {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--navy);
-    margin-bottom: 8px;
-  }
-
-  .faq-a {
-    font-size: 17px;
-    font-weight: 300;
-    color: var(--text-muted);
-    line-height: 1.7;
-  }
-
+  .faq-q { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; color: var(--navy); margin-bottom: 8px; }
+  .faq-a { font-size: 17px; font-weight: 300; color: var(--text-muted); line-height: 1.7; }
   .faq-a a { color: var(--sky-dark); text-decoration: none; border-bottom: 1px solid var(--sky-light); }
   .faq-a a:hover { color: var(--gold); }
 
@@ -91,13 +66,7 @@
     text-align: center;
     margin-top: 60px;
   }
-  .contact-card h2 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 32px;
-    font-weight: 300;
-    color: #fff;
-    margin-bottom: 12px;
-  }
+  .contact-card h2 { font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 300; color: #fff; margin-bottom: 12px; }
   .contact-card h2 em { font-style: italic; color: var(--gold-light); }
   .contact-card p { font-size: 17px; font-weight: 300; color: rgba(255,255,255,0.6); margin-bottom: 28px; }
   .contact-card a {
@@ -110,18 +79,20 @@
     font-weight: 600;
     text-decoration: none;
     border-radius: 4px;
-    transition: background 0.2s;
   }
   .contact-card a:hover { background: var(--gold-light); }
 
-  footer {
-    background: var(--navy);
-    padding: 32px 24px;
-    text-align: center;
-  }
+  footer { background: var(--navy); padding: 32px 24px; text-align: center; }
   footer a { color: rgba(255,255,255,0.35); text-decoration: none; font-size: 13px; margin: 0 12px; font-weight: 300; }
   footer a:hover { color: var(--gold-light); }
   .footer-copy { font-size: 12px; color: rgba(255,255,255,0.2); margin-top: 12px; font-weight: 300; }
+
+  @media (max-width: 640px) {
+    .nav { padding: 14px 20px; }
+    .hero { padding: 60px 20px 40px; }
+    .content { padding: 60px 20px 80px; }
+    .contact-card { padding: 32px 24px; }
+  }
 </style>
 </head>
 <body>
@@ -132,7 +103,7 @@
 </nav>
 
 <div class="hero">
-  <h1>Support for <em>Graphē One</em></h1>
+  <h1>Support for <em>ScriptureStudy</em></h1>
   <p>We're here to help you get the most from your study.</p>
 </div>
 
@@ -143,22 +114,22 @@
 
     <div class="faq-item">
       <div class="faq-q">The app opens but shows no Bible text. What do I do?</div>
-      <div class="faq-a">Graphē One requires Bible modules to be downloaded separately. Go to the <strong>Archives</strong> tab and tap <strong>Choose Modules Folder</strong> to point the app to a folder containing MyBible-format modules. Free modules for hundreds of languages are available at <a href="https://mybible.zone" target="_blank">mybible.zone</a>.</div>
+      <div class="faq-a">ScriptureStudy requires Bible modules to be downloaded separately. Go to the <strong>Modules</strong> tab and tap <strong>Choose Modules Folder</strong> to point the app to a folder containing MyBible-format modules. Free modules for hundreds of languages are available at <a href="https://mybible.zone" target="_blank">mybible.zone</a>.</div>
     </div>
 
     <div class="faq-item">
       <div class="faq-q">Where do I get Bible modules?</div>
-      <div class="faq-a">Visit <a href="https://mybible.zone" target="_blank">mybible.zone</a> to download free Bible translations, commentaries, lexicons, devotionals and more. Download the files to a folder on your Mac, then point Graphē One to that folder via the Archives tab.</div>
+      <div class="faq-a">Visit <a href="https://mybible.zone" target="_blank">mybible.zone</a> to download free Bible translations, commentaries, lexicons, devotionals and more. Download the files to a folder on your Mac, then point ScriptureStudy to that folder via the <strong>Modules</strong> tab.</div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q">What module format does Graphē One use?</div>
-      <div class="faq-a">Graphē One reads MyBible-format SQLite modules (.sqlite3, .bible, .commentary, .dictionary and .graphe encrypted formats).</div>
+      <div class="faq-q">What module format does ScriptureStudy use?</div>
+      <div class="faq-a">ScriptureStudy reads MyBible-format SQLite modules (.SQLite3, .bible, .commentary, .dictionary).</div>
     </div>
 
     <div class="faq-item">
       <div class="faq-q">How do I set up the AI features?</div>
-      <div class="faq-a">The AI chat and chapter summary features require either a local <a href="https://ollama.com" target="_blank">Ollama</a> installation or an Anthropic API key. Configure these in <strong>Settings → AI</strong>. These features are entirely optional — the app is fully functional without them.</div>
+      <div class="faq-a">The <strong>brIΛn</strong> tab in the Companion Panel and automatic chapter summaries require an AI engine. Three options are available in <strong>Settings → AI</strong>: an Anthropic API key (for Claude), a local <a href="https://ollama.com" target="_blank">Ollama</a> installation, or Apple Intelligence (on-device, where available). All AI features are entirely optional — the app is fully functional without them.</div>
     </div>
   </div>
 
@@ -166,23 +137,28 @@
     <h2 class="section-title">Common Questions</h2>
 
     <div class="faq-item">
-      <div class="faq-q">The EPUB reader says "Coming Soon" — when will it be available?</div>
-      <div class="faq-a">EPUB support is coming in a future update. In the meantime, PDF books work beautifully. You can convert EPUB files to PDF using the free tool <a href="https://calibre-ebook.com" target="_blank">Calibre</a>.</div>
+      <div class="faq-q">My notes aren't appearing on my other Mac. What's wrong?</div>
+      <div class="faq-a">Notes sync via iCloud Drive. Make sure iCloud Drive is enabled in <strong>System Settings → Apple ID → iCloud</strong> and that ScriptureStudy has iCloud access. Sync can take a minute or two after a change. If notes are still missing, check that both Macs are signed into the same Apple ID.</div>
     </div>
 
     <div class="faq-item">
       <div class="faq-q">My maps aren't showing images. What's wrong?</div>
-      <div class="faq-a">Make sure your modules folder contains the BMaps module (BMaps.dictionary.graphe or similar). If it's there, try pressing the Refresh button in the Archives tab to re-scan the folder.</div>
+      <div class="faq-a">Make sure your modules folder contains a BMaps module. If it is there, try pressing the <strong>↺ Refresh</strong> button in the Modules tab to re-scan the folder.</div>
     </div>
 
     <div class="faq-item">
       <div class="faq-q">I changed my modules folder and now nothing loads.</div>
-      <div class="faq-a">Go to the Archives tab and tap <strong>Choose Modules Folder</strong> again to re-grant access to your folder. macOS security requires you to reconfirm folder access after certain changes.</div>
+      <div class="faq-a">Go to the <strong>Modules</strong> tab and tap <strong>Choose Modules Folder</strong> again to re-grant access. macOS security requires you to reconfirm folder access after certain changes.</div>
     </div>
 
     <div class="faq-item">
-      <div class="faq-q">What macOS version does Graphē One require?</div>
-      <div class="faq-a">Graphē One requires macOS 14 (Sonoma) or later.</div>
+      <div class="faq-q">A module appears in the wrong category in the library.</div>
+      <div class="faq-a">Module type is detected from the database structure. If a module is miscategorised, its internal description field may be misleading the detector. You can correct it using a SQLite editor such as <a href="https://sqlitebrowser.org" target="_blank">DB Browser for SQLite</a>, or contact the module author for an updated version.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">What macOS version does ScriptureStudy require?</div>
+      <div class="faq-a">ScriptureStudy requires macOS 14 (Sonoma) or later.</div>
     </div>
   </div>
 
@@ -198,7 +174,7 @@
   <a href="/">Home</a>
   <a href="/ScriptureStudy/support.html">Support</a>
   <a href="/ScriptureStudy/privacy.html">Privacy Policy</a>
-  <div class="footer-copy">© 2026 Studio Graphē One</div>
+  <div class="footer-copy">© 2026 Studio Graphē One. All rights reserved.</div>
 </footer>
 
 </body>
