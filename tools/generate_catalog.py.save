@@ -1,0 +1,17 @@
+# Step 3 — Create Indexer Script
+Contents:
+import json
+import os
+from pathlib import Path
+from datetime import datetime
+
+MODULES_ROOT = Path("/Users/richardbillings/Library/Containers/com.graphe.scripturystudy/Data/Library/Application Support/Graphe/Modules/GrapheModules")
+
+OUTPUT_FILE = Path.home() / "Sites/graphe-scripture-study/docs/ScriptureStudy/resources/modules/catalog.json"
+
+VALID_EXTENSIONS = {
+    ".graphe",
+    ".SQLite3"
+}
+
+...
