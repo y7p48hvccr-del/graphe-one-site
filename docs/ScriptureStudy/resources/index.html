@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Scripture Study Resources</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Crimson+Pro:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root{--sky:#8fa1b5;--gold:#b8943a;--navy:#1e2d3d;--cream:#f5f0e8;--cream-dark:#e8e0d0;--text:#1a2a38;--muted:#5b6d7a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Crimson Pro',serif;background:var(--cream);color:var(--text);line-height:1.7}
+.hero{padding:120px 24px 80px;background:linear-gradient(160deg,#5d7289 0%,#8fa1b5 100%);text-align:center}
+h1{font-family:'Cormorant Garamond',serif;font-size:clamp(44px,8vw,72px);font-weight:300;color:#fff;margin-bottom:12px}
+.subtitle{max-width:720px;margin:0 auto;color:rgba(255,255,255,.82);font-size:18px}
+.hero-nav{margin-top:28px}
+.hero-nav a{display:inline-block;padding:12px 24px;border:1px solid rgba(255,255,255,.35);border-radius:6px;color:#fff;text-decoration:none;font-family:'Cormorant Garamond',serif;font-size:18px;background:rgba(255,255,255,.08);backdrop-filter:blur(8px);transition:.2s}
+.hero-nav a:hover{background:rgba(255,255,255,.16)}
+.container{max-width:1100px;margin:0 auto;padding:80px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:28px}
+.card{background:#fff;border:1px solid var(--cream-dark);border-radius:10px;padding:40px;transition:.2s;text-decoration:none;color:inherit;box-shadow:0 10px 30px rgba(30,45,61,.05)}
+.card:hover{transform:translateY(-4px);border-color:var(--sky)}
+.card h2{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:400;color:var(--navy);margin-bottom:14px}
+.card p{color:var(--muted);font-size:17px}
+.button{display:inline-block;margin-top:24px;padding:12px 22px;background:var(--navy);color:#fff;border-radius:4px;font-family:'Cormorant Garamond',serif;letter-spacing:.05em}
+.footer{text-align:center;padding:0 24px 80px;color:var(--muted);font-size:15px}
+</style>
+</head>
+<body>
+<section class="hero">
+<h1>Resources</h1>
+<p class="subtitle">A multilingual archive system for scripture modules, theological books and future research collections.</p>
+<div class="hero-nav">
+<a href="../">← Return to ScriptureStudy Pro</a>
+</div>
+</section>
+<section class="container">
+<a class="card" href="./modules/">
+<h2>Modules Archive</h2>
+<p>Automatically indexed Graphe modules including Bibles, commentaries, dictionaries, lexicons, devotionals, reading plans and interlinears across hundreds of languages.</p>
+<div class="button">Open Modules</div>
+</a>
+<a class="card" href="./books/">
+<h2>Books Archive</h2>
+<p>Minimalist theological document library prepared for PDF and EPUB ingestion, metadata extraction and future Cloudflare integration.</p>
+<div class="button">Open Books</div>
+</a>
+</section>
+<div class="footer">ScriptureStudy Resource System</div>
+</body>
+</html>
