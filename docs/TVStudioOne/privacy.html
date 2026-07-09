@@ -99,7 +99,7 @@
     <p class="breadcrumb"><a href="/TVStudioOne/">← Studio One Overview</a></p>
     <h1 class="page-title"><em>Privacy</em> Policy</h1>
     <p class="page-subtitle">Studio One — TV and Radio Filter</p>
-    <p class="last-updated">Last updated: June 2026</p>
+    <p class="last-updated">Last updated: 9 July 2026</p>
   </div>
 </section>
 
@@ -113,12 +113,18 @@
       <p><strong>Studio One does not collect, transmit, or store any personal data on our servers.</strong> We operate no backend, no user accounts, no analytics, no tracking, and no advertising. You do not sign up. We do not know who you are.</p>
 
       <h2>TV Schedule <em>Data</em></h2>
-      <p>Studio One fetches the public UK Freeview TV and radio schedule from <a href="https://open-epg.com" target="_blank" rel="noopener">open-epg.com</a>. These requests are anonymous and contain no identifier, no account, and no location information. The schedule data is cached on your device for up to twelve hours so the app works smoothly offline.</p>
+      <p>Studio One fetches the public UK Freeview TV and radio schedule from community-maintained sources — the DP247 Freeview-EPG project and epgshare01. These requests are anonymous and contain no identifier, no account, and no location information. The schedule data is cached on your device for up to twelve hours so the app works smoothly offline.</p>
 
       <h2>Optional <em>AI Classification</em></h2>
-      <p>If you choose to add an <strong>Anthropic API key</strong> in the app, programme titles and EPG category tags are sent to Anthropic's Claude API so they can be sorted into the correct tab. Only the programme title and its public EPG categories are sent. No personal information is included.</p>
-      <p>Your API key is stored securely in the iOS Keychain on your device. It is never shared with us. You can revoke the key at any time from the Anthropic Console at <a href="https://console.anthropic.com" target="_blank" rel="noopener">console.anthropic.com</a>.</p>
-      <p>AI classifications are cached on your device permanently, so each programme title is only sent to Anthropic once.</p>
+      <p>AI is entirely optional and off unless you add your own API key. If you enable it and choose a provider — <strong>Anthropic (Claude), OpenAI (GPT), or Google (Gemini)</strong> — then, only when a request is made, the app sends that provider the programme title and its public EPG category tags for classification, or the programme title and channel for an on-demand overview. No personal information is included. Requests go directly from your device to the provider you chose, under your account and their privacy policy.</p>
+      <p>Your API key is stored securely in your device's <strong>Keychain</strong>, encrypted and available only while the device is unlocked. Keys are <strong>device-only</strong>: never synced to your other devices, never included in backups, and sent only to the provider they belong to. We never receive them. You can remove your key in the app at any time, or revoke it in the provider's console.</p>
+      <p>AI classifications are cached on your device permanently, so each programme title is only sent once.</p>
+
+      <h2>Optional Live Sports <em>Scores</em></h2>
+      <p>The live scorecard feature is optional. Its free mode uses your chosen AI provider's web search. If you add your own key for a premium sports-data provider (for example <strong>API-Sports</strong> or <strong>TheSportsDB</strong>), the app sends that provider only the event or team names needed to look up the current score. We only ever request scores, results and standings — never betting odds or gambling data. Requests go directly from your device to the provider under your own account.</p>
+
+      <h2>iCloud <em>Sync</em></h2>
+      <p>If you leave iCloud sync on, some preferences — favourites, reclassifications, enabled services, genre and channel filters, and reminders — sync across your own Apple devices using Apple's private iCloud key-value storage, scoped to your Apple ID. Studio One has no servers and no access to it. Your API keys and your appearance setting are <strong>not</strong> synced. You can turn iCloud sync off in Settings.</p>
 
       <h2>Data Stored <em>Locally</em></h2>
       <p>The following data is stored locally on your device only and is never transmitted to us:</p>
@@ -128,7 +134,7 @@
       <p>If you tap the bell icon on a programme, Studio One asks iOS for permission to send local notifications. Reminders are scheduled and delivered entirely by your device. We do not run a push notification server and we are not informed when reminders are set or fired.</p>
 
       <h2>Third-Party <em>Services</em></h2>
-      <p>Studio One does not integrate any third-party analytics, advertising, crash-reporting, or tracking SDKs. The only network communication the app performs is the anonymous schedule fetch from open-epg.com, and — only if you have added an API key — direct requests to Anthropic's Claude API.</p>
+      <p>Studio One does not integrate any third-party analytics, advertising, crash-reporting, or tracking SDKs. The only network communication the app performs is the anonymous schedule fetch from community EPG sources, and — only if you have added a key — direct requests to your chosen AI provider or sports-data provider.</p>
 
       <h2>Children's <em>Privacy</em></h2>
       <p>Studio One does not knowingly collect any personally identifiable information from anyone, including children under the age of 13. The app is suitable for users of all ages, though the listed TV schedule itself reflects the BBFC ratings of broadcast content.</p>

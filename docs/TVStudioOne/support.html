@@ -134,8 +134,8 @@
       <h2>Using the <em>Tabs</em></h2>
 
       <div class="faq-item">
-        <h3>What's the difference between the five tabs?</h3>
-        <p><strong>Sports</strong>: live sporting events and sports-radio output. <strong>Movies</strong>: feature films and made-for-TV movies. <strong>Faith</strong>: religious channels, worship, and faith-themed programming. <strong>Talk</strong>: chat shows, panel shows, and sports-talk shows. <strong>Custom</strong>: everything else, sortable by twelve content genres in Settings.</p>
+        <h3>What's the difference between the six tabs?</h3>
+        <p><strong>Sports</strong>: live sporting events and sports-radio output. <strong>Movies</strong>: feature films and made-for-TV movies. <strong>Faith</strong>: religious channels, worship, and faith-themed programming. <strong>Talk</strong>: chat shows, panel shows, and sports-talk shows. <strong>Custom</strong>: everything else, sortable by twelve content genres in Settings. <strong>Favourites</strong>: heart a title and every future airing appears here — across days, channels and repeats.</p>
       </div>
 
       <div class="faq-item">
@@ -168,18 +168,52 @@
       <h2>AI <em>Classification</em></h2>
 
       <div class="faq-item">
-        <h3>Do I need an Anthropic API key to use the app?</h3>
+        <h3>Do I need an AI API key to use the app?</h3>
         <p>No. Studio One works fully without one — it falls back to heuristic detection. An API key simply improves classification accuracy for unusual or ambiguous programmes.</p>
       </div>
 
       <div class="faq-item">
-        <h3>How much does the Claude AI cost in practice?</h3>
-        <p>Approximately 1–5 pence per day. Each programme title is sent to Anthropic only once and cached permanently on your device, so cost is bounded by the size of the daily schedule and shrinks over time as the cache fills.</p>
+        <h3>Which AI providers are supported?</h3>
+        <p>You can add your own key for <strong>Anthropic (Claude)</strong>, <strong>OpenAI (GPT)</strong>, or <strong>Google (Gemini)</strong>. All three offer pay-as-you-go pricing. Get keys at <a href="https://console.anthropic.com" target="_blank" rel="noopener">console.anthropic.com</a>, <a href="https://platform.openai.com" target="_blank" rel="noopener">platform.openai.com</a>, or <a href="https://aistudio.google.com" target="_blank" rel="noopener">aistudio.google.com</a>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How much does AI classification cost in practice?</h3>
+        <p>Approximately 1–5 pence per day. Each programme title is sent only once and cached permanently on your device, so cost is bounded by the size of the daily schedule and shrinks over time as the cache fills.</p>
       </div>
 
       <div class="faq-item">
         <h3>How do I remove my API key?</h3>
-        <p>Open any programme that shows the API key entry field and clear it. The key is removed from the iOS Keychain immediately. You can also revoke the key at the source by visiting <a href="https://console.anthropic.com" target="_blank" rel="noopener">console.anthropic.com</a>.</p>
+        <p>Go to Settings and clear your key there. It is removed from the iOS Keychain immediately. You can also revoke it at the source in your provider's console.</p>
+      </div>
+
+      <h2>Live Sports <em>Scores</em></h2>
+
+      <div class="faq-item">
+        <h3>How do I see a live scorecard?</h3>
+        <p>Open a live sporting event and tap <strong>Live scorecard</strong>. Team sports show the current score; ranked sports like Formula 1 and golf show a leaderboard. Pull Refresh for the latest. The free version reads scores via AI web search — accurate to when you open or refresh.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What is Premium Live Data?</h3>
+        <p>Optional. Add your own key for a sports-data provider (Settings → Premium Live Data) for a faster, real live feed. API-Sports has a free tier that covers live football and Formula 1. Use "Test connection" to confirm your key works. Any sport not yet served by a premium provider falls back to the free AI scorecard automatically.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Does the app show betting odds?</h3>
+        <p>No. Studio One only ever shows scores, results and leaderboards — never betting odds or gambling information, by design.</p>
+      </div>
+
+      <h2>Privacy <em>&amp; Data</em></h2>
+
+      <div class="faq-item">
+        <h3>What data do you collect?</h3>
+        <p>None. We have no servers, accounts, analytics or tracking. See our <a href="/TVStudioOne/privacy.html">Privacy Policy</a> for exactly what leaves your device when you use the optional AI and live-score features.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Where does the schedule come from?</h3>
+        <p>The public UK Freeview schedule from community sources — the DP247 Freeview-EPG project and epgshare01 — fetched anonymously with no identifier or location data.</p>
       </div>
 
     </div>
