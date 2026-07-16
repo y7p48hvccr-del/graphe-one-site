@@ -4,7 +4,14 @@ from datetime import datetime
 
 BOOKS_ROOT = Path("/Users/richardbillings/Books")
 
-OUTPUT_DIR = Path.home() / "graphe-one-site/docs/ScriptureStudy/resources/books/catalog"
+# NOTE: writes into THIS script's repo, not ~/. There are two graphe-one-site
+# trees — a live git repo under ~/XcodeOffline and an orphan copy under ~/. The
+# original hardcoded Path.home() and wrote to the orphan (dead) tree.
+# TODO (books lane): like the modules catalogue, this should be regenerated from
+# the PUBLIC books bucket (see generate_catalog_from_bucket.py), not from the
+# local ~/Books folder, so catalogue == bucket. Local-folder sourcing drifts.
+REPO_ROOT  = Path(__file__).resolve().parent.parent
+OUTPUT_DIR = REPO_ROOT / "docs/ScriptureStudy/resources/books/catalog"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
