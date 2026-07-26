@@ -135,12 +135,12 @@
 
       <div class="faq-item">
         <h3>What's the difference between the six tabs?</h3>
-        <p><strong>Sports</strong>: live sporting events and sports-radio output. <strong>Movies</strong>: feature films and made-for-TV movies. <strong>Faith</strong>: religious channels, worship, and faith-themed programming. <strong>Talk</strong>: chat shows, panel shows, and sports-talk shows. <strong>Custom</strong>: everything else, sortable by twelve content genres in Settings. <strong>Favourites</strong>: heart a title and every future airing appears here — across days, channels and repeats.</p>
+        <p><strong>Sports</strong>: live sporting events and sports-radio output. <strong>Movies</strong>: feature films and made-for-TV movies. <strong>Faith</strong>: religious channels, worship, and faith-themed programming. <strong>Talk</strong>: chat shows, panel shows, sports-talk and rolling news. <strong>More</strong>: everything else — dramas, documentaries, comedy, reality, and radio — sortable by content genre in Settings. <strong>Favourites</strong>: heart a title and every future airing appears here — across days, channels and repeats.</p>
       </div>
 
       <div class="faq-item">
-        <h3>A programme is in the wrong tab. How do I fix it?</h3>
-        <p>Tap the programme to open Programme Details, then tap <strong>Reclassify</strong>. Pick the genre you'd prefer, and your choice is remembered permanently. You can revert to automatic at any time from the same menu.</p>
+        <h3>A programme is in the wrong tab. What can I do?</h3>
+        <p>Classification is automatic — the app sorts each programme from its channel, the TV guide's category tags, and title keywords. Occasionally the guide's own data is unusual and a programme lands in the wrong place. Two things help: pull down on the schedule to fetch the latest guide data, and turn on the optional <strong>AI enhancement</strong> (see below), which corrects many cases the raw guide data gets wrong — such as a film hiding on a general entertainment channel. Classifications are curated and improve with each app update; if something is consistently misplaced, <a href="mailto:support@graphe.one">email us</a> and we'll fix it at the source.</p>
       </div>
 
       <div class="faq-item">
@@ -161,6 +161,11 @@
       </div>
 
       <div class="faq-item">
+        <h3>Do my favourites remind me automatically?</h3>
+        <p>Yes. When you heart a title, TV Studio One automatically sets a reminder for every upcoming airing of it — you don't need to tap the bell on each one, and it keeps working across app restarts and as new listings arrive. Notifications need permission (see below), and because iOS limits how many can be scheduled at once, the soonest airings are prioritised.</p>
+      </div>
+
+      <div class="faq-item">
         <h3>Why doesn't the bell appear on some programmes?</h3>
         <p>The bell only shows when there's still time to set a useful reminder — i.e. when the programme is more than ten minutes from starting. Already-aired programmes and imminent ones don't show one.</p>
       </div>
@@ -174,7 +179,12 @@
 
       <div class="faq-item">
         <h3>Do I need an AI API key to use the app?</h3>
-        <p>No. TV Studio One works fully without one — it falls back to heuristic detection. An API key simply improves classification accuracy for unusual or ambiguous programmes.</p>
+        <p>No. TV Studio One works fully without one — it falls back to fast built-in heuristics that handle the large majority of the schedule. The AI is an <strong>optional classification enhancement</strong> that sharpens the tricky cases, not a requirement.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I turn on the AI classification enhancement?</h3>
+        <p>Open <strong>Settings → AI Classification</strong>, add a provider key, then switch on <strong>"Enrich full schedule with AI"</strong>. The AI then reads each programme's title and categories and assigns a genre, noticeably improving which tab programmes land in — for example catching a feature film the guide shows on a general channel, or an animated movie the guide labels only as "animation". Each title is sent once and cached, so it's cheap to run.</p>
       </div>
 
       <div class="faq-item">
