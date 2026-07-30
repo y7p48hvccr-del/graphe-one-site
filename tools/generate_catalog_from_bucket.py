@@ -52,13 +52,50 @@ OUTPUT_FILE = REPO_ROOT / "docs/ScriptureStudy/resources/modules/catalog.json"
 VALID_SUFFIXES = (".graphe", ".SQLite3")
 
 
+# Underscore-suffix conventions used by the converter/library (e.g. "Foo_commentary.graphe"),
+# including variants observed in the real corpus (_diction, _commentaries, _map).
+# Values are the type strings the app's badge matcher recognises (case-insensitive):
+# bible / commentary / dictionary / encyclopedia / devotional / cross-ref / lexicon /
+# strongs / reading plan / bible maps — anything else badges grey.
+_SUFFIX_TYPES = [
+    ("_bible",           "Bible"),
+    ("_commentary",      "Commentary"),
+    ("_commentaries",    "Commentary"),
+    ("_dictionary",      "Dictionary"),
+    ("_diction",         "Dictionary"),
+    ("_encyclopedia",    "Encyclopedia"),
+    ("_devotional",      "Devotional"),
+    ("_devotions",       "Devotional"),
+    ("_crossreference",  "Cross-Ref"),
+    ("_crossref",        "Cross-Ref"),
+    ("_strongs",         "Strongs"),
+    ("_lexicon",         "Lexicon"),
+    ("_words",           "Lexicon"),
+    ("_readingplan",     "Reading Plan"),
+    ("_plan",            "Reading Plan"),
+    ("_atlas",           "Bible Maps"),
+    ("_maps",            "Bible Maps"),
+    ("_map",             "Bible Maps"),
+    ("_interlinear",     "Interlinear"),
+    ("_linguisticstudy", "Linguistic Study"),
+    ("_subheadings",     "Subheadings"),
+]
+
+
 def infer_type(filename: str) -> str:
     lower = filename.lower()
+    # Dot-token convention (legacy): "Foo.dictionary.graphe"
     if ".dictionary."   in lower: return "Dictionary"
     if ".commentaries." in lower: return "Commentary"
     if ".devotions."    in lower: return "Devotional"
     if ".interlinear."  in lower: return "Interlinear"
     if ".plan."         in lower: return "Reading Plan"
+    # Underscore-suffix convention: "Foo_commentary.graphe" (tolerate trailing
+    # whitespace before the extension, seen in real files: "Foo_map .graphe")
+    stem = Path(filename).stem.rstrip().lower()
+    for suffix, type_name in _SUFFIX_TYPES:
+        if stem.endswith(suffix):
+            return type_name
     return "Module"
 
 
@@ -87,6 +124,14 @@ def main() -> None:
     # languages -> categories -> [resources]
     languages: dict[str, dict[str, list[dict]]] = {}
     skipped: list[str] = []
+
+    # The app downloads every module FLAT into one managed folder using only the
+    # file name, so basenames must be unique across the ENTIRE catalogue — a
+    # collision means one module silently overwrites another on the user's Mac.
+    by_basename: dict[str, list[str]] = {}
+    for rel in rel_paths:
+        by_basename.setdefault(rel.rsplit("/", 1)[-1], []).append(rel)
+    collisions = {name: paths for name, paths in by_basename.items() if len(paths) > 1}
 
     for rel in rel_paths:
         parts = rel.split("/")
@@ -131,6 +176,13 @@ def main() -> None:
         print(f"  WARNING: {len(skipped)} object(s) skipped (not language/category/file):")
         for s in skipped[:20]:
             print(f"    - {s}")
+    if collisions:
+        print(f"  WARNING: {len(collisions)} duplicate basename(s) — downloads will OVERWRITE each other:")
+        for name, paths in sorted(collisions.items())[:20]:
+            print(f"    - {name}")
+            for p in paths:
+                print(f"        {p}")
+        print("    Rename these in the bucket so every file name is globally unique.")
     if total == 0:
         print("  NOTE: bucket is empty — catalogue will list nothing (this is correct).")
 
