@@ -33,6 +33,7 @@ catalog `path`, so `path` here is relative to GrapheModules:
 import json
 import subprocess
 import sys
+import re
 from pathlib import Path
 from datetime import datetime
 
@@ -80,6 +81,37 @@ _SUFFIX_TYPES = [
     ("_linguisticstudy", "Linguistic Study"),
     ("_subheadings",     "Subheadings"),
 ]
+
+
+# Structural dot-tokens (companion/type markers) and the trailing "[iso]"
+# bracket are part of the FILENAME convention ("A Faithful Version, 2020
+# [en].commentaries.graphe") — globally-unique, self-identifying basenames —
+# but noise in a catalogue TITLE shown inside a language section. Strip both.
+_TITLE_BRACKET = re.compile(r"\s*\[[^\]]+\]\s*$")
+_TITLE_DOT_TOKENS = (".commentaries", ".dictionary", ".devotions", ".interlinear", ".plan")
+
+
+def display_title(filename: str) -> str:
+    stem = Path(filename).stem.rstrip()
+    # Peel structural dot-tokens off the tail (may chain).
+    changed = True
+    while changed:
+        changed = False
+        low = stem.lower()
+        for token in _TITLE_DOT_TOKENS:
+            if low.endswith(token):
+                stem = stem[: -len(token)].rstrip()
+                changed = True
+                break
+    # Peel an underscore type suffix ("Foo_bible").
+    low = stem.lower()
+    for suffix, _ in _SUFFIX_TYPES:
+        if low.endswith(suffix):
+            stem = stem[: -len(suffix)].rstrip()
+            break
+    # Drop the trailing [iso] bracket — the language section already says it.
+    stem = _TITLE_BRACKET.sub("", stem).rstrip()
+    return stem or filename
 
 
 def infer_type(filename: str) -> str:
@@ -144,7 +176,7 @@ def main() -> None:
         suffix = Path(filename).suffix
 
         languages.setdefault(language, {}).setdefault(category, []).append({
-            "title": filename,
+            "title": display_title(filename),
             "type": infer_type(filename),
             "extension": suffix,
             "path": rel,               # relative to GrapheModules/ — matches moduleBaseURL
