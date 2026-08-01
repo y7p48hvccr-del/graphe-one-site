@@ -37,7 +37,8 @@ _SUFFIX_TYPES = [
     "_atlas", "_maps", "_map", "_interlinear", "_linguisticstudy",
     "_subheadings",
 ]
-_DOT_TOKENS = [".dictionary.", ".commentaries.", ".devotions.", ".interlinear.", ".plan."]
+_DOT_TOKENS = [".dictionary.", ".commentaries.", ".devotions.", ".interlinear.", ".plan.",
+               ".crossreferences.", ".encyclopedia.", ".strongs.", ".maps."]
 
 
 def has_type_token(filename: str) -> bool:

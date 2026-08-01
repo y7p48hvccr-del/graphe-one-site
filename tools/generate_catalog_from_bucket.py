@@ -88,7 +88,8 @@ _SUFFIX_TYPES = [
 # [en].commentaries.graphe") — globally-unique, self-identifying basenames —
 # but noise in a catalogue TITLE shown inside a language section. Strip both.
 _TITLE_BRACKET = re.compile(r"\s*\[[^\]]+\]\s*$")
-_TITLE_DOT_TOKENS = (".commentaries", ".dictionary", ".devotions", ".interlinear", ".plan")
+_TITLE_DOT_TOKENS = (".commentaries", ".dictionary", ".devotions", ".interlinear", ".plan",
+                     ".crossreferences", ".encyclopedia", ".strongs", ".maps")
 
 
 def display_title(filename: str) -> str:
@@ -134,12 +135,18 @@ _CATEGORY_TYPES = {
 
 def infer_type(filename: str, category: str = "") -> str:
     lower = filename.lower()
-    # Dot-token convention (legacy): "Foo.dictionary.graphe"
-    if ".dictionary."   in lower: return "Dictionary"
-    if ".commentaries." in lower: return "Commentary"
-    if ".devotions."    in lower: return "Devotional"
-    if ".interlinear."  in lower: return "Interlinear"
-    if ".plan."         in lower: return "Reading Plan"
+    # Dot-token convention: "Foo.dictionary.graphe" — tokens are type-derived
+    # at rename time in the Workbench (scanner verdict = truth source), so
+    # they are the most authoritative signal here.
+    if ".dictionary."      in lower: return "Dictionary"
+    if ".commentaries."    in lower: return "Commentary"
+    if ".devotions."       in lower: return "Devotional"
+    if ".interlinear."     in lower: return "Interlinear"
+    if ".plan."            in lower: return "Reading Plan"
+    if ".crossreferences." in lower: return "Cross-Reference"
+    if ".encyclopedia."    in lower: return "Encyclopedia"
+    if ".strongs."         in lower: return "Lexicon"
+    if ".maps."            in lower: return "Bible Maps"
     # Underscore-suffix convention: "Foo_commentary.graphe" (tolerate trailing
     # whitespace before the extension, seen in real files: "Foo_map .graphe")
     stem = Path(filename).stem.rstrip().lower()
