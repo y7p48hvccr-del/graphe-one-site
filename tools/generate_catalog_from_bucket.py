@@ -114,7 +114,25 @@ def display_title(filename: str) -> str:
     return stem or filename
 
 
-def infer_type(filename: str) -> str:
+# Category-folder fallback: token-less filenames (the majority — Bibles by
+# convention carry no dot-token) take their type from the category folder they
+# live in, so the catalogue badge is never a generic "Module" for a correctly
+# filed module. Filename tokens still win when present (they are more specific).
+_CATEGORY_TYPES = {
+    "bibles": "Bible",
+    "commentaries": "Commentary",
+    "dictionaries": "Dictionary",
+    "lexicons": "Lexicon",
+    "devotionals": "Devotional",
+    "reading plans": "Reading Plan",
+    "cross-references": "Cross-Reference",
+    "cross references": "Cross-Reference",
+    "encyclopedias": "Encyclopedia",
+    "maps": "Bible Maps",
+}
+
+
+def infer_type(filename: str, category: str = "") -> str:
     lower = filename.lower()
     # Dot-token convention (legacy): "Foo.dictionary.graphe"
     if ".dictionary."   in lower: return "Dictionary"
@@ -128,6 +146,9 @@ def infer_type(filename: str) -> str:
     for suffix, type_name in _SUFFIX_TYPES:
         if stem.endswith(suffix):
             return type_name
+    cat = category.split("__")[0].strip().lower()
+    if cat in _CATEGORY_TYPES:
+        return _CATEGORY_TYPES[cat]
     return "Module"
 
 
@@ -177,7 +198,7 @@ def main() -> None:
 
         languages.setdefault(language, {}).setdefault(category, []).append({
             "title": display_title(filename),
-            "type": infer_type(filename),
+            "type": infer_type(filename, category),
             "extension": suffix,
             "path": rel,               # relative to GrapheModules/ — matches moduleBaseURL
         })
