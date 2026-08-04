@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-01T13:29:27.276277",
+  "generated": "2026-08-04T12:35:18.090312",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -7295,8 +7295,8 @@
             "path": "English/Commentaries/NIVUK.commentaries.graphe"
           },
           {
-            "title": "NKJV Footnotes.crossreferences",
-            "type": "Commentary",
+            "title": "NKJV Footnotes",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Commentaries/NKJV Footnotes.crossreferences.graphe"
           },
@@ -8489,116 +8489,116 @@
         ],
         "Other": [
           {
-            "title": "ADG.crossreferences",
-            "type": "Module",
+            "title": "ADG",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/ADG.crossreferences.graphe"
           },
           {
-            "title": "AGL.crossreferences",
-            "type": "Module",
+            "title": "AGL",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/AGL.crossreferences.graphe"
           },
           {
-            "title": "AJH-x.crossreferences",
-            "type": "Module",
+            "title": "AJH-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/AJH-x.crossreferences.graphe"
           },
           {
-            "title": "ALTNT.crossreferences",
-            "type": "Module",
+            "title": "ALTNT",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/ALTNT.crossreferences.graphe"
           },
           {
-            "title": "AVR.crossreferences",
-            "type": "Module",
+            "title": "AVR",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/AVR.crossreferences.graphe"
           },
           {
-            "title": "BEZ.crossreferences",
-            "type": "Module",
+            "title": "BEZ",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/BEZ.crossreferences.graphe"
           },
           {
-            "title": "BUR.crossreferences",
-            "type": "Module",
+            "title": "BUR",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/BUR.crossreferences.graphe"
           },
           {
-            "title": "BaI.crossreferences",
-            "type": "Module",
+            "title": "BaI",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/BaI.crossreferences.graphe"
           },
           {
-            "title": "CHV.crossreferences",
-            "type": "Module",
+            "title": "CHV",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/CHV.crossreferences.graphe"
           },
           {
-            "title": "CRT.crossreferences",
-            "type": "Module",
+            "title": "CRT",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/CRT.crossreferences.graphe"
           },
           {
-            "title": "CUV-x.crossreferences",
-            "type": "Module",
+            "title": "CUV-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/CUV-x.crossreferences.graphe"
           },
           {
-            "title": "DNG.crossreferences",
-            "type": "Module",
+            "title": "DNG",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/DNG.crossreferences.graphe"
           },
           {
-            "title": "DRG.crossreferences",
-            "type": "Module",
+            "title": "DRG",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/DRG.crossreferences.graphe"
           },
           {
-            "title": "GGZC.crossreferences",
-            "type": "Module",
+            "title": "GGZC",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/GGZC.crossreferences.graphe"
           },
           {
-            "title": "GGZL.crossreferences",
-            "type": "Module",
+            "title": "GGZL",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/GGZL.crossreferences.graphe"
           },
           {
-            "title": "HUNB.crossreferences",
-            "type": "Module",
+            "title": "HUNB",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/HUNB.crossreferences.graphe"
           },
           {
-            "title": "Jeruz-x.crossreferences",
-            "type": "Module",
+            "title": "Jeruz-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/Jeruz-x.crossreferences.graphe"
           },
           {
-            "title": "KAL.crossreferences",
-            "type": "Module",
+            "title": "KAL",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/KAL.crossreferences.graphe"
           },
           {
-            "title": "KBD.crossreferences",
-            "type": "Module",
+            "title": "KBD",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/KBD.crossreferences.graphe"
           },
@@ -8609,20 +8609,20 @@
             "path": "English/Other/KJV-s.subheadings.graphe"
           },
           {
-            "title": "KRK.crossreferences",
-            "type": "Module",
+            "title": "KRK",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/KRK.crossreferences.graphe"
           },
           {
-            "title": "KRKL.crossreferences",
-            "type": "Module",
+            "title": "KRKL",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/KRKL.crossreferences.graphe"
           },
           {
-            "title": "KZB.crossreferences",
-            "type": "Module",
+            "title": "KZB",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/KZB.crossreferences.graphe"
           },
@@ -8639,122 +8639,122 @@
             "path": "English/Other/NIV2011-s.subheadings.graphe"
           },
           {
-            "title": "NIV2011-x.crossreferences",
-            "type": "Module",
+            "title": "NIV2011-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/NIV2011-x.crossreferences.graphe"
           },
           {
-            "title": "NJB-x.crossreferences",
-            "type": "Module",
+            "title": "NJB-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/NJB-x.crossreferences.graphe"
           },
           {
-            "title": "OBX.crossreferences",
-            "type": "Module",
+            "title": "OBX",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/OBX.crossreferences.graphe"
           },
           {
-            "title": "PCB.crossreferences",
-            "type": "Module",
+            "title": "PCB",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/PCB.crossreferences.graphe"
           },
           {
-            "title": "PCBS.crossreferences",
-            "type": "Module",
+            "title": "PCBS",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/PCBS.crossreferences.graphe"
           },
           {
-            "title": "PP-x.crossreferences",
-            "type": "Module",
+            "title": "PP-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/PP-x.crossreferences.graphe"
           },
           {
-            "title": "Pa-x.crossreferences",
-            "type": "Module",
+            "title": "Pa-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/Pa-x.crossreferences.graphe"
           },
           {
-            "title": "RST-x.crossreferences",
-            "type": "Module",
+            "title": "RST-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/RST-x.crossreferences.graphe"
           },
           {
-            "title": "TB'10.crossreferences",
-            "type": "Module",
+            "title": "TB'10",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/TB'10.crossreferences.graphe"
           },
           {
-            "title": "TKCI.crossreferences",
-            "type": "Module",
+            "title": "TKCI",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/TKCI.crossreferences.graphe"
           },
           {
-            "title": "TKL.crossreferences",
-            "type": "Module",
+            "title": "TKL",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/TKL.crossreferences.graphe"
           },
           {
-            "title": "TKLI.crossreferences",
-            "type": "Module",
+            "title": "TKLI",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/TKLI.crossreferences.graphe"
           },
           {
-            "title": "TNP.crossreferences",
-            "type": "Module",
+            "title": "TNP",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/TNP.crossreferences.graphe"
           },
           {
-            "title": "TSK-x.crossreferences",
-            "type": "Module",
+            "title": "TSK-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/TSK-x.crossreferences.graphe"
           },
           {
-            "title": "TSK2-x.crossreferences",
-            "type": "Module",
+            "title": "TSK2-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/TSK2-x.crossreferences.graphe"
           },
           {
-            "title": "TVN.crossreferences",
-            "type": "Module",
+            "title": "TVN",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/TVN.crossreferences.graphe"
           },
           {
-            "title": "UZIBT.crossreferences",
-            "type": "Module",
+            "title": "UZIBT",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/UZIBT.crossreferences.graphe"
           },
           {
-            "title": "UZIBTL.crossreferences",
-            "type": "Module",
+            "title": "UZIBTL",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/UZIBTL.crossreferences.graphe"
           },
           {
-            "title": "UZV.crossreferences",
-            "type": "Module",
+            "title": "UZV",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/UZV.crossreferences.graphe"
           },
           {
-            "title": "UZVL.crossreferences",
-            "type": "Module",
+            "title": "UZVL",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/UZVL.crossreferences.graphe"
           },
@@ -8765,38 +8765,38 @@
             "path": "English/Other/en.dictionary.graphe"
           },
           {
-            "title": "БЛБ'2001���'2001.crossreferences",
-            "type": "Module",
+            "title": "БЛБ'2001���'2001",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/БЛБ'2001���'2001.crossreferences.graphe"
           },
           {
-            "title": "МК.crossreferences",
-            "type": "Module",
+            "title": "МК",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/МК.crossreferences.graphe"
           },
           {
-            "title": "НП��.crossreferences",
-            "type": "Module",
+            "title": "НП��",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/НП��.crossreferences.graphe"
           },
           {
-            "title": "РИ ББД.crossreferences",
-            "type": "Module",
+            "title": "РИ ББД",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/РИ ББД.crossreferences.graphe"
           },
           {
-            "title": "思高圣经-x.crossreferences",
-            "type": "Module",
+            "title": "思高圣经-x",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/思高圣经-x.crossreferences.graphe"
           },
           {
-            "title": "思高聖經jqql.crossreferences",
-            "type": "Module",
+            "title": "思高聖經jqql",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "English/Other/思高聖經jqql.crossreferences.graphe"
           }
@@ -17848,10 +17848,10 @@
         ],
         "Dictionaries": [
           {
-            "title": "LDS-lt",
-            "type": "Dictionary",
+            "title": "Biblijos žemėlapiai ir nuotraukos - StudioGraphēEditions",
+            "type": "Bible Maps",
             "extension": ".graphe",
-            "path": "Lithuanian/Dictionaries/LDS-lt.dictionary.graphe"
+            "path": "Lithuanian/Dictionaries/Biblijos žemėlapiai ir nuotraukos - StudioGraphēEditions [lt].maps.graphe"
           }
         ]
       }
@@ -21349,20 +21349,20 @@
         ],
         "Other": [
           {
-            "title": "N'78.crossreferences",
-            "type": "Module",
+            "title": "N'78",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "Norwegian/Other/N'78.crossreferences.graphe"
           },
           {
-            "title": "N11BM.crossreferences",
-            "type": "Module",
+            "title": "N11BM",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "Norwegian/Other/N11BM.crossreferences.graphe"
           },
           {
-            "title": "NB.crossreferences",
-            "type": "Module",
+            "title": "NB",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "Norwegian/Other/NB.crossreferences.graphe"
           }
@@ -21420,14 +21420,14 @@
         ],
         "Other": [
           {
-            "title": "N'11-nn.crossreferences",
-            "type": "Module",
+            "title": "N'11-nn",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "Norwegian Nynorsk/Other/N'11-nn.crossreferences.graphe"
           },
           {
-            "title": "N'78-nn.crossreferences",
-            "type": "Module",
+            "title": "N'78-nn",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "Norwegian Nynorsk/Other/N'78-nn.crossreferences.graphe"
           }
@@ -23377,9 +23377,9 @@
         "Commentaries": [
           {
             "title": "A Bíblia para Todos- Edição Católica - StudioGraphēEditions",
-            "type": "Commentary",
+            "type": "Cross-Reference",
             "extension": ".graphe",
-            "path": "Portuguese/Commentaries/A Bíblia para Todos- Edição Católica - StudioGraphēEditions [pt].commentaries.graphe"
+            "path": "Portuguese/Commentaries/A Bíblia para Todos- Edição Católica - StudioGraphēEditions [pt].crossreferences.graphe"
           },
           {
             "title": "A Bíblia para Todos- Edição Comum - StudioGraphēEditions",
@@ -26547,8 +26547,8 @@
         ],
         "Other": [
           {
-            "title": "RSTB.crossreferences",
-            "type": "Module",
+            "title": "RSTB",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "Russian/Other/RSTB.crossreferences.graphe"
           },
@@ -29965,8 +29965,8 @@
         ],
         "Other": [
           {
-            "title": "CEE'11.crossreferences",
-            "type": "Module",
+            "title": "CEE'11",
+            "type": "Cross-Reference",
             "extension": ".graphe",
             "path": "Spanish/Other/CEE'11.crossreferences.graphe"
           },
