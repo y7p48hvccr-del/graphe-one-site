@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T02:53:38.198097",
+  "generated": "2026-08-16T14:36:16.491237",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -1074,10 +1074,10 @@
             "path": "Ancient Greek/Bibles/Textus Receptus 1894 Scrivener.graphe"
           },
           {
-            "title": "The Greek New Testament According to the Byzantine Textform - StudioGr",
+            "title": "The Greek New Testament According to the Byzant - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Ancient Greek/Bibles/The Greek New Testament According to the Byzantine Textform - StudioGr.graphe"
+            "path": "Ancient Greek/Bibles/The Greek New Testament According to the Byzant - StudioGraphēEditions.graphe"
           },
           {
             "title": "The Greek New Testament, Produced at Tyndale House, Cambridge",
@@ -3193,10 +3193,10 @@
         ],
         "Commentaries": [
           {
-            "title": "Sura Magasaꞌ- Bahangapa sura Pototowiá to Sae hai Pototowiá to Woꞌu -",
+            "title": "Sura Magasaꞌ- Bahangapa sura Pototowiá to Sae hai - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Besoa/Commentaries/Sura Magasaꞌ- Bahangapa sura Pototowiá to Sae hai Pototowiá to Woꞌu -.graphe"
+            "path": "Besoa/Commentaries/Sura Magasaꞌ- Bahangapa sura Pototowiá to Sae hai - StudioOneEditions.graphe"
           }
         ]
       }
@@ -4834,10 +4834,10 @@
             "path": "Chol/Bibles/Jiñi Tsiji' bʌ Wen T'añ cha'añ Estudio [B].graphe"
           },
           {
-            "title": "Jiñi Tsiji' bʌ Wen T'añ cha'añ Estudio – Ch'ol de Tumbalá - StudioGrap",
+            "title": "Jiñi Tsiji' bʌ Wen T'añ cha'añ Estudio – Ch'ol - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Chol/Bibles/Jiñi Tsiji' bʌ Wen T'añ cha'añ Estudio – Ch'ol de Tumbalá - StudioGrap.graphe"
+            "path": "Chol/Bibles/Jiñi Tsiji' bʌ Wen T'añ cha'añ Estudio – Ch'ol - StudioGraphēEditions.graphe"
           }
         ],
         "Commentaries": [
@@ -4854,10 +4854,10 @@
             "path": "Chol/Commentaries/Jiñi Tsiji' bʌ Wen T'añ cha'añ Estudio [C].graphe"
           },
           {
-            "title": "Jiñi Tsiji' bʌ Wen T'añ cha'añ Estudio – Ch'ol de Tumbalá - StudioOneE",
+            "title": "Jiñi Tsiji' bʌ Wen T'añ cha'añ Estudio – Ch'ol de - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Chol/Commentaries/Jiñi Tsiji' bʌ Wen T'añ cha'añ Estudio – Ch'ol de Tumbalá - StudioOneE.graphe"
+            "path": "Chol/Commentaries/Jiñi Tsiji' bʌ Wen T'añ cha'añ Estudio – Ch'ol de - StudioOneEditions.graphe"
           }
         ]
       }
@@ -6463,22 +6463,40 @@
             "path": "English/Commentaries/1599 Geneva Bible.graphe"
           },
           {
-            "title": "A Student's Guide to New Testament Textual Criticism - StudioGraphēEdi",
+            "title": "A Commentary on the Holy Bible - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/A Student's Guide to New Testament Textual Criticism - StudioGraphēEdi.graphe"
+            "path": "English/Commentaries/A Commentary on the Holy Bible - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "AFV'20.commentaries - StudioOneModernisedEditions",
+            "title": "A Faithful Version Commentary Notes - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/AFV'20.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/A Faithful Version Commentary Notes - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "ASV.commentaries - StudioOneModernisedEditions",
+            "title": "A Student's Guide to New Testament Textu - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/ASV.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/A Student's Guide to New Testament Textu - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "A Student's Guide to New Testament Textual Critici - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/A Student's Guide to New Testament Textual Critici - StudioOneEditions.graphe"
+          },
+          {
+            "title": "A Textual Commentary on the Greek New Te - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/A Textual Commentary on the Greek New Te - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "American Standard Version Marginal Notes - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/American Standard Version Marginal Notes - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Amplified Bible, 2015",
@@ -6493,16 +6511,34 @@
             "path": "English/Commentaries/Amplified Bible, Classic Edition, 1987.graphe"
           },
           {
+            "title": "An Interpretation of the English Bible - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/An Interpretation of the English Bible - StudioOneEditions.graphe"
+          },
+          {
+            "title": "An Interpretation of the English Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/An Interpretation of the English Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Annotations upon the Holy Bible - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Annotations upon the Holy Bible - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Annotations upon the Holy Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Annotations upon the Holy Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "BLB'16.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/BLB'16.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "BSB'25.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/BSB'25.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "BV2020.commentaries - StudioOneModernisedEditions",
@@ -6511,22 +6547,28 @@
             "path": "English/Commentaries/BV2020.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "BW-c.commentaries - StudioOneModernisedEditions",
+            "title": "Barnes' Notes on the New Testament - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/BW-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Barnes' Notes on the New Testament - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Benson-c.commentaries - StudioOneModernisedEditions",
+            "title": "Benson Commentary on the Old and New Tes - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Benson-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Benson Commentary on the Old and New Tes - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Berean Interlinear Bible. New Testament. 2016",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Berean Interlinear Bible. New Testament. 2016.graphe"
+          },
+          {
+            "title": "Berean Standard Bible Footnotes and Cros - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Berean Standard Bible Footnotes and Cros - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Box-c.commentaries - StudioOneModernisedEditions",
@@ -6553,46 +6595,40 @@
             "path": "English/Commentaries/Brown-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Bull-c.commentaries - StudioOneModernisedEditions",
+            "title": "Calvin's Commentaries - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Bull-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Calvin's Commentaries - StudioOneEditions.graphe"
           },
           {
-            "title": "CBC-c.commentaries - StudioOneModernisedEditions",
+            "title": "Calvin's Commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/CBC-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Calvin's Commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Calvins Commentaries",
+            "title": "Cambridge Bible for Schools and Colleges - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Calvins Commentaries.graphe"
+            "path": "English/Commentaries/Cambridge Bible for Schools and Colleges - StudioOneEditions.graphe"
           },
           {
-            "title": "Cambridge Bible for Schools and Colleges, 1883",
+            "title": "Cambridge Bible for Schools and Colleges - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Cambridge Bible for Schools and Colleges, 1883.graphe"
+            "path": "English/Commentaries/Cambridge Bible for Schools and Colleges - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Cambridge Greek Testament for Schools and Colleges",
+            "title": "Cambridge Greek Testament for Schools an - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Cambridge Greek Testament for Schools and Colleges.graphe"
+            "path": "English/Commentaries/Cambridge Greek Testament for Schools an - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Carroll's An Interpretation of the English Bible",
+            "title": "Cambridge Greek Testament for Schools and Colleges - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Carroll's An Interpretation of the English Bible.graphe"
-          },
-          {
-            "title": "Catena-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Catena-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Cambridge Greek Testament for Schools and Colleges - StudioOneEditions.graphe"
           },
           {
             "title": "Caton-c.commentaries - StudioOneModernisedEditions",
@@ -6613,40 +6649,82 @@
             "path": "English/Commentaries/Christian Standard Bible, 2017.graphe"
           },
           {
-            "title": "Chuck-c.commentaries - StudioOneModernisedEditions",
+            "title": "Clarke's Commentary and Critical Notes o - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Chuck-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Clarke's Commentary and Critical Notes o - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Clarke's commentary and critical notes on the Bible",
+            "title": "Clarke's Commentary and Critical Notes on the Bibl - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Clarke's commentary and critical notes on the Bible.graphe"
+            "path": "English/Commentaries/Clarke's Commentary and Critical Notes on the Bibl - StudioOneEditions.graphe"
           },
           {
-            "title": "Coke's Commentary on the Holy Bible",
+            "title": "Coke's Commentary on the Holy Bible - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Coke's Commentary on the Holy Bible.graphe"
+            "path": "English/Commentaries/Coke's Commentary on the Holy Bible - StudioOneEditions.graphe"
           },
           {
-            "title": "College Press Bible Study Textbook Series",
+            "title": "Coke's Commentary on the Holy Bible - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/College Press Bible Study Textbook Series.graphe"
+            "path": "English/Commentaries/Coke's Commentary on the Holy Bible - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Commentary on BIBLE by Grant",
+            "title": "College Press Bible Study Textbook Serie - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Commentary on BIBLE by Grant.graphe"
+            "path": "English/Commentaries/College Press Bible Study Textbook Serie - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Commentary on the Holy Scriptures",
+            "title": "College Press Bible Study Textbook Series - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Commentary on the Holy Scriptures.graphe"
+            "path": "English/Commentaries/College Press Bible Study Textbook Series - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Commentary Critical and Explanatory on t - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Commentary Critical and Explanatory on t - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Commentary Critical and Explanatory on the Whole B - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Commentary Critical and Explanatory on the Whole B - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Commentary on the Bible - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Commentary on the Bible - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Commentary on the Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Commentary on the Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Commentary on the Gospel of Luke - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Commentary on the Gospel of Luke - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Commentary on the New Testament - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Commentary on the New Testament - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Commentary on the Psalms - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Commentary on the Psalms - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Common English Bible, 2011",
@@ -6661,10 +6739,22 @@
             "path": "English/Commentaries/Complete Jewish Bible, 1998.graphe"
           },
           {
-            "title": "Concise Bible Commentary",
+            "title": "Concise Bible Commentary - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Concise Bible Commentary.graphe"
+            "path": "English/Commentaries/Concise Bible Commentary - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Concise Bible Commentary - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Concise Bible Commentary - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Concordant Commentary on the New Testame - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Concordant Commentary on the New Testame - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Contemporary English Version, 1995",
@@ -6685,58 +6775,46 @@
             "path": "English/Commentaries/DBD-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "DLNT.commentaries - StudioOneModernisedEditions",
+            "title": "Dake's Annotated Reference Bible Study N - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/DLNT.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Dake's Annotated Reference Bible Study N - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Daily Study Bible NT, Barclay",
+            "title": "Dake's Annotated Reference Bible Study Notes - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Daily Study Bible NT, Barclay.graphe"
+            "path": "English/Commentaries/Dake's Annotated Reference Bible Study Notes - StudioOneEditions.graphe"
           },
           {
-            "title": "Dake's Study Notes by Finis Jennings Dake",
+            "title": "David Guzik Commentary on the Bible - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Dake's Study Notes by Finis Jennings Dake.graphe"
+            "path": "English/Commentaries/David Guzik Commentary on the Bible - StudioOneEditions.graphe"
           },
           {
-            "title": "David Guzik Commentary on the Bible",
+            "title": "David Guzik Commentary on the Bible - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/David Guzik Commentary on the Bible.graphe"
+            "path": "English/Commentaries/David Guzik Commentary on the Bible - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Dumm-c.commentaries - StudioOneModernisedEditions",
+            "title": "Disciples' Literal New Testament - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Dumm-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Disciples' Literal New Testament - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "EBC-c.commentaries - StudioOneModernisedEditions",
+            "title": "EHV Study Bible Notes (Evangelical Herit - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/EBC-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/EHV Study Bible Notes (Evangelical Herit - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "EHV'21.commentaries - StudioOneModernisedEditions",
+            "title": "ESV Study Bible Notes - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/EHV'21.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "EHV.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/EHV.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "ESV-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/ESV-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/ESV Study Bible Notes - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "ETCBC data on Hebrew bible (BHS, 5th ed.)",
@@ -6751,28 +6829,28 @@
             "path": "English/Commentaries/Easy-to-Read Version, 2006.graphe"
           },
           {
-            "title": "EasyEnglish Bible Commentaries",
+            "title": "EasyEnglish Bible Commentaries - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/EasyEnglish Bible Commentaries.graphe"
+            "path": "English/Commentaries/EasyEnglish Bible Commentaries - StudioOneEditions.graphe"
           },
           {
-            "title": "Edw-c.commentaries - StudioOneModernisedEditions",
+            "title": "EasyEnglish Bible Commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Edw-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/EasyEnglish Bible Commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Edwards-c.commentaries - StudioOneModernisedEditions",
+            "title": "Ellicott's Commentary on the Whole Bible - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Edwards-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Ellicott's Commentary on the Whole Bible - StudioOneEditions.graphe"
           },
           {
-            "title": "Ellicott's Commentary On The Whole Bible",
+            "title": "Ellicott's Commentary on the Whole Bible - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Ellicott's Commentary On The Whole Bible.graphe"
+            "path": "English/Commentaries/Ellicott's Commentary on the Whole Bible - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "English Majority Text Version, 2012 Edition with Greek Explanatory Not",
@@ -6799,34 +6877,52 @@
             "path": "English/Commentaries/English version of the Septuagint Bible, 1851.graphe"
           },
           {
-            "title": "Everett's Study Notes on the Holy Scriptures",
+            "title": "Evangelical Heritage Version (EHV) Comme - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Everett's Study Notes on the Holy Scriptures.graphe"
+            "path": "English/Commentaries/Evangelical Heritage Version (EHV) Comme - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Expositions Of Holy Scripture",
+            "title": "Exposition of the Entire Bible - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Expositions Of Holy Scripture.graphe"
+            "path": "English/Commentaries/Exposition of the Entire Bible - StudioOneEditions.graphe"
           },
           {
-            "title": "Expositor's Greek Testament",
+            "title": "Exposition of the Entire Bible - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Expositor's Greek Testament.graphe"
+            "path": "English/Commentaries/Exposition of the Entire Bible - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "FBV.commentaries - StudioOneModernisedEditions",
+            "title": "Exposition of the Gospel of John - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/FBV.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Exposition of the Gospel of John - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Fairb-c.commentaries - StudioOneModernisedEditions",
+            "title": "Expositions of Holy Scripture - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Fairb-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Expositions of Holy Scripture - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Expositions of Holy Scripture - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Expositions of Holy Scripture - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Ezekiel and the Book of His Prophecy- An - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Ezekiel and the Book of His Prophecy- An - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Free Bible Version Commentary - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Free Bible Version Commentary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Free Bible Version, New Testament, 2018",
@@ -6841,34 +6937,28 @@
             "path": "English/Commentaries/GLW.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "GW'20.commentaries - StudioOneModernisedEditions",
+            "title": "GOD'S WORD Translation Translator's Note - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/GW'20.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/GOD'S WORD Translation Translator's Note - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Gary Hampton Commentaries",
+            "title": "Gary Hampton Commentary on Genesis - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Gary Hampton Commentaries.graphe"
+            "path": "English/Commentaries/Gary Hampton Commentary on Genesis - StudioOneEditions.graphe"
           },
           {
-            "title": "Geneva-c.commentaries - StudioOneModernisedEditions",
+            "title": "Gary Hampton Commentary on Genesis - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Geneva-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Gary Hampton Commentary on Genesis - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Godbey-c.commentaries - StudioOneModernisedEditions",
+            "title": "Geneva Bible Notes - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Godbey-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Godet-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Godet-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Geneva Bible Notes - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Good News Translation (US Version)",
@@ -6877,34 +6967,16 @@
             "path": "English/Commentaries/Good News Translation (US Version).graphe"
           },
           {
-            "title": "HSW-c.commentaries - StudioOneModernisedEditions",
+            "title": "Haydock's Catholic Bible Commentary - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/HSW-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Haydock's Catholic Bible Commentary - StudioOneEditions.graphe"
           },
           {
-            "title": "Hastings-c.commentaries - StudioOneModernisedEditions",
+            "title": "Haydock's Catholic Bible Commentary - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Hastings-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Haydock's Catholic Bible Commentary, 1859",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Haydock's Catholic Bible Commentary, 1859.graphe"
-          },
-          {
-            "title": "Hengs-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Hengs-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Hole-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Hole-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Haydock's Catholic Bible Commentary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Holman Christian Standard Bible, 2009",
@@ -6913,28 +6985,40 @@
             "path": "English/Commentaries/Holman Christian Standard Bible, 2009.graphe"
           },
           {
-            "title": "Horae-c.commentaries - StudioOneModernisedEditions",
+            "title": "Horae Hebraicae et Talmudicae (Exercitat - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Horae-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Horae Hebraicae et Talmudicae (Exercitat - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "ILL-NT-c.commentaries - StudioOneModernisedEditions",
+            "title": "Horae Homileticae - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/ILL-NT-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Horae Homileticae - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "International Bible School - Dennis Daugaard, 2004",
+            "title": "International Bible School Commentary - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/International Bible School - Dennis Daugaard, 2004.graphe"
+            "path": "English/Commentaries/International Bible School Commentary - StudioOneEditions.graphe"
           },
           {
-            "title": "Introductory Lectures Commentary",
+            "title": "International Bible School Commentary - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Introductory Lectures Commentary.graphe"
+            "path": "English/Commentaries/International Bible School Commentary - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Introductory Lectures on the Books of Ki - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Introductory Lectures on the Books of Ki - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Introductory Lectures on the Books of Kings - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Introductory Lectures on the Books of Kings - StudioOneEditions.graphe"
           },
           {
             "title": "J.P. Green Literal Translation, 2000",
@@ -6943,40 +7027,34 @@
             "path": "English/Commentaries/J.P. Green Literal Translation, 2000.graphe"
           },
           {
-            "title": "Jamieson, Fausset & Brown Commentary",
+            "title": "KJV Marginal Notes - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Jamieson, Fausset & Brown Commentary.graphe"
+            "path": "English/Commentaries/KJV Marginal Notes - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "John Gill's Exposition of the Entire Bible, 1763",
+            "title": "KJV Original Language Details - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/John Gill's Exposition of the Entire Bible, 1763.graphe"
+            "path": "English/Commentaries/KJV Original Language Details - StudioOneEditions.graphe"
           },
           {
-            "title": "KD-c.commentaries - StudioOneModernisedEditions",
+            "title": "KJV Original Language Details - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/KD-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/KJV Original Language Details - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "KJV Original Language Details",
+            "title": "Keil and Delitzsch Commentary on the Old - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/KJV Original Language Details.graphe"
+            "path": "English/Commentaries/Keil and Delitzsch Commentary on the Old - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "KJV-c.commentaries - StudioOneModernisedEditions",
+            "title": "Keil and Delitzsch Commentary on the Old Testament - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/KJV-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Keil and Delitzsch Commentary on the OT",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Keil and Delitzsch Commentary on the OT.graphe"
+            "path": "English/Commentaries/Keil and Delitzsch Commentary on the Old Testament - StudioOneEditions.graphe"
           },
           {
             "title": "King James Version with Apocrypha, American Edition 1611, 2010",
@@ -6997,28 +7075,22 @@
             "path": "English/Commentaries/King James' Version, 1914.graphe"
           },
           {
-            "title": "Knoch-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Knoch-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Koenig-c.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Koenig-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Kretzmann's Popular Commentary of the Bible",
+            "title": "Lange's Commentary on the Holy Scripture - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Kretzmann's Popular Commentary of the Bible.graphe"
+            "path": "English/Commentaries/Lange's Commentary on the Holy Scripture - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "LCHS-c.commentaries - StudioOneModernisedEditions",
+            "title": "Lange's Commentary on the Holy Scriptures - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/LCHS-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Lange's Commentary on the Holy Scriptures - StudioOneEditions.graphe"
           },
           {
             "title": "Lexham English Bible, 2012",
@@ -7033,40 +7105,22 @@
             "path": "English/Commentaries/MDC-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "MHC-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/MHC-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "MHWBC.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/MHWBC.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Manly-c.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Manly-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Matthew Poole's Concise Commentary On The Bible (3 Volumes)",
+            "title": "Matthew Henry's Commentary on the Whole - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Matthew Poole's Concise Commentary On The Bible (3 Volumes).graphe"
+            "path": "English/Commentaries/Matthew Henry's Commentary on the Whole - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "McG-c.commentaries - StudioOneModernisedEditions",
+            "title": "Matthew Henry's Concise Commentary on th - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/McG-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Metzger.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Metzger.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Matthew Henry's Concise Commentary on th - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Meyer-c.commentaries - StudioOneModernisedEditions",
@@ -7201,10 +7255,22 @@
             "path": "English/Commentaries/New Revised Standard Version, Anglicised, 1995.graphe"
           },
           {
+            "title": "Niobi aka Patchworkid's Personal Study B - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Niobi aka Patchworkid's Personal Study B - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "Niobi aka Patchworkid's Personal Study Bible Notes",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Niobi aka Patchworkid's Personal Study Bible Notes.graphe"
+          },
+          {
+            "title": "Notes from the Numerical Bible, Grant, 1 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Notes from the Numerical Bible, Grant, 1 - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Notes from the Numerical Bible, Grant, 1932",
@@ -7213,10 +7279,28 @@
             "path": "English/Commentaries/Notes from the Numerical Bible, Grant, 1932.graphe"
           },
           {
+            "title": "Notes on Scripture - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Notes on Scripture - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Notes on the Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Notes on the Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "Notes on the Pentateuch",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Notes on the Pentateuch.graphe"
+          },
+          {
+            "title": "Notes on the Pentateuch - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Notes on the Pentateuch - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "OBB-c.commentaries - StudioOneModernisedEditions",
@@ -7273,10 +7357,34 @@
             "path": "English/Commentaries/Peake's commentary on the Bible.graphe"
           },
           {
+            "title": "Peake's commentary on the Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Peake's commentary on the Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "Pool-c.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Pool-c.commentaries - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Popular Commentary of the Bible - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Popular Commentary of the Bible - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Popular Commentary of the Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Popular Commentary of the Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Practical Discourses on All the Books of - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Practical Discourses on All the Books of - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Pulpit-c.commentaries - StudioOneModernisedEditions",
@@ -7339,6 +7447,12 @@
             "path": "English/Commentaries/Scof-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
+            "title": "Select Notes on the International Sunday - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Select Notes on the International Sunday - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "Septuagint in American English 2012",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7357,10 +7471,28 @@
             "path": "English/Commentaries/Septuagint in British-International English 2012.graphe"
           },
           {
+            "title": "Spurgeon’s Verse Expositions of the Bibl - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Spurgeon’s Verse Expositions of the Bibl - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "Spurgeon’s Verse Expositions of the Bible",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Spurgeon’s Verse Expositions of the Bible.graphe"
+          },
+          {
+            "title": "Study Notes on the Holy Scriptures - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Study Notes on the Holy Scriptures - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Study Notes on the Holy Scriptures - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Study Notes on the Holy Scriptures - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Summ-c.commentaries - StudioOneModernisedEditions",
@@ -7373,6 +7505,12 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Summarized Bible Commentary.graphe"
+          },
+          {
+            "title": "Summarized Bible Commentary - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Summarized Bible Commentary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Sutcl-c.commentaries - StudioOneModernisedEditions",
@@ -7417,10 +7555,46 @@
             "path": "English/Commentaries/The Bible Study NT Explanatory Notes.graphe"
           },
           {
+            "title": "The Bible Study NT Explanatory Notes - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Bible Study NT Explanatory Notes - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "The Book of Ruth - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Book of Ruth - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "The Companion Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Companion Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "The Companion Bible CB, Bullinger, 1922",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/The Companion Bible CB, Bullinger, 1922.graphe"
+          },
+          {
+            "title": "The Companion Bible CB, Bullinger, 1922 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Companion Bible CB, Bullinger, 1922 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "The Daily Study Bible- New Testament - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Daily Study Bible- New Testament - StudioOneEditions.graphe"
+          },
+          {
+            "title": "The Daily Study Bible- New Testament - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Daily Study Bible- New Testament - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "The ESV Global Study Bible",
@@ -7429,10 +7603,46 @@
             "path": "English/Commentaries/The ESV Global Study Bible.graphe"
           },
           {
+            "title": "The Expositor's Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Expositor's Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "The Expositor's Greek Testament - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Expositor's Greek Testament - StudioOneEditions.graphe"
+          },
+          {
+            "title": "The Expositor's Greek Testament - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Expositor's Greek Testament - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "The Fourfold Gospel - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Fourfold Gospel - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "The Great Commentary of Cornelius à Lapi - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Great Commentary of Cornelius à Lapi - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "The Great Commentary of Cornelius à Lapide",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/The Great Commentary of Cornelius à Lapide.graphe"
+          },
+          {
+            "title": "The Great Texts of the Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Great Texts of the Bible - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "The Holy Bible, New International Version® (Anglicised), NIV®, 2011",
@@ -7465,6 +7675,18 @@
             "path": "English/Commentaries/The People's Bible Commentary, 2002.graphe"
           },
           {
+            "title": "The People's Bible Commentary, 2002 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The People's Bible Commentary, 2002 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "The Preacher's Complete Homiletical Comm - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Preacher's Complete Homiletical Comm - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "The Preacher's Complete Homiletical Commentary",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7477,16 +7699,46 @@
             "path": "English/Commentaries/The Revelation Record.graphe"
           },
           {
+            "title": "The Revelation Record - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Revelation Record - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "The Sermon Bible Commentary",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/The Sermon Bible Commentary.graphe"
           },
           {
+            "title": "The Sermon Bible Commentary - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The Sermon Bible Commentary - StudioOneModernisedEditions.graphe"
+          },
+          {
             "title": "The children's great texts of the Bible",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/The children's great texts of the Bible.graphe"
+          },
+          {
+            "title": "The children's great texts of the Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/The children's great texts of the Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Through the Bible Commentary - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Through the Bible Commentary - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Translation for Translators - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Translation for Translators - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Trapp-c.commentaries - StudioOneModernisedEditions",
@@ -7555,16 +7807,28 @@
             "path": "English/Commentaries/Wells of Living Water Commentary.graphe"
           },
           {
-            "title": "Wesley-c.commentaries - StudioOneModernisedEditions",
+            "title": "Wells of Living Water Commentary - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Wesley-c.commentaries - StudioOneModernisedEditions.graphe"
+            "path": "English/Commentaries/Wells of Living Water Commentary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Whedon's Commentary on the Bible",
+            "title": "Wesley's Notes on the Bible - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Whedon's Commentary on the Bible.graphe"
+            "path": "English/Commentaries/Wesley's Notes on the Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Whedon's Commentary on the Bible - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Whedon's Commentary on the Bible - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Whedon's Commentary on the Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English/Commentaries/Whedon's Commentary on the Bible - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "World English Bible",
@@ -7595,12 +7859,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/YALL'24.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "t4t.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/t4t.commentaries - StudioOneModernisedEditions.graphe"
           }
         ],
         "Cross-References": [
@@ -7637,10 +7895,10 @@
             "path": "English/Devotionals/Daily Bible Illustrations - Morning, John Kitto.graphe"
           },
           {
-            "title": "Daily Bible Illustrations- John Kitto - Evening Series - StudioGraphēE",
+            "title": "Daily Bible Illustrations- John Kitto - Evening - StudioGraphēEditions",
             "type": "Devotional",
             "extension": ".graphe",
-            "path": "English/Devotionals/Daily Bible Illustrations- John Kitto - Evening Series - StudioGraphēE.graphe"
+            "path": "English/Devotionals/Daily Bible Illustrations- John Kitto - Evening - StudioGraphēEditions.graphe"
           },
           {
             "title": "Daily Bible Illustrations- Morning Series - StudioGraphēEditions",
@@ -7721,10 +7979,10 @@
             "path": "English/Devotionals/For the Love of God- D. A. Carson (Volume 2) - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Golden Treasury for the Children of God- C H Bogatzky (1690–1774) - St",
+            "title": "Golden Treasury for the Children of God- C H Bo - StudioGraphēEditions",
             "type": "Devotional",
             "extension": ".graphe",
-            "path": "English/Devotionals/Golden Treasury for the Children of God- C H Bogatzky (1690–1774) - St.graphe"
+            "path": "English/Devotionals/Golden Treasury for the Children of God- C H Bo - StudioGraphēEditions.graphe"
           },
           {
             "title": "Golden Treasury, Carl Heinrich von Bogatzky",
@@ -7823,10 +8081,10 @@
             "path": "English/Devotionals/The Continual Burnt Offering, Harry Ironside.graphe"
           },
           {
-            "title": "The Continual Burnt Offering- (Daily Meditations on the Word of God) -",
+            "title": "The Continual Burnt Offering- (Daily Meditation - StudioGraphēEditions",
             "type": "Devotional",
             "extension": ".graphe",
-            "path": "English/Devotionals/The Continual Burnt Offering- (Daily Meditations on the Word of God) -.graphe"
+            "path": "English/Devotionals/The Continual Burnt Offering- (Daily Meditation - StudioGraphēEditions.graphe"
           },
           {
             "title": "The Gospels Illustrated - StudioGraphēEditions",
@@ -7841,10 +8099,10 @@
             "path": "English/Devotionals/The Interpreter- Spurgeon's Devotional Bible (Twice Daily).graphe"
           },
           {
-            "title": "Year Book of the Church and Sunday School (J. R. Miller) - StudioGraph",
+            "title": "Year Book of the Church and Sunday School (J. R - StudioGraphēEditions",
             "type": "Devotional",
             "extension": ".graphe",
-            "path": "English/Devotionals/Year Book of the Church and Sunday School (J. R. Miller) - StudioGraph.graphe"
+            "path": "English/Devotionals/Year Book of the Church and Sunday School (J. R - StudioGraphēEditions.graphe"
           },
           {
             "title": "Year Book, J. R. Miller",
@@ -7855,16 +8113,16 @@
         ],
         "Dictionaries": [
           {
-            "title": "2000 Illustrations and Quotations for Preachers and Teachers - StudioG",
+            "title": "2000 Illustrations and Quotations for Preachers - StudioGraphēEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/2000 Illustrations and Quotations for Preachers and Teachers - StudioG.graphe"
+            "path": "English/Dictionaries/2000 Illustrations and Quotations for Preachers - StudioGraphēEditions.graphe"
           },
           {
-            "title": "A Theological and Syntactical Biblical Dictionary - StudioOneModernise",
+            "title": "A Theological and Syntactical Biblical D - StudioOneModernisedEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/A Theological and Syntactical Biblical Dictionary - StudioOneModernise.graphe"
+            "path": "English/Dictionaries/A Theological and Syntactical Biblical D - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "BCWBD.dictionary - StudioOneModernisedEditions",
@@ -8745,16 +9003,16 @@
             "path": "English/Reading Plans/A Calendar for Daily Readings of the Word of God - StudioGraphēEdition [en].plan.SQLite3"
           },
           {
-            "title": "American Bible Society 2016",
+            "title": "American Bible Society Reading Plan 2016 - StudioOneEditions",
             "type": "Reading Plan",
             "extension": ".graphe",
-            "path": "English/Reading Plans/American Bible Society 2016.graphe"
+            "path": "English/Reading Plans/American Bible Society Reading Plan 2016 - StudioOneEditions.graphe"
           },
           {
-            "title": "American Bible Society 2017",
+            "title": "American Bible Society Reading Plan 2017 - StudioOneEditions",
             "type": "Reading Plan",
             "extension": ".graphe",
-            "path": "English/Reading Plans/American Bible Society 2017.graphe"
+            "path": "English/Reading Plans/American Bible Society Reading Plan 2017 - StudioOneEditions.graphe"
           },
           {
             "title": "ESV Literary Study Bible - StudioGraphēEditions",
@@ -8781,10 +9039,10 @@
             "path": "English/Reading Plans/Shabbat Tora reader plan on 5778-5778.graphe"
           },
           {
-            "title": "The American Bible Society's Good News Translation - StudioGraphēEditi",
+            "title": "The American Bible Society's Good News Translat - StudioGraphēEditions",
             "type": "Reading Plan",
             "extension": ".graphe",
-            "path": "English/Reading Plans/The American Bible Society's Good News Translation - StudioGraphēEditi.graphe"
+            "path": "English/Reading Plans/The American Bible Society's Good News Translat - StudioGraphēEditions.graphe"
           },
           {
             "title": "Thru the Bible with J. Vernon McGee - StudioGraphēEditions",
@@ -8854,10 +9112,10 @@
             "path": "English (United States)/Bibles/A Faithful Version.graphe"
           },
           {
-            "title": "A Faithful Version with Commentary. Special 2nd Ed. - StudioGraphēEdit",
+            "title": "A Faithful Version with Commentary. Special 2nd - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "English (United States)/Bibles/A Faithful Version with Commentary. Special 2nd Ed. - StudioGraphēEdit.graphe"
+            "path": "English (United States)/Bibles/A Faithful Version with Commentary. Special 2nd - StudioGraphēEditions.graphe"
           },
           {
             "title": "A Voice in the Wilderness",
@@ -9280,10 +9538,10 @@
             "path": "English (United States)/Bibles/King James Version of 1611-1769 with Strong's numbers.graphe"
           },
           {
-            "title": "King James Version with Apocrypha, American Edition - StudioOneEdition",
+            "title": "King James Version with Apocrypha, American Editio - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "English (United States)/Bibles/King James Version with Apocrypha, American Edition - StudioOneEdition.graphe"
+            "path": "English (United States)/Bibles/King James Version with Apocrypha, American Editio - StudioOneEditions.graphe"
           },
           {
             "title": "King James Version, 1769",
@@ -9502,16 +9760,16 @@
             "path": "English (United States)/Bibles/New Revised Standard Version Bible - StudioOneEditions.graphe"
           },
           {
-            "title": "New Revised Standard Version Bible- Catholic Edition - StudioOneEditio",
+            "title": "New Revised Standard Version Bible- Catholic Editi - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Revised Standard Version Bible- Catholic Edition - StudioOneEditio.graphe"
+            "path": "English (United States)/Bibles/New Revised Standard Version Bible- Catholic Editi - StudioOneEditions.graphe"
           },
           {
-            "title": "New Revised Standard Version Catholic Interconfessional - StudioOneEdi",
+            "title": "New Revised Standard Version Catholic Interconfess - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Revised Standard Version Catholic Interconfessional - StudioOneEdi.graphe"
+            "path": "English (United States)/Bibles/New Revised Standard Version Catholic Interconfess - StudioOneEditions.graphe"
           },
           {
             "title": "New Revised Standard Version Updated Edition - StudioOneEditions",
@@ -9526,10 +9784,10 @@
             "path": "English (United States)/Bibles/New Revised Standard Version, Anglicised - StudioOneEditions.graphe"
           },
           {
-            "title": "New Revised Standard Version, Anglicised Catholic Edition - StudioOneE",
+            "title": "New Revised Standard Version, Anglicised Catholic - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Revised Standard Version, Anglicised Catholic Edition - StudioOneE.graphe"
+            "path": "English (United States)/Bibles/New Revised Standard Version, Anglicised Catholic - StudioOneEditions.graphe"
           },
           {
             "title": "New Simplified Bible, 2004",
@@ -9778,10 +10036,10 @@
             "path": "English (United States)/Bibles/The Interliniar English-Greek New Testament (ESV + GNT Produced at Tyn.graphe"
           },
           {
-            "title": "The Kingdom New Testament- A Contemporary Translation - StudioOneEditi",
+            "title": "The Kingdom New Testament- A Contemporary Translat - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Kingdom New Testament- A Contemporary Translation - StudioOneEditi.graphe"
+            "path": "English (United States)/Bibles/The Kingdom New Testament- A Contemporary Translat - StudioOneEditions.graphe"
           },
           {
             "title": "The Living Oracles New Testament - StudioOneEditions",
@@ -9802,10 +10060,10 @@
             "path": "English (United States)/Bibles/The Message.graphe"
           },
           {
-            "title": "The Modern King James Version of the Holy Bible (MKJV) - StudioGraphēE",
+            "title": "The Modern King James Version of the Holy Bible - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Modern King James Version of the Holy Bible (MKJV) - StudioGraphēE.graphe"
+            "path": "English (United States)/Bibles/The Modern King James Version of the Holy Bible - StudioGraphēEditions.graphe"
           },
           {
             "title": "The New English Bible - StudioOneEditions",
@@ -10064,6 +10322,122 @@
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/unfoldingWord Simplified Text, UST.graphe"
+          }
+        ],
+        "Commentaries": [
+          {
+            "title": "1599 Geneva Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/1599 Geneva Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Amplified Bible, 2015 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/Amplified Bible, 2015 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Amplified Bible, Classic Edition, 1987 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/Amplified Bible, Classic Edition, 1987 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Brenton Septuagint Translation - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/Brenton Septuagint Translation - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Contemporary English Version, 1995 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/Contemporary English Version, 1995 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Contemporary English Version, 2006 (with - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/Contemporary English Version, 2006 (with - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Easy-to-Read Version, 2006 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/Easy-to-Read Version, 2006 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "English version of the Septuagint Bible, - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/English version of the Septuagint Bible, - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "King James Version, 2006 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/King James Version, 2006 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Lexham English Bible, 2012 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/Lexham English Bible, 2012 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "New American Bible (Revised Edition) - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/New American Bible (Revised Edition) - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "New Catholic Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/New Catholic Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "New Century Version, 2005 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/New Century Version, 2005 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "New English Translation, 2007 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/New English Translation, 2007 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "New International Version - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/New International Version - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "The ESV Global Study Bible - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/The ESV Global Study Bible - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "The Holy Bible, New International Versio - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/The Holy Bible, New International Versio - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "The Passion Translation, 2017 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/The Passion Translation, 2017 - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "Wycliffe Bible, 2014 - StudioOneModernisedEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "English (United States)/Commentaries/Wycliffe Bible, 2014 - StudioOneModernisedEditions.graphe"
           }
         ]
       }
@@ -10659,10 +11033,10 @@
             "path": "Finnish/Dictionaries/Suomen kielen perussanakirja (pieni versio).graphe"
           },
           {
-            "title": "Suomen kielen perussanakirja (suomalais-suomalainen) - StudioGraphēEdi",
+            "title": "Suomen kielen perussanakirja (suomalais-suomala - StudioGraphēEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "Finnish/Dictionaries/Suomen kielen perussanakirja (suomalais-suomalainen) - StudioGraphēEdi.graphe"
+            "path": "Finnish/Dictionaries/Suomen kielen perussanakirja (suomalais-suomala - StudioGraphēEditions.graphe"
           },
           {
             "title": "Suomen kielen perussanakirja (suuri versio)",
@@ -13240,10 +13614,10 @@
             "path": "Hmong Njua/Bibles/Vaajtswv Txujlug - lug Moob Ntsuab - txhais tshab xyoo 2004 [B].graphe"
           },
           {
-            "title": "Vajlugkub Ntshiab- Phau Qub Thiab Phau Tshiab (Holy Bible- Old and New",
+            "title": "Vajlugkub Ntshiab- Phau Qub Thiab Phau Tshiab ( - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Hmong Njua/Bibles/Vajlugkub Ntshiab- Phau Qub Thiab Phau Tshiab (Holy Bible- Old and New.graphe"
+            "path": "Hmong Njua/Bibles/Vajlugkub Ntshiab- Phau Qub Thiab Phau Tshiab ( - StudioGraphēEditions.graphe"
           }
         ],
         "Commentaries": [
@@ -13901,10 +14275,10 @@
       "categories": {
         "Bibles": [
           {
-            "title": "Ti Baro a Naimbag a Damag - New Good News Bible - Ilocano - StudioGrap",
+            "title": "Ti Baro a Naimbag a Damag - New Good News Bible - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Ilocano/Bibles/Ti Baro a Naimbag a Damag - New Good News Bible - Ilocano - StudioGrap.graphe"
+            "path": "Ilocano/Bibles/Ti Baro a Naimbag a Damag - New Good News Bible - StudioGraphēEditions.graphe"
           },
           {
             "title": "Ti Baro a Naimbag a Damag Biblia",
@@ -14230,10 +14604,10 @@
             "path": "Italian/Bibles/Bibbia CEI 2008.graphe"
           },
           {
-            "title": "Bibbia TILC – (Traduzione Interconfessionale in Lingua Corrente) - Stu",
+            "title": "Bibbia TILC – (Traduzione Interconfessionale in - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Italian/Bibles/Bibbia TILC – (Traduzione Interconfessionale in Lingua Corrente) - Stu.graphe"
+            "path": "Italian/Bibles/Bibbia TILC – (Traduzione Interconfessionale in - StudioGraphēEditions.graphe"
           },
           {
             "title": "Giovanni Diodati Bibbia, 1649",
@@ -14298,10 +14672,10 @@
         ],
         "Commentaries": [
           {
-            "title": "Bibbia TILC – Traduzione Interconfessionale in Lingua Corrente - Studi",
+            "title": "Bibbia TILC – Traduzione Interconfessionale in Lin - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Italian/Commentaries/Bibbia TILC – Traduzione Interconfessionale in Lingua Corrente - Studi.graphe"
+            "path": "Italian/Commentaries/Bibbia TILC – Traduzione Interconfessionale in Lin - StudioOneEditions.graphe"
           },
           {
             "title": "Nuova Riveduta 1994",
@@ -17223,10 +17597,10 @@
             "path": "Latin/Bibles/Nova Vulgata.graphe"
           },
           {
-            "title": "Nova Vulgata Bibliorum Sacrorum Editio (a Papa Ioanne Paulo II 1979) -",
+            "title": "Nova Vulgata Bibliorum Sacrorum Editio (a Papa - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Latin/Bibles/Nova Vulgata Bibliorum Sacrorum Editio (a Papa Ioanne Paulo II 1979) -.graphe"
+            "path": "Latin/Bibles/Nova Vulgata Bibliorum Sacrorum Editio (a Papa - StudioGraphēEditions.graphe"
           }
         ],
         "Dictionaries": [
@@ -17348,10 +17722,10 @@
             "path": "Latvian/Bibles/New Latvian Inter-confessional Bible with Deuterocanonicals [B].graphe"
           },
           {
-            "title": "Svētie Raksti — Bībele- Vecā un Jaunā Derība (revidētais izdevums) - S",
+            "title": "Svētie Raksti — Bībele- Vecā un Jaunā Derība (r - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Latvian/Bibles/Svētie Raksti — Bībele- Vecā un Jaunā Derība (revidētais izdevums) - S.graphe"
+            "path": "Latvian/Bibles/Svētie Raksti — Bībele- Vecā un Jaunā Derība (r - StudioGraphēEditions.graphe"
           }
         ],
         "Commentaries": [
@@ -17392,10 +17766,10 @@
             "path": "Latvian/Commentaries/New Latvian Inter-confessional Bible with Deuterocanonicals [C].graphe"
           },
           {
-            "title": "Svētā Bībele- Vecā un Jaunā Derība (revidētais izdevums) - StudioGraph",
+            "title": "Svētā Bībele- Vecā un Jaunā Derība (revidētais - StudioGraphēEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Latvian/Commentaries/Svētā Bībele- Vecā un Jaunā Derība (revidētais izdevums) - StudioGraph.graphe"
+            "path": "Latvian/Commentaries/Svētā Bībele- Vecā un Jaunā Derība (revidētais - StudioGraphēEditions.graphe"
           }
         ],
         "Dictionaries": [
@@ -17640,16 +18014,16 @@
             "path": "Lithuanian/Bibles/Kosto Burbulio Biblijos vertimas (1999).graphe"
           },
           {
-            "title": "Šventasis Raštas- Senasis ir Naujasis Testamentas - StudioGraphēEditio",
+            "title": "Šventasis Raštas - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Lithuanian/Bibles/Šventasis Raštas- Senasis ir Naujasis Testamentas - StudioGraphēEditio.graphe"
+            "path": "Lithuanian/Bibles/Šventasis Raštas - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Šventasis Raštas- Senasis ir Naujasis Testamentas su Antrojo Kanono kn",
+            "title": "Šventasis Raštas- Senasis ir Naujasis Testament - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Lithuanian/Bibles/Šventasis Raštas- Senasis ir Naujasis Testamentas su Antrojo Kanono kn.graphe"
+            "path": "Lithuanian/Bibles/Šventasis Raštas- Senasis ir Naujasis Testament - StudioGraphēEditions.graphe"
           },
           {
             "title": "The Holy Bible, King James Version - StudioGraphēEditions",
@@ -18188,10 +18562,10 @@
             "path": "Macedonian/Bibles/Динамичен превод на Новиот завет на македонски јазик.graphe"
           },
           {
-            "title": "Македонски динамично-еквивалентен превод на Новиот завет - StudioGraph",
+            "title": "Македонски динамично-еквивалентен превод на Нов - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Macedonian/Bibles/Македонски динамично-еквивалентен превод на Новиот завет - StudioGraph.graphe"
+            "path": "Macedonian/Bibles/Македонски динамично-еквивалентен превод на Нов - StudioGraphēEditions.graphe"
           },
           {
             "title": "Нов превод на Новиот Завет 2023",
@@ -18428,10 +18802,10 @@
         ],
         "Commentaries": [
           {
-            "title": "Ibibiliya mu Shimakonde Imbodi Yaambi na dimbande dya Imbodi Yakala -",
+            "title": "Ibibiliya mu Shimakonde Imbodi Yaambi na dimbande - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Makonde/Commentaries/Ibibiliya mu Shimakonde Imbodi Yaambi na dimbande dya Imbodi Yakala -.graphe"
+            "path": "Makonde/Commentaries/Ibibiliya mu Shimakonde Imbodi Yaambi na dimbande - StudioOneEditions.graphe"
           },
           {
             "title": "Makonde NT",
@@ -19068,10 +19442,10 @@
             "path": "Masaaba/Bibles/Ibayibuli Ingwalaafu [B].graphe"
           },
           {
-            "title": "Ibayibuli Ingwalaafu - Lumasaaba Catholic Edition - StudioGraphēEditio",
+            "title": "Ibayibuli Ingwalaafu - Lumasaaba Catholic Editi - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Masaaba/Bibles/Ibayibuli Ingwalaafu - Lumasaaba Catholic Edition - StudioGraphēEditio.graphe"
+            "path": "Masaaba/Bibles/Ibayibuli Ingwalaafu - Lumasaaba Catholic Editi - StudioGraphēEditions.graphe"
           }
         ],
         "Commentaries": [
@@ -21090,10 +21464,10 @@
             "path": "Norwegian/Bibles/Bibelen – Guds Ord 2017 [B].graphe"
           },
           {
-            "title": "Bibelen- Den Hellige Skrift – Det Gamle og Det Nye Testamente - Studio",
+            "title": "Bibelen- Den Hellige Skrift – Det Gamle og Det - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Norwegian/Bibles/Bibelen- Den Hellige Skrift – Det Gamle og Det Nye Testamente - Studio.graphe"
+            "path": "Norwegian/Bibles/Bibelen- Den Hellige Skrift – Det Gamle og Det - StudioGraphēEditions.graphe"
           },
           {
             "title": "Brød Nye Testamente, 2011",
@@ -21387,10 +21761,10 @@
             "path": "Nyankore/Commentaries/Baibuli Erikwera 1964 [C].graphe"
           },
           {
-            "title": "Igitabo Cyiza Cya Bibliya n'Ibigitabo Bya Kiperebiteriya ya Kiprotesit",
+            "title": "Igitabo Cyiza Cya Bibliya n'Ibigitabo Bya Kiperebi - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Nyankore/Commentaries/Igitabo Cyiza Cya Bibliya n'Ibigitabo Bya Kiperebiteriya ya Kiprotesit.graphe"
+            "path": "Nyankore/Commentaries/Igitabo Cyiza Cya Bibliya n'Ibigitabo Bya Kiperebi - StudioOneEditions.graphe"
           }
         ]
       }
@@ -22160,10 +22534,10 @@
             "path": "Pangasinan/Bibles/Maung A Balita Biblia [B].graphe"
           },
           {
-            "title": "Maung a Balita Biblia- Good News Bible (Pangasinan) - StudioGraphēEdit",
+            "title": "Maung a Balita Biblia- Good News Bible (Pangasi - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Pangasinan/Bibles/Maung a Balita Biblia- Good News Bible (Pangasinan) - StudioGraphēEdit.graphe"
+            "path": "Pangasinan/Bibles/Maung a Balita Biblia- Good News Bible (Pangasi - StudioGraphēEditions.graphe"
           },
           {
             "title": "Maung a Balita Biblia- Philippine New Version- StudioGraphēEditions",
@@ -22817,10 +23191,10 @@
             "path": "Polish/Commentaries/Biblia, to jest Pismo Święte Starego i Nowego Przymierza [C].graphe"
           },
           {
-            "title": "Tłumaczenie toruńskie Nowego Testamentu oraz Ksiąg Mądrościowych Ksiąg",
+            "title": "Tłumaczenie toruńskie Nowego Testamentu oraz Ksiąg - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Polish/Commentaries/Tłumaczenie toruńskie Nowego Testamentu oraz Ksiąg Mądrościowych Ksiąg.graphe"
+            "path": "Polish/Commentaries/Tłumaczenie toruńskie Nowego Testamentu oraz Ksiąg - StudioOneEditions.graphe"
           }
         ],
         "Dictionaries": [
@@ -23620,10 +23994,10 @@
             "path": "Psikye/Bibles/Ghena ta Shala [B].graphe"
           },
           {
-            "title": "Ghena ta Shala- (La Bible en langue Kapsiki avec les livres deutérocan",
+            "title": "Ghena ta Shala- (La Bible en langue Kapsiki ave - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Psikye/Bibles/Ghena ta Shala- (La Bible en langue Kapsiki avec les livres deutérocan.graphe"
+            "path": "Psikye/Bibles/Ghena ta Shala- (La Bible en langue Kapsiki ave - StudioGraphēEditions.graphe"
           }
         ],
         "Commentaries": [
@@ -23634,10 +24008,10 @@
             "path": "Psikye/Commentaries/Ghena ta Shala [C].graphe"
           },
           {
-            "title": "Ghena ta Shala- La Bible en langue Kapsiki avec les livres deutérocano",
+            "title": "Ghena ta Shala- La Bible en langue Kapsiki avec le - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Psikye/Commentaries/Ghena ta Shala- La Bible en langue Kapsiki avec les livres deutérocano.graphe"
+            "path": "Psikye/Commentaries/Ghena ta Shala- La Bible en langue Kapsiki avec le - StudioOneEditions.graphe"
           }
         ]
       }
@@ -24954,10 +25328,10 @@
       "categories": {
         "Bibles": [
           {
-            "title": "Bibiliya Yera- Isezerano Rya Kera na Rishasha (Contemporary Kirundi Bi",
+            "title": "Bibiliya Yera- Isezerano Rya Kera na Rishasha ( - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Rundi/Bibles/Bibiliya Yera- Isezerano Rya Kera na Rishasha (Contemporary Kirundi Bi.graphe"
+            "path": "Rundi/Bibles/Bibiliya Yera- Isezerano Rya Kera na Rishasha ( - StudioGraphēEditions.graphe"
           },
           {
             "title": "Bibiliya mu Kirundi coroshe",
@@ -24980,10 +25354,10 @@
         ],
         "Commentaries": [
           {
-            "title": "Bibiliya Yera- Isezerano Rya Kera na Rishasha (Bibiliya ya Kirundi Yer",
+            "title": "Bibiliya Yera- Isezerano Rya Kera na Rishasha (Bib - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Rundi/Commentaries/Bibiliya Yera- Isezerano Rya Kera na Rishasha (Bibiliya ya Kirundi Yer.graphe"
+            "path": "Rundi/Commentaries/Bibiliya Yera- Isezerano Rya Kera na Rishasha (Bib - StudioOneEditions.graphe"
           },
           {
             "title": "Bibiliya mu Kirundi coroshe",
@@ -25074,10 +25448,10 @@
             "path": "Russian/Bibles/Библия Юбилейная.graphe"
           },
           {
-            "title": "Библия Юбилейная - исправленный синодальный перевод - StudioGraphēEdit",
+            "title": "Библия Юбилейная - исправленный синодальный пер - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Russian/Bibles/Библия Юбилейная - исправленный синодальный перевод - StudioGraphēEdit.graphe"
+            "path": "Russian/Bibles/Библия Юбилейная - исправленный синодальный пер - StudioGraphēEditions.graphe"
           },
           {
             "title": "Библия Юбилейная с номерами Стронга",
@@ -25296,10 +25670,10 @@
             "path": "Russian/Bibles/Открытый перевод Нового Завета [B].graphe"
           },
           {
-            "title": "Перевод Нового Завета на современный русский язык - StudioGraphēEditio",
+            "title": "Перевод Нового Завета на современный русский яз - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Russian/Bibles/Перевод Нового Завета на современный русский язык - StudioGraphēEditio.graphe"
+            "path": "Russian/Bibles/Перевод Нового Завета на современный русский яз - StudioGraphēEditions.graphe"
           },
           {
             "title": "Переводъ Россійскаго Библейскаго Общества (1820-1825 гг.)",
@@ -25484,10 +25858,10 @@
             "path": "Russian/Commentaries/Charles Rose Commentaries.graphe"
           },
           {
-            "title": "New Testament Epistles in the translation of Andrey Desnitsky – Tradit",
+            "title": "New Testament Epistles in the translation of Andre - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Russian/Commentaries/New Testament Epistles in the translation of Andrey Desnitsky – Tradit.graphe"
+            "path": "Russian/Commentaries/New Testament Epistles in the translation of Andre - StudioOneEditions.graphe"
           },
           {
             "title": "Августин Иппонийский блж. (354 — 430)",
@@ -25568,10 +25942,10 @@
             "path": "Russian/Commentaries/Библия Менге на русском [C].graphe"
           },
           {
-            "title": "Библия в русском переводе с приложениями («Брюссельская Библия») - Stu",
+            "title": "Библия в русском переводе с приложениями («Брюссел - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Russian/Commentaries/Библия в русском переводе с приложениями («Брюссельская Библия») - Stu.graphe"
+            "path": "Russian/Commentaries/Библия в русском переводе с приложениями («Брюссел - StudioOneEditions.graphe"
           },
           {
             "title": "Библия говорит сегодня",
@@ -25880,10 +26254,10 @@
             "path": "Russian/Commentaries/Псалтирь пророка и царя Давида. Е. Н. Бирукова, И. Н. Бируков. [C].graphe"
           },
           {
-            "title": "Пятикнижие Моисеево, или Тора с русским переводом, комментарием, основ",
+            "title": "Пятикнижие Моисеево, или Тора с русским переводом, - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Russian/Commentaries/Пятикнижие Моисеево, или Тора с русским переводом, комментарием, основ.graphe"
+            "path": "Russian/Commentaries/Пятикнижие Моисеево, или Тора с русским переводом, - StudioOneEditions.graphe"
           },
           {
             "title": "Руководственное пособие к пониманию Псалтири, еп. Ириней (Орда), 1882",
@@ -26110,10 +26484,10 @@
             "path": "Russian/Dictionaries/Библейский атлас (картографическое издание) - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Библейский атлас- (Цветные карты к Синодальному переводу Библии) - Stu",
+            "title": "Библейский атлас- (Цветные карты к Синодальному - StudioGraphēEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "Russian/Dictionaries/Библейский атлас- (Цветные карты к Синодальному переводу Библии) - Stu.graphe"
+            "path": "Russian/Dictionaries/Библейский атлас- (Цветные карты к Синодальному - StudioGraphēEditions.graphe"
           },
           {
             "title": "Библейский культурно-исторический комментарий",
@@ -26354,10 +26728,10 @@
         ],
         "Other": [
           {
-            "title": "Библия в русском переводе с приложениями (Брюссельская Библия) - Studi",
+            "title": "Библия в русском переводе с приложениями (Брюссель - StudioOneEditions",
             "type": "Module",
             "extension": ".graphe",
-            "path": "Russian/Other/Библия в русском переводе с приложениями (Брюссельская Библия) - Studi.graphe"
+            "path": "Russian/Other/Библия в русском переводе с приложениями (Брюссель - StudioOneEditions.graphe"
           },
           {
             "title": "Русские словоформы",
@@ -26777,10 +27151,10 @@
             "path": "Sakha/Bibles/Библия [B].graphe"
           },
           {
-            "title": "Библия на якутском языке (Якутская Библия - Yakut Bible) — Саха тыла -",
+            "title": "Библия на якутском языке (Якутская Библия - Yak - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Sakha/Bibles/Библия на якутском языке (Якутская Библия - Yakut Bible) — Саха тыла -.graphe"
+            "path": "Sakha/Bibles/Библия на якутском языке (Якутская Библия - Yak - StudioGraphēEditions.graphe"
           },
           {
             "title": "САҤА КЭС ТЫЛ",
@@ -27606,10 +27980,10 @@
             "path": "Shona/Bibles/Bhaibhiri Idzva rechiShona rine Dhuterokanonika [B].graphe"
           },
           {
-            "title": "Bhaibhiri Idzva rechiShona rine Dhuterokanonika (Shona Common Language",
+            "title": "Bhaibhiri Idzva rechiShona rine Dhuterokanonika - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Shona/Bibles/Bhaibhiri Idzva rechiShona rine Dhuterokanonika (Shona Common Language.graphe"
+            "path": "Shona/Bibles/Bhaibhiri Idzva rechiShona rine Dhuterokanonika - StudioGraphēEditions.graphe"
           },
           {
             "title": "Shona BIBLE",
@@ -29394,10 +29768,10 @@
             "path": "Spanish/Commentaries/Sagrada Biblia — Universidad de Navarra, 2016 [C].graphe"
           },
           {
-            "title": "Sagrada Biblia- Versión oficial de la Conferencia Episcopal Española,",
+            "title": "Sagrada Biblia- Versión oficial de la Conferencia - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Spanish/Commentaries/Sagrada Biblia- Versión oficial de la Conferencia Episcopal Española,.graphe"
+            "path": "Spanish/Commentaries/Sagrada Biblia- Versión oficial de la Conferencia - StudioOneEditions.graphe"
           },
           {
             "title": "Santa Biblia. Reina Valera revisión de 1960",
@@ -29594,10 +29968,10 @@
             "path": "Spanish/Dictionaries/Glosario de Nombres Bíblicos de Jack Enlow.graphe"
           },
           {
-            "title": "Glosario de Términos en Ciencias Sociales - Glossary of Terms in Socia",
+            "title": "Glosario de Términos en Ciencias Sociales - Glo - StudioGraphēEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "Spanish/Dictionaries/Glosario de Términos en Ciencias Sociales - Glossary of Terms in Socia.graphe"
+            "path": "Spanish/Dictionaries/Glosario de Términos en Ciencias Sociales - Glo - StudioGraphēEditions.graphe"
           },
           {
             "title": "Gran Diccionario Enciclopedico TIME LIFE",
@@ -29900,22 +30274,28 @@
             "path": "Swahili/Bibles/Agano Jipya Na Zaburi - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Agano Jipya la Bwana na Mwokozi Wetu Yesu Kristo- Tafsiri Mpya ya Kisw",
+            "title": "Agano Jipya la Bwana na Mwokozi Wetu Yesu Krist - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swahili/Bibles/Agano Jipya la Bwana na Mwokozi Wetu Yesu Kristo- Tafsiri Mpya ya Kisw.graphe"
+            "path": "Swahili/Bibles/Agano Jipya la Bwana na Mwokozi Wetu Yesu Krist - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Agano Jipya- Tafsiri ya Kusoma-Kwa-Urahisi Toleo la Awali - StudioGrap",
+            "title": "Agano Jipya- Tafsiri ya Kusoma-Kwa-Urahisi Tole - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swahili/Bibles/Agano Jipya- Tafsiri ya Kusoma-Kwa-Urahisi Toleo la Awali - StudioGrap.graphe"
+            "path": "Swahili/Bibles/Agano Jipya- Tafsiri ya Kusoma-Kwa-Urahisi Tole - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Biblia Habari Njema Yenye Vitabu vya Deuterokanoni - StudioGraphēEditi",
+            "title": "Biblia Habari Njema Yenye Vitabu vya Deuterokan - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swahili/Bibles/Biblia Habari Njema Yenye Vitabu vya Deuterokanoni - StudioGraphēEditi.graphe"
+            "path": "Swahili/Bibles/Biblia Habari Njema Yenye Vitabu vya Deuterokan - StudioGraphēEditions.graphe"
+          },
+          {
+            "title": "Biblia Habari Njema kwa Wakristo Wote (SUV) - StudioGraphēEditions",
+            "type": "Bible",
+            "extension": ".graphe",
+            "path": "Swahili/Bibles/Biblia Habari Njema kwa Wakristo Wote (SUV) - StudioGraphēEditions.graphe"
           },
           {
             "title": "Biblia Habari Njema kwa Wakristo Wote - StudioGraphēEditions",
@@ -29924,40 +30304,34 @@
             "path": "Swahili/Bibles/Biblia Habari Njema kwa Wakristo Wote - StudioGraphēEditions [B].graphe"
           },
           {
-            "title": "Biblia Habari Njema kwa Wakristo Wote- Swahili Revised Union Version -",
+            "title": "Biblia Habari Njema kwa Wakristo Wote- Swahili - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swahili/Bibles/Biblia Habari Njema kwa Wakristo Wote- Swahili Revised Union Version -.graphe"
+            "path": "Swahili/Bibles/Biblia Habari Njema kwa Wakristo Wote- Swahili - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Biblia Habari Njema kwa Wakristo Wote- Swahili Union Version (SUV) - S",
+            "title": "Biblia Habari Njema kwa Wakristo na Wayahudi- M - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swahili/Bibles/Biblia Habari Njema kwa Wakristo Wote- Swahili Union Version (SUV) - S.graphe"
+            "path": "Swahili/Bibles/Biblia Habari Njema kwa Wakristo na Wayahudi- M - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Biblia Habari Njema kwa Wakristo na Wayahudi- Maandiko Matakatifu - St",
+            "title": "Biblia Habari Njema kwa Watu Wote (Yenye Vitabu - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swahili/Bibles/Biblia Habari Njema kwa Wakristo na Wayahudi- Maandiko Matakatifu - St.graphe"
+            "path": "Swahili/Bibles/Biblia Habari Njema kwa Watu Wote (Yenye Vitabu - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Biblia Habari Njema kwa Watu Wote (Yenye Vitabu vya Deuterokanoni) - S",
+            "title": "Biblia Habari Njema kwa Watu Wote- Tafsiri ya U - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swahili/Bibles/Biblia Habari Njema kwa Watu Wote (Yenye Vitabu vya Deuterokanoni) - S.graphe"
+            "path": "Swahili/Bibles/Biblia Habari Njema kwa Watu Wote- Tafsiri ya U - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Biblia Habari Njema kwa Watu Wote (Yenye Vitabu vya Deuterokanoni)- Ta",
+            "title": "Biblia Habari Njema- Swahili Common Language Bi - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swahili/Bibles/Biblia Habari Njema kwa Watu Wote (Yenye Vitabu vya Deuterokanoni)- Ta.graphe"
-          },
-          {
-            "title": "Biblia Habari Njema- Swahili Common Language Bible - StudioGraphēEditi",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "Swahili/Bibles/Biblia Habari Njema- Swahili Common Language Bible - StudioGraphēEditi.graphe"
+            "path": "Swahili/Bibles/Biblia Habari Njema- Swahili Common Language Bi - StudioGraphēEditions.graphe"
           },
           {
             "title": "Biblia Habari Njema- Toleo la Kujifunza - StudioGraphēEditions",
@@ -29978,16 +30352,16 @@
             "path": "Swahili/Bibles/Biblia Takatifu - StudioGraphēEditions [B].graphe"
           },
           {
-            "title": "Biblia Yote ya Agano la Kale na Agano Jipya (Swahili Roehl Bible) - St",
+            "title": "Biblia Yote ya Agano la Kale na Agano Jipya (Sw - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swahili/Bibles/Biblia Yote ya Agano la Kale na Agano Jipya (Swahili Roehl Bible) - St.graphe"
+            "path": "Swahili/Bibles/Biblia Yote ya Agano la Kale na Agano Jipya (Sw - StudioGraphēEditions.graphe"
           },
           {
-            "title": "Habari Njema kwa Wakristo Wote- Swahili Revised Union Version Bible (2",
+            "title": "Habari Njema kwa Wakristo Wote- Swahili Revised - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swahili/Bibles/Habari Njema kwa Wakristo Wote- Swahili Revised Union Version Bible (2.graphe"
+            "path": "Swahili/Bibles/Habari Njema kwa Wakristo Wote- Swahili Revised - StudioGraphēEditions.graphe"
           },
           {
             "title": "Neno- Maandiko Matakatifu - StudioGraphēEditions",
@@ -30016,10 +30390,10 @@
             "path": "Swahili/Commentaries/Biblia Habari Njema kwa Wakristo Wote - StudioGraphēEditions [C].graphe"
           },
           {
-            "title": "Biblia Habari Njema kwa Wakristo Wote- Toleo la Kutengenezwa la Umoja",
+            "title": "Biblia Habari Njema kwa Wakristo Wote- Toleo la Ku - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Swahili/Commentaries/Biblia Habari Njema kwa Wakristo Wote- Toleo la Kutengenezwa la Umoja.graphe"
+            "path": "Swahili/Commentaries/Biblia Habari Njema kwa Wakristo Wote- Toleo la Ku - StudioOneEditions.graphe"
           },
           {
             "title": "Biblia Habari Njema kwa Wakristo na Wayahudi - StudioOneEditions",
@@ -30034,16 +30408,16 @@
             "path": "Swahili/Commentaries/Biblia Habari Njema- Toleo la Kujifunza - StudioGraphēEditions [C].graphe"
           },
           {
-            "title": "Biblia Kamili ya Agano la Kale na Agano Jipya (Biblia ya Kiswahili ya",
+            "title": "Biblia Kamili ya Agano la Kale na Agano Jipya (Bib - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Swahili/Commentaries/Biblia Kamili ya Agano la Kale na Agano Jipya (Biblia ya Kiswahili ya.graphe"
+            "path": "Swahili/Commentaries/Biblia Kamili ya Agano la Kale na Agano Jipya (Bib - StudioOneEditions.graphe"
           },
           {
-            "title": "Biblia Kiswahili- Toleo la Muungano Lililoboreshwa 2013 - StudioOneEdi",
+            "title": "Biblia Kiswahili- Toleo la Muungano Lililoboreshwa - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Swahili/Commentaries/Biblia Kiswahili- Toleo la Muungano Lililoboreshwa 2013 - StudioOneEdi.graphe"
+            "path": "Swahili/Commentaries/Biblia Kiswahili- Toleo la Muungano Lililoboreshwa - StudioOneEditions.graphe"
           },
           {
             "title": "Biblia Takatifu - StudioGraphēEditions",
@@ -30052,10 +30426,10 @@
             "path": "Swahili/Commentaries/Biblia Takatifu - StudioGraphēEditions [C].graphe"
           },
           {
-            "title": "Habari Njema kwa Wakristo Wote- Bibilia ya Wakristo Iliyoboreswa Kwa M",
+            "title": "Habari Njema kwa Wakristo Wote- Bibilia ya Wakrist - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Swahili/Commentaries/Habari Njema kwa Wakristo Wote- Bibilia ya Wakristo Iliyoboreswa Kwa M.graphe"
+            "path": "Swahili/Commentaries/Habari Njema kwa Wakristo Wote- Bibilia ya Wakrist - StudioOneEditions.graphe"
           },
           {
             "title": "Neno- Maandiko Matakatifu - StudioGraphēEditions",
@@ -30121,10 +30495,10 @@
             "path": "Swedish/Bibles/Svenska Folkbibeln 2015 [B].graphe"
           },
           {
-            "title": "Svenska Folkbibeln är en svenskspråkig bibelöversättning - StudioGraph",
+            "title": "Svenska Folkbibeln är en svenskspråkig bibelöve - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "Swedish/Bibles/Svenska Folkbibeln är en svenskspråkig bibelöversättning - StudioGraph.graphe"
+            "path": "Swedish/Bibles/Svenska Folkbibeln är en svenskspråkig bibelöve - StudioGraphēEditions.graphe"
           },
           {
             "title": "Svenska Folkbibeln, 1998",
@@ -32089,10 +32463,10 @@
             "path": "Twi/Commentaries/KYERƐW KRONKRON [C].graphe"
           },
           {
-            "title": "Kyerɛw Kronkron- Akuapem Twi Dewterokanɔnɪkwal Baibɔl a Wɔasesa - Stud",
+            "title": "Kyerɛw Kronkron- Akuapem Twi Dewterokanɔnɪkwal Bai - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Twi/Commentaries/Kyerɛw Kronkron- Akuapem Twi Dewterokanɔnɪkwal Baibɔl a Wɔasesa - Stud.graphe"
+            "path": "Twi/Commentaries/Kyerɛw Kronkron- Akuapem Twi Dewterokanɔnɪkwal Bai - StudioOneEditions.graphe"
           },
           {
             "title": "New Revised Asante Twi Bible",
@@ -32394,10 +32768,10 @@
             "path": "Ukrainian/Commentaries/ДС-укр.graphe"
           },
           {
-            "title": "Новий Завіт Господа нашого Ісуса Христа. Об'єднавчий Український Перек",
+            "title": "Новий Завіт Господа нашого Ісуса Христа. Об'єднавч - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "Ukrainian/Commentaries/Новий Завіт Господа нашого Ісуса Христа. Об'єднавчий Український Перек.graphe"
+            "path": "Ukrainian/Commentaries/Новий Завіт Господа нашого Ісуса Христа. Об'єднавч - StudioOneEditions.graphe"
           },
           {
             "title": "Новий Переклад Українською",
@@ -34467,10 +34841,10 @@
             "path": "ZH SIMPLIFIED/Commentaries/天道圣经注释.graphe"
           },
           {
-            "title": "当代译本修订版 (Chinese Contemporary Bible, Revised Edition) - StudioGraphēEd",
+            "title": "当代译本修订版 (Chinese Contemporary Bible, Revised Ed - StudioGraphēEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "ZH SIMPLIFIED/Commentaries/当代译本修订版 (Chinese Contemporary Bible, Revised Edition) - StudioGraphēEd.graphe"
+            "path": "ZH SIMPLIFIED/Commentaries/当代译本修订版 (Chinese Contemporary Bible, Revised Ed - StudioGraphēEditions.graphe"
           },
           {
             "title": "思高圣经 - Studium Biblicum Version Simplified, 1968",
