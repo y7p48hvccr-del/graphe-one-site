@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T14:36:16.491237",
+  "generated": "2026-08-18T23:07:48.483304",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -8131,12 +8131,6 @@
             "path": "English/Dictionaries/BCWBD.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "BMaps.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/BMaps.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Babylon English-Spanish",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -8261,12 +8255,6 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/Holman Treasury of Key Bible Words (Hebrew) by Eugene E. Carpenter and.graphe"
-          },
-          {
-            "title": "ISBE",
-            "type": "Dictionary",
-            "extension": ".SQLite3",
-            "path": "English/Dictionaries/ISBE.dictionary.SQLite3"
           },
           {
             "title": "Illustr.dictionary - StudioOneModernisedEditions",
@@ -8625,12 +8613,6 @@
         ],
         "Encyclopedias": [
           {
-            "title": "International Standard Bible Encyclopedia",
-            "type": "Encyclopedia",
-            "extension": ".graphe",
-            "path": "English/Encyclopedias/International Standard Bible Encyclopedia.graphe"
-          },
-          {
             "title": "The Catholic Encyclopedia",
             "type": "Encyclopedia",
             "extension": ".graphe",
@@ -8685,6 +8667,14 @@
             "type": "Lexicon",
             "extension": ".graphe",
             "path": "English/Lexicons/The unabridged Brown-Driver-Briggs Hebrew and English Lexicon combined.graphe"
+          }
+        ],
+        "Maps": [
+          {
+            "title": "Bible Maps",
+            "type": "Bible Maps",
+            "extension": ".graphe",
+            "path": "English/Maps/Bible Maps.graphe"
           }
         ],
         "Other": [
@@ -8985,22 +8975,22 @@
         ],
         "Reading Plans": [
           {
-            "title": "2018 Daily Bible Reading Guide - StudioGraphēEditions",
+            "title": "2018 Daily Bible Reading Guide - StudioOneEditions",
             "type": "Reading Plan",
             "extension": ".graphe",
-            "path": "English/Reading Plans/2018 Daily Bible Reading Guide - StudioGraphēEditions.graphe"
+            "path": "English/Reading Plans/2018 Daily Bible Reading Guide - StudioOneEditions.graphe"
           },
           {
-            "title": "2019 Daily Bible Reading Guide — American Bible Society",
+            "title": "2019 Daily Bible Reading Guide - StudioOneEditions",
             "type": "Reading Plan",
             "extension": ".graphe",
-            "path": "English/Reading Plans/2019 Daily Bible Reading Guide — American Bible Society.graphe"
+            "path": "English/Reading Plans/2019 Daily Bible Reading Guide - StudioOneEditions.graphe"
           },
           {
-            "title": "A Calendar for Daily Readings of the Word of God - StudioGraphēEdition",
+            "title": "A Calendar for Daily Readings of the Word of God - StudioOneEditions",
             "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/A Calendar for Daily Readings of the Word of God - StudioGraphēEdition [en].plan.SQLite3"
+            "extension": ".graphe",
+            "path": "English/Reading Plans/A Calendar for Daily Readings of the Word of God - StudioOneEditions.graphe"
           },
           {
             "title": "American Bible Society Reading Plan 2016 - StudioOneEditions",
@@ -9015,82 +9005,76 @@
             "path": "English/Reading Plans/American Bible Society Reading Plan 2017 - StudioOneEditions.graphe"
           },
           {
-            "title": "ESV Literary Study Bible - StudioGraphēEditions",
-            "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/ESV Literary Study Bible - StudioGraphēEditions [en].plan.SQLite3"
-          },
-          {
-            "title": "Every Day in the Word - StudioGraphēEditions",
-            "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/Every Day in the Word - StudioGraphēEditions [en].plan.SQLite3"
-          },
-          {
-            "title": "Jewish reader plan on 5778-5778",
+            "title": "Back to the Bible Reading Plan - StudioOneEditions",
             "type": "Reading Plan",
             "extension": ".graphe",
-            "path": "English/Reading Plans/Jewish reader plan on 5778-5778.graphe"
+            "path": "English/Reading Plans/Back to the Bible Reading Plan - StudioOneEditions.graphe"
           },
           {
-            "title": "Shabbat Tora reader plan on 5778-5778",
+            "title": "ESV Chronicles and Prophets Reading Plan - StudioOneEditions",
             "type": "Reading Plan",
             "extension": ".graphe",
-            "path": "English/Reading Plans/Shabbat Tora reader plan on 5778-5778.graphe"
+            "path": "English/Reading Plans/ESV Chronicles and Prophets Reading Plan - StudioOneEditions.graphe"
           },
           {
-            "title": "The American Bible Society's Good News Translat - StudioGraphēEditions",
+            "title": "ESV Gospels and Epistles Reading Plan - StudioOneEditions",
             "type": "Reading Plan",
             "extension": ".graphe",
-            "path": "English/Reading Plans/The American Bible Society's Good News Translat - StudioGraphēEditions.graphe"
+            "path": "English/Reading Plans/ESV Gospels and Epistles Reading Plan - StudioOneEditions.graphe"
           },
           {
-            "title": "Thru the Bible with J. Vernon McGee - StudioGraphēEditions",
+            "title": "ESV Literary Study Bible - StudioOneEditions",
             "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/Thru the Bible with J. Vernon McGee - StudioGraphēEditions [en].plan.SQLite3"
+            "extension": ".graphe",
+            "path": "English/Reading Plans/ESV Literary Study Bible - StudioOneEditions.graphe"
           },
           {
-            "title": "backtothebiblechronological",
+            "title": "ESV Psalms and Wisdom Literature Reading Plan - StudioOneEditions",
             "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/backtothebiblechronological.plan.SQLite3"
+            "extension": ".graphe",
+            "path": "English/Reading Plans/ESV Psalms and Wisdom Literature Reading Plan - StudioOneEditions.graphe"
           },
           {
-            "title": "esvchroniclesandprophets",
+            "title": "Every Day in the Word - StudioOneEditions",
             "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/esvchroniclesandprophets.plan.SQLite3"
+            "extension": ".graphe",
+            "path": "English/Reading Plans/Every Day in the Word - StudioOneEditions.graphe"
           },
           {
-            "title": "esvgospelsandepistles",
+            "title": "Heartlight Old and New Testament Reading Plan - StudioOneEditions",
             "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/esvgospelsandepistles.plan.SQLite3"
+            "extension": ".graphe",
+            "path": "English/Reading Plans/Heartlight Old and New Testament Reading Plan - StudioOneEditions.graphe"
           },
           {
-            "title": "esvpentateuchandhistoryofisrael",
+            "title": "Jewish Reader Plan 5778 - StudioOneEditions",
             "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/esvpentateuchandhistoryofisrael.plan.SQLite3"
+            "extension": ".graphe",
+            "path": "English/Reading Plans/Jewish Reader Plan 5778 - StudioOneEditions.graphe"
           },
           {
-            "title": "esvpsalmsandwisdomliterature",
+            "title": "One Year Chronological Bible Reading Plan - StudioOneEditions",
             "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/esvpsalmsandwisdomliterature.plan.SQLite3"
+            "extension": ".graphe",
+            "path": "English/Reading Plans/One Year Chronological Bible Reading Plan - StudioOneEditions.graphe"
           },
           {
-            "title": "heartlightotandnt",
+            "title": "Pentateuch and History of Israel - StudioOneEditions",
             "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/heartlightotandnt.plan.SQLite3"
+            "extension": ".graphe",
+            "path": "English/Reading Plans/Pentateuch and History of Israel - StudioOneEditions.graphe"
           },
           {
-            "title": "oneyearchronological",
+            "title": "Shabbat Torah Reader Plan 5778 - StudioOneEditions",
             "type": "Reading Plan",
-            "extension": ".SQLite3",
-            "path": "English/Reading Plans/oneyearchronological.plan.SQLite3"
+            "extension": ".graphe",
+            "path": "English/Reading Plans/Shabbat Torah Reader Plan 5778 - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Thru the Bible with J. Vernon McGee - StudioOneEditions",
+            "type": "Reading Plan",
+            "extension": ".graphe",
+            "path": "English/Reading Plans/Thru the Bible with J. Vernon McGee - StudioOneEditions.graphe"
           }
         ]
       }
