@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T23:07:48.483304",
+  "generated": "2026-08-18T23:24:56.460673",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -8667,14 +8667,6 @@
             "type": "Lexicon",
             "extension": ".graphe",
             "path": "English/Lexicons/The unabridged Brown-Driver-Briggs Hebrew and English Lexicon combined.graphe"
-          }
-        ],
-        "Maps": [
-          {
-            "title": "Bible Maps",
-            "type": "Bible Maps",
-            "extension": ".graphe",
-            "path": "English/Maps/Bible Maps.graphe"
           }
         ],
         "Other": [
@@ -33844,18 +33836,18 @@
       "categories": {
         "Bibles": [
           {
-            "title": "A LEO KOKONA NOI GOD A LEO HARIKIANA KARAGWA",
+            "title": "A Leo Kokona Noi God A Leo Harikiana Karagwa - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "West Ambae/Bibles/A LEO KOKONA NOI GOD A LEO HARIKIANA KARAGWA [B].graphe"
+            "path": "West Ambae/Bibles/A Leo Kokona Noi God A Leo Harikiana Karagwa - StudioOneEditions [B].graphe"
           }
         ],
         "Commentaries": [
           {
-            "title": "A LEO KOKONA NOI GOD A LEO HARIKIANA KARAGWA",
+            "title": "A Leo Kokona Noi God A Leo Harikiana Karagwa - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "West Ambae/Commentaries/A LEO KOKONA NOI GOD A LEO HARIKIANA KARAGWA [C].graphe"
+            "path": "West Ambae/Commentaries/A Leo Kokona Noi God A Leo Harikiana Karagwa - StudioOneEditions [C].graphe"
           }
         ]
       }
