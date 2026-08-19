@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Help — Scrib™</title>
+<meta name="description" content="How to use Scrib: opening documents, editing, parallel text, OneDrive sync, and working alongside Microsoft Word.">
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --white: #ffffff; --navy: #0d2b57; --blue: #1e63d0; --blue-deep: #1450ad; --red: #c63d2f;
+    --text: #14243d; --text-soft: #47597a; --text-faint: #7787a0;
+    --border: rgba(13, 43, 87, 0.14); --border-soft: rgba(13, 43, 87, 0.08);
+    --max-w: 820px; --radius: 14px;
+    --serif: "Playfair Display", ui-serif, Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body { font-family: var(--sans); color: var(--text); background: var(--white); line-height: 1.6; font-size: 17px; }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { color: var(--blue-deep); }
+  ul { padding-left: 22px; }
+  .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+
+  .site-header { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.82);
+    backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--border-soft); }
+  .site-header nav { display: flex; align-items: center; justify-content: space-between;
+    height: 52px; max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+  .brand { font-family: var(--serif); font-size: 14px; font-weight: 500; color: var(--navy); }
+  .brand em { font-style: italic; color: var(--blue); }
+  .nav-links { display: flex; gap: 28px; font-size: 13px; color: var(--text-soft); list-style: none; padding: 0; }
+  .nav-links a { color: var(--text-soft); }
+  .nav-links a:hover { color: var(--blue); }
+
+  .page-head { padding: 64px 0 30px; text-align: center; }
+  h1 { font-family: var(--serif); font-size: clamp(34px, 5vw, 48px); font-weight: 500; color: var(--navy); }
+  .page-lede { margin-top: 10px; font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--text-soft); }
+
+  main { padding-bottom: 80px; }
+  h2 { font-family: var(--serif); font-size: 26px; font-weight: 500; color: var(--navy); margin: 44px 0 12px; letter-spacing: -0.01em; }
+  h3 { font-size: 17px; font-weight: 600; color: var(--text); margin: 22px 0 6px; }
+  p, li { color: var(--text-soft); }
+  p { margin: 10px 0; }
+  li { margin: 6px 0; }
+  b { color: var(--text); }
+  kbd { font: 14px var(--sans); border: 1px solid var(--border); border-radius: 5px; padding: 1px 6px; color: var(--text); }
+
+  .legend { list-style: none; padding: 6px 22px; border: 1px solid var(--border); border-radius: var(--radius); margin: 16px 0; }
+  .legend li { display: flex; gap: 12px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid var(--border-soft); }
+  .legend li:last-child { border-bottom: none; }
+  .dot { flex: none; width: 13px; height: 13px; border-radius: 50%; margin-top: 6px; }
+  .dot.blue { background: var(--blue); } .dot.green { background: #2f9e58; }
+  .dot.orange { background: #e08a1e; } .dot.red { background: var(--red); }
+
+  .tip { border-left: 3px solid var(--blue); padding: 2px 0 2px 14px; color: var(--text-soft); margin: 16px 0; }
+
+  .site-footer { padding: 44px 0; border-top: 1px solid var(--border-soft); text-align: center; font-size: 13px; color: var(--text-faint); }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav>
+    <a class="brand" href="/">Studio <em>Graphē</em> One</a>
+    <ul class="nav-links">
+      <li><a href="./index.html">Scrib</a></li>
+      <li><a href="./support.html">Support</a></li>
+      <li><a href="./privacy.html">Privacy</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-head container">
+  <h1>Scrib Help</h1>
+  <p class="page-lede">Everything the app does, and how to make it do it.</p>
+</div>
+
+<main class="container">
+
+  <h2>Getting started</h2>
+  <p>Scrib opens Word documents (<b>.docx</b>) from the Files app — On My iPhone, iCloud
+  Drive, and other locations — or directly from <b>OneDrive</b> via the cloud button in
+  the file browser. There is no Save button: Scrib saves automatically a few seconds
+  after you stop typing, when you close the document, and when you leave the app.</p>
+  <p>Themes, text size, and brightness live in Settings. They change how the document
+  looks on your device — never the document itself.</p>
+
+  <h2>Editing and navigating</h2>
+  <ul>
+    <li><b>Formatting bar</b> — above the keyboard: Heading, Heading 2, Heading 3,
+        Superscript, Block Quote, plus bold, italic, underline and strikethrough.
+        These are real Word styles.</li>
+    <li><b>Find &amp; Replace</b> — search the whole manuscript, step through matches,
+        replace one or all.</li>
+    <li><b>Outline</b> — a collapsible table of contents built from your headings.
+        Tap to jump anywhere, instantly, even in very long documents.</li>
+    <li><b>Bookmarks</b> — genuine Word bookmarks saved in the file. Word's
+        <i>Go&nbsp;Back</i> position is kept current too, so Word resumes where Scrib
+        left off.</li>
+    <li><b>Comments</b> — tap a commented passage to read it; add comments from the
+        edit menu. They appear in Word's review pane like any other comment.</li>
+    <li><b>Thesaurus</b> — select a word for synonyms, fully offline.</li>
+  </ul>
+
+  <h2>Parallel text and chevrons</h2>
+  <p>Some manuscripts carry a second text alongside the main one — for example a
+  reference rendering of every verse. Scrib stores it invisibly inside the document
+  and marks each verse with a small <b>chevron ⌄</b>. Tap to unfold the parallel text
+  beneath the verse; tap again to fold it away.</p>
+  <p>In Word the same text is ordinary <b>hidden text</b>: show or hide it with
+  <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>8</kbd> on Windows, <kbd>⌘</kbd>+<kbd>8</kbd>
+  on Mac. It never prints unless you ask Word to print hidden text.</p>
+
+  <h2>OneDrive sync</h2>
+  <p>Scrib syncs with OneDrive the way Word does — directly with Microsoft's servers,
+  using your own Microsoft account. A save only counts once OneDrive confirms it
+  arrived. The status cloud beside Done reports honestly:</p>
+  <ul class="legend">
+    <li><span class="dot blue"></span><span><b>Spinning arrows</b> — changes on this device
+        haven't reached OneDrive yet. They start at your first keystroke and stop only
+        when the upload containing your latest words is confirmed.</span></li>
+    <li><span class="dot green"></span><span><b>Green tick</b> — everything you see is on
+        OneDrive.</span></li>
+    <li><span class="dot orange"></span><span><b>Orange</b> — upload queued but blocked;
+        tap for the exact reason. Most often the file is open in Word on another
+        computer, which locks it — close it there and tap Retry.</span></li>
+    <li><span class="dot red"></span><span><b>Red</b> — the OneDrive copy changed while you
+        edited here. Scrib asks which version wins.</span></li>
+  </ul>
+  <div class="tip">Offline? Keep writing. Changes save on the device and upload
+  automatically when the connection returns.</div>
+
+  <h2>Working alongside Word</h2>
+  <p>Word and Scrib share one file happily — just not the same <i>moment</i>. While
+  Word has the document open, OneDrive locks it and Scrib waits with an orange cloud;
+  close it in Word and the upload sails through. Finish in Scrib (green tick) before
+  opening in Word, and the harmony is complete.</p>
+  <div class="tip">A suspended Windows virtual machine with Word still open keeps the
+  lock alive. If Scrib reports a lock and no Word is in sight, check the VM.</div>
+
+  <h2>If something goes wrong</h2>
+  <ul>
+    <li><b>Orange won't turn green</b> — tap the cloud and read the reason; close Word
+        wherever it holds the file; abandoned locks expire within about ten minutes.</li>
+    <li><b>Word shows an older version</b> — check Scrib's cloud is green first, then
+        let OneDrive on that computer catch up and reopen the file.</li>
+    <li><b>Scrib quit mid-edit</b> — on reopen it offers to restore unsaved changes,
+        and it keeps automatic backups of recently opened versions.</li>
+  </ul>
+  <p>Still stuck? Visit <a href="./support.html">Support</a> — and note what the
+  status cloud's message says; it usually names the problem exactly.</p>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">© 2026 Studio Graphē One Ltd. · <a href="/">graphe.one</a></div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Scrib™</title>
+<meta name="description" content="Support for Scrib, the manuscript editor that works in harmony with Microsoft Word.">
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --white: #ffffff; --navy: #0d2b57; --blue: #1e63d0; --blue-deep: #1450ad; --red: #c63d2f;
+    --text: #14243d; --text-soft: #47597a; --text-faint: #7787a0;
+    --border: rgba(13, 43, 87, 0.14); --border-soft: rgba(13, 43, 87, 0.08);
+    --max-w: 820px; --radius: 14px;
+    --serif: "Playfair Display", ui-serif, Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-font-smoothing: antialiased; }
+  body { font-family: var(--sans); color: var(--text); background: var(--white); line-height: 1.6; font-size: 17px; }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { color: var(--blue-deep); }
+  .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+
+  .site-header { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.82);
+    backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--border-soft); }
+  .site-header nav { display: flex; align-items: center; justify-content: space-between;
+    height: 52px; max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+  .brand { font-family: var(--serif); font-size: 14px; font-weight: 500; color: var(--navy); }
+  .brand em { font-style: italic; color: var(--blue); }
+  .nav-links { display: flex; gap: 28px; font-size: 13px; list-style: none; }
+  .nav-links a { color: var(--text-soft); }
+  .nav-links a:hover { color: var(--blue); }
+
+  .page-head { padding: 64px 0 26px; text-align: center; }
+  h1 { font-family: var(--serif); font-size: clamp(34px, 5vw, 48px); font-weight: 500; color: var(--navy); }
+  .page-lede { margin-top: 10px; font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--text-soft); }
+
+  main { padding-bottom: 80px; }
+  .contact-card {
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 28px; text-align: center; margin: 26px 0 44px;
+  }
+  .contact-card p { color: var(--text-soft); margin-bottom: 12px; }
+  .contact-btn {
+    display: inline-block; padding: 12px 26px; background: var(--blue); color: #fff;
+    border-radius: 980px; font-weight: 500; font-size: 15px; transition: all 0.2s ease;
+  }
+  .contact-btn:hover { background: var(--blue-deep); color: #fff; transform: translateY(-1px); }
+
+  h2 { font-family: var(--serif); font-size: 26px; font-weight: 500; color: var(--navy); margin: 40px 0 8px; }
+  details { border-bottom: 1px solid var(--border-soft); padding: 16px 0; }
+  summary { cursor: pointer; font-weight: 600; color: var(--text); font-size: 16px; }
+  summary::marker { color: var(--blue); }
+  details p { margin-top: 10px; color: var(--text-soft); font-size: 15px; }
+
+  .site-footer { padding: 44px 0; border-top: 1px solid var(--border-soft); text-align: center; font-size: 13px; color: var(--text-faint); }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav>
+    <a class="brand" href="/">Studio <em>Graphē</em> One</a>
+    <ul class="nav-links">
+      <li><a href="./index.html">Scrib</a></li>
+      <li><a href="./help.html">Help</a></li>
+      <li><a href="./privacy.html">Privacy</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-head container">
+  <h1>Scrib Support</h1>
+  <p class="page-lede">We read everything, and we answer.</p>
+</div>
+
+<main class="container">
+
+  <div class="contact-card">
+    <p>Questions, problems, or ideas — write to us and a human will reply.</p>
+    <a class="contact-btn" href="mailto:support@graphe.one?subject=Scrib%20Support">Email support@graphe.one</a>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <details>
+    <summary>Do I need Microsoft Word for Scrib to work?</summary>
+    <p>No. Scrib is a complete editor on its own. Word compatibility means the documents
+    you write are genuine Word files — so they open perfectly in Word whenever you, or
+    anyone you share with, wants them to.</p>
+  </details>
+
+  <details>
+    <summary>Where are my documents stored?</summary>
+    <p>Wherever you keep them: on your device, in iCloud Drive, or in your OneDrive.
+    Scrib has no storage of its own and no server — documents travel only between your
+    device and your own cloud account.</p>
+  </details>
+
+  <details>
+    <summary>What does the orange cloud mean?</summary>
+    <p>Your latest changes are saved on the device but the upload to OneDrive is
+    waiting. Tap the cloud for the exact reason — most commonly the document is open
+    in Word on another computer, which locks it. Close it there and tap Retry. Nothing
+    is ever lost while the cloud is orange.</p>
+  </details>
+
+  <details>
+    <summary>I edited in Scrib but Word shows the old text.</summary>
+    <p>Check Scrib's status cloud first: green means your words are on OneDrive, and
+    the delay is the other computer's OneDrive catching up — give it a moment and
+    reopen the file in Word. If Scrib shows orange, tap it for the reason.</p>
+  </details>
+
+  <details>
+    <summary>What happens if the app is closed mid-edit?</summary>
+    <p>Scrib saves continuously as you pause typing, and keeps a live recovery journal
+    besides. If the app is interrupted, your words are on the device — and almost
+    always already in the cloud. On reopen, Scrib restores anything that hadn't been
+    written yet.</p>
+  </details>
+
+  <details>
+    <summary>Does Scrib collect any data about me?</summary>
+    <p>No. No analytics, no tracking, no accounts of ours. When you sign in to
+    OneDrive, you sign in with Microsoft directly — Scrib never sees your password.
+    Read the full <a href="./privacy.html">privacy statement</a>.</p>
+  </details>
+
+  <h2>Before you write</h2>
+  <p style="color: var(--text-soft); font-size: 15px;">If your question is about sync,
+  it helps enormously to include what the status cloud says — tap it and copy the
+  message. That text usually names the problem exactly. The
+  <a href="./help.html">Help page</a> covers the everyday answers.</p>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">© 2026 Studio Graphē One Ltd. · <a href="/">graphe.one</a></div>
+</footer>
+
+</body>
+</html>

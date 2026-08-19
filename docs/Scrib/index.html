@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scrib™ — The Manuscript Editor for Microsoft Word Documents</title>
+<meta name="description" content="Scrib is a manuscript editor for iPhone and iPad that speaks Microsoft Word's language natively. Edit the same .docx everywhere — always in sync, never converted.">
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --white: #ffffff;
+    --navy: #0d2b57;          /* the "Scrib" wordmark navy */
+    --blue: #1e63d0;          /* the big S royal blue */
+    --blue-deep: #1450ad;
+    --red: #c63d2f;           /* the small red accent from the icon */
+    --text: #14243d;
+    --text-soft: #47597a;
+    --text-faint: #7787a0;
+    --border: rgba(13, 43, 87, 0.14);
+    --border-soft: rgba(13, 43, 87, 0.08);
+    --max-w: 1080px;
+    --radius: 14px;
+    --serif: "Playfair Display", ui-serif, "New York", Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  body { font-family: var(--sans); color: var(--text); background: var(--white); line-height: 1.5; font-size: 17px; }
+  a { color: inherit; text-decoration: none; }
+  ul { list-style: none; }
+  .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+
+  /* HEADER */
+  .site-header {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .site-header nav {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 52px; max-width: var(--max-w); margin: 0 auto; padding: 0 24px;
+  }
+  .brand { font-family: var(--serif); font-size: 14px; font-weight: 500; letter-spacing: -0.03em; color: var(--navy); }
+  .brand em { font-style: italic; color: var(--blue); font-weight: 500; }
+  .nav-links { display: flex; gap: 28px; font-size: 13px; color: var(--text-soft); }
+  .nav-links a { transition: color 0.2s ease; }
+  .nav-links a:hover { color: var(--blue); }
+
+  /* HERO */
+  .hero { padding: 96px 0 90px; text-align: center; background: var(--white); }
+  .hero-icon {
+    display: block; width: 180px; max-width: 50%; height: auto;
+    margin: 0 auto 30px; border-radius: 22%;
+    box-shadow: 0 24px 50px rgba(13, 43, 87, 0.18), 0 4px 14px rgba(13, 43, 87, 0.10);
+  }
+  .display {
+    font-family: var(--serif);
+    font-size: clamp(44px, 6vw, 76px);
+    font-weight: 500; letter-spacing: -0.01em; line-height: 1.05;
+    color: var(--navy); margin-bottom: 18px;
+  }
+  .display sup { font-size: 0.32em; vertical-align: super; margin-left: 4px; font-weight: 400; color: var(--text-faint); }
+  .lede {
+    max-width: 640px; margin: 0 auto;
+    font-family: var(--serif); font-style: italic;
+    font-size: clamp(18px, 2vw, 24px); line-height: 1.5;
+    color: var(--blue);
+  }
+  .lede-secondary { max-width: 620px; margin: 18px auto 0; font-size: 15px; line-height: 1.65; color: var(--text-soft); }
+  .platform-line { margin-top: 26px; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-faint); }
+
+  /* SECTIONS */
+  .section { padding: 90px 0; background: var(--white); }
+  .section.rule { border-top: 1px solid var(--border-soft); }
+  .section-head { text-align: center; max-width: 760px; margin: 0 auto 56px; }
+  .section-eyebrow {
+    font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--red); margin-bottom: 16px;
+  }
+  .headline {
+    font-family: var(--serif); font-size: clamp(26px, 4vw, 40px); font-weight: 500;
+    letter-spacing: -0.015em; line-height: 1.12; color: var(--navy); margin-bottom: 16px;
+  }
+  .headline em { font-style: italic; color: var(--blue); font-weight: 500; }
+  .section-lede { font-size: 18px; color: var(--text-soft); line-height: 1.55; max-width: 620px; margin: 0 auto; }
+
+  /* FEATURE GRID */
+  .features {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px; max-width: 960px; margin: 0 auto;
+  }
+  .feature {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 30px 26px;
+  }
+  .feature h3 {
+    font-family: var(--serif); font-size: 22px; font-weight: 500;
+    color: var(--navy); margin-bottom: 10px; letter-spacing: -0.01em;
+  }
+  .feature p { font-size: 15px; line-height: 1.6; color: var(--text-soft); }
+  .feature p + p { margin-top: 10px; }
+
+  /* SYNC LEGEND */
+  .legend { max-width: 680px; margin: 44px auto 0; border: 1px solid var(--border); border-radius: var(--radius); padding: 8px 26px; }
+  .legend li { display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid var(--border-soft); font-size: 15px; color: var(--text-soft); }
+  .legend li:last-child { border-bottom: none; }
+  .dot { flex: none; width: 13px; height: 13px; border-radius: 50%; margin-top: 5px; }
+  .dot.blue { background: var(--blue); }
+  .dot.green { background: #2f9e58; }
+  .dot.orange { background: #e08a1e; }
+  .dot.red { background: var(--red); }
+  .legend b { color: var(--text); }
+
+  /* QUOTE */
+  .quote-band { padding: 90px 0; text-align: center; background: var(--white); border-top: 1px solid var(--border-soft); }
+  .quote {
+    max-width: 720px; margin: 0 auto;
+    font-family: var(--serif); font-style: italic;
+    font-size: clamp(22px, 3vw, 30px); line-height: 1.4; color: var(--navy);
+  }
+  .quote .accent { color: var(--blue); }
+
+  /* PRIVACY STRIP */
+  .privacy-strip { padding: 70px 0; text-align: center; border-top: 1px solid var(--border-soft); }
+  .privacy-strip h2 { font-family: var(--serif); font-size: 26px; font-weight: 500; color: var(--navy); margin-bottom: 12px; }
+  .privacy-strip p { max-width: 560px; margin: 0 auto 18px; font-size: 15px; line-height: 1.65; color: var(--text-soft); }
+  .text-link { color: var(--blue); font-weight: 500; }
+  .text-link:hover { color: var(--blue-deep); }
+
+  /* FOOTER */
+  .site-footer { padding: 54px 0 40px; background: var(--white); border-top: 1px solid var(--border-soft); text-align: center; color: var(--text-soft); font-size: 13px; }
+  .footer-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 24px; margin-bottom: 20px; }
+  .footer-links a:hover { color: var(--blue); }
+  .copyright { font-size: 12px; color: var(--text-faint); }
+
+  @media (max-width: 640px) {
+    .hero { padding: 64px 0 60px; }
+    .section, .quote-band { padding: 64px 0; }
+    .nav-links { gap: 16px; font-size: 12px; }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .fade-in { opacity: 0; transform: translateY(12px); animation: fadeIn 0.8s ease-out forwards; }
+    .fade-in.d1 { animation-delay: 0.1s; }
+    .fade-in.d2 { animation-delay: 0.2s; }
+    .fade-in.d3 { animation-delay: 0.3s; }
+    @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav>
+    <a class="brand" href="/">Studio <em>Graphē</em> One</a>
+    <ul class="nav-links">
+      <li><a href="./help.html">Help</a></li>
+      <li><a href="./support.html">Support</a></li>
+      <li><a href="./privacy.html">Privacy</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <img class="hero-icon fade-in" src="/assets/images/scrib.png" alt="Scrib app icon">
+      <h1 class="display fade-in d1">Scrib<sup>™</sup></h1>
+      <p class="lede fade-in d2">The manuscript editor that works in harmony with Microsoft&nbsp;Word.</p>
+      <p class="lede-secondary fade-in d3">Write on your iPhone or iPad. Open the very same document in Word on your desk.
+      No importing, no exporting, no converting — one file, faithfully shared.</p>
+      <p class="platform-line fade-in d3">iOS 17 · iPadOS 17</p>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section rule" id="features">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-eyebrow">Why Scrib</p>
+        <h2 class="headline">One document. <em>Everywhere you write.</em></h2>
+        <p class="section-lede">Scrib edits Word documents natively — the .docx you open is the .docx Word opens, down to the last style, comment, and bookmark.</p>
+      </div>
+
+      <div class="features">
+        <article class="feature">
+          <h3>DOCX, natively</h3>
+          <p>Scrib reads and writes genuine Word format. Headings appear in Word's navigation pane, comments in its review pane, bookmarks where you left them — and everything Scrib doesn't touch is preserved byte for byte.</p>
+        </article>
+
+        <article class="feature">
+          <h3>OneDrive, built in</h3>
+          <p>Sign in with your Microsoft account and Scrib syncs your document the way Word does — directly. Every save is uploaded and <em>confirmed</em>; a quiet status cloud tells you the truth at a glance.</p>
+        </article>
+
+        <article class="feature">
+          <h3>Made for long manuscripts</h3>
+          <p>Four hundred pages open instantly and navigate like forty. A collapsible outline, verse-level bookmarks, fold-away parallel text, and a fully offline thesaurus — built for serious, book-length work.</p>
+        </article>
+      </div>
+
+      <ul class="legend">
+        <li><span class="dot blue"></span><span><b>Spinning arrows</b> — your newest words are on their way to OneDrive.</span></li>
+        <li><span class="dot green"></span><span><b>Green tick</b> — confirmed in the cloud. Word anywhere opens exactly what you see.</span></li>
+        <li><span class="dot orange"></span><span><b>Orange</b> — upload waiting (for example, the file is open in Word elsewhere). Your words stay safe and retry automatically.</span></li>
+        <li><span class="dot red"></span><span><b>Red</b> — the cloud copy changed while you were writing. Scrib asks which version wins — it never overwrites silently.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote-band">
+    <div class="container">
+      <blockquote class="quote">Your words, <span class="accent">saved before you wonder</span> whether they were.</blockquote>
+    </div>
+  </section>
+
+  <!-- PRIVACY -->
+  <section class="privacy-strip">
+    <div class="container">
+      <h2>Your work is yours alone.</h2>
+      <p>No tracking, no ads, no analytics. Your documents travel only between your device and your own OneDrive — and nowhere else.</p>
+      <a class="text-link" href="./privacy.html">Read the privacy statement ›</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="./help.html">Help</a></li>
+      <li><a href="./support.html">Support</a></li>
+      <li><a href="./privacy.html">Privacy</a></li>
+      <li><a href="mailto:support@graphe.one">Contact</a></li>
+    </ul>
+    <p class="copyright">© 2026 Studio Graphē One Ltd. All rights reserved. Scrib™ is a trademark of Studio Graphē One Ltd.<br>Microsoft, Word, and OneDrive are trademarks of Microsoft Corporation.</p>
+  </div>
+</footer>
+
+</body>
+</html>
