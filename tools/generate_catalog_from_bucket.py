@@ -28,8 +28,17 @@ Object layout (must match the app's download URL construction)
 The app builds each download URL as moduleBaseURL (".../GrapheModules/") + the
 catalog `path`, so `path` here is relative to GrapheModules:
     <language>/<category>/<file>.graphe
+
+Manifest filtering (--manifest)
+--------------------------------
+Pass --manifest <path_to/_workbench/manifest.json> to apply Workbench
+availability settings:
+  withdrawn  — module is excluded from the catalogue entirely (still in bucket)
+  unreleased — listed with availability="unreleased"; app shows coming-soon UI
+  available  — normal entry (default when absent from manifest)
 """
 
+import argparse
 import json
 import subprocess
 import sys
@@ -178,12 +187,43 @@ def list_bucket_objects() -> list[str]:
     return [line.strip() for line in out.splitlines() if line.strip()]
 
 
+def load_manifest(manifest_path: str) -> dict:
+    """Load the Workbench sidecar manifest JSON.
+
+    Returns a dict keyed by tree-relative path (e.g. 'en/Bibles/KJV.graphe').
+    Each value is the raw record dict written by WorkbenchModuleManifest.swift.
+    Missing file or invalid JSON → empty dict (all modules treated as available).
+    """
+    p = Path(manifest_path)
+    if not p.exists():
+        print(f"  NOTE: manifest not found at {manifest_path} — all modules treated as available.")
+        return {}
+    try:
+        with open(p, encoding="utf-8") as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"  WARNING: manifest JSON is invalid ({e}) — all modules treated as available.")
+        return {}
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Generate catalog.json from R2 bucket, respecting Workbench availability.")
+    parser.add_argument(
+        "--manifest", metavar="PATH",
+        help="Path to <workingFolder>/_workbench/manifest.json. "
+             "withdrawn modules are excluded; unreleased are marked availability=unreleased.")
+    args = parser.parse_args()
+
+    manifest = load_manifest(args.manifest) if args.manifest else {}
+
     rel_paths = [p for p in list_bucket_objects() if p.endswith(VALID_SUFFIXES)]
 
     # languages -> categories -> [resources]
     languages: dict[str, dict[str, list[dict]]] = {}
     skipped: list[str] = []
+    withdrawn_count = 0
+    unreleased_count = 0
 
     # The app downloads every module FLAT into one managed folder using only the
     # file name, so basenames must be unique across the ENTIRE catalogue — a
@@ -203,12 +243,29 @@ def main() -> None:
         filename = parts[-1]
         suffix = Path(filename).suffix
 
-        languages.setdefault(language, {}).setdefault(category, []).append({
+        record = manifest.get(rel, {})
+        avail = record.get("availability") or "available"
+
+        if avail == "withdrawn":
+            withdrawn_count += 1
+            continue
+
+        entry = {
             "title": display_title(filename),
             "type": infer_type(filename, category),
             "extension": suffix,
             "path": rel,               # relative to GrapheModules/ — matches moduleBaseURL
-        })
+        }
+
+        if avail == "unreleased":
+            unreleased_count += 1
+            entry["availability"] = "unreleased"
+            if record.get("availabilityReason"):
+                entry["availabilityReason"] = record["availabilityReason"]
+            if record.get("releaseDate"):
+                entry["releaseDate"] = record["releaseDate"]
+
+        languages.setdefault(language, {}).setdefault(category, []).append(entry)
 
     catalog = {
         "generated": datetime.utcnow().isoformat(),
@@ -231,7 +288,10 @@ def main() -> None:
 
     total = sum(len(r) for l in catalog["languages"] for r in l["categories"].values())
     print(f"Generated catalogue from bucket: {OUTPUT_FILE}")
-    print(f"  languages: {len(catalog['languages'])}   modules: {total}")
+    print(f"  languages: {len(catalog['languages'])}   modules: {total}", end="")
+    if withdrawn_count or unreleased_count:
+        print(f"   withdrawn: {withdrawn_count}   unreleased: {unreleased_count}", end="")
+    print()
     if skipped:
         print(f"  WARNING: {len(skipped)} object(s) skipped (not language/category/file):")
         for s in skipped[:20]:
