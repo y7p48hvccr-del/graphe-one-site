@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T23:24:56.460673",
+  "generated": "2026-08-24T05:44:30.022046",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -46,42 +46,42 @@
       "categories": {
         "Bibles": [
           {
-            "title": "Ñandejára Ñe’ẽ",
+            "title": "Ñandejára Ñe'ẽ - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "AVAÑE'E/Bibles/Ñandejára Ñe’ẽ [B].graphe"
+            "path": "AVAÑE'E/Bibles/Ñandejára Ñe'ẽ - StudioOneEditions [B].graphe"
           },
           {
-            "title": "Ñanderuete Ñe’ẽ Porã 2015",
+            "title": "Ñanderuete Ñe'ẽ Porã - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "AVAÑE'E/Bibles/Ñanderuete Ñe’ẽ Porã 2015.graphe"
+            "path": "AVAÑE'E/Bibles/Ñanderuete Ñe'ẽ Porã - StudioOneEditions.graphe"
           },
           {
-            "title": "Ñandeyara Ñe'ẽ",
+            "title": "Ñandeyara Ñe'ẽ - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "AVAÑE'E/Bibles/Ñandeyara Ñe'ẽ [B].graphe"
+            "path": "AVAÑE'E/Bibles/Ñandeyara Ñe'ẽ - StudioOneEditions [B].graphe"
           },
           {
-            "title": "Tûpâ Ñandeyára 1913",
+            "title": "Tûpâ Ñandeyára",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "AVAÑE'E/Bibles/Tûpâ Ñandeyára 1913.graphe"
+            "path": "AVAÑE'E/Bibles/Tûpâ Ñandeyára.graphe"
           }
         ],
         "Commentaries": [
           {
-            "title": "Ñandejára Ñe’ẽ",
+            "title": "Ñandejára Ñe'ẽ - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "AVAÑE'E/Commentaries/Ñandejára Ñe’ẽ [C].graphe"
+            "path": "AVAÑE'E/Commentaries/Ñandejára Ñe'ẽ - StudioOneEditions [C].graphe"
           },
           {
-            "title": "Ñandeyara Ñe'ẽ",
+            "title": "Ñandeyara Ñe'ẽ - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "AVAÑE'E/Commentaries/Ñandeyara Ñe'ẽ [C].graphe"
+            "path": "AVAÑE'E/Commentaries/Ñandeyara Ñe'ẽ - StudioOneEditions [C].graphe"
           }
         ]
       }
@@ -6499,18 +6499,6 @@
             "path": "English/Commentaries/American Standard Version Marginal Notes - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Amplified Bible, 2015",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Amplified Bible, 2015.graphe"
-          },
-          {
-            "title": "Amplified Bible, Classic Edition, 1987",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Amplified Bible, Classic Edition, 1987.graphe"
-          },
-          {
             "title": "An Interpretation of the English Bible - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6809,12 +6797,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/EHV Study Bible Notes (Evangelical Herit - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "ESV Study Bible Notes - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/ESV Study Bible Notes - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "ETCBC data on Hebrew bible (BHS, 5th ed.)",
@@ -7597,12 +7579,6 @@
             "path": "English/Commentaries/The Daily Study Bible- New Testament - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "The ESV Global Study Bible",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The ESV Global Study Bible.graphe"
-          },
-          {
             "title": "The Expositor's Bible - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7643,12 +7619,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/The Great Texts of the Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "The Holy Bible, New International Version® (Anglicised), NIV®, 2011",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Holy Bible, New International Version® (Anglicised), NIV®, 2011.graphe"
           },
           {
             "title": "The Kingdom New Testament- A Contemporary Translation - by N. T. Wrigh",
@@ -8785,18 +8755,6 @@
             "path": "English/Other/Passages in New Testament which quote or allude to the Old Testament.graphe"
           },
           {
-            "title": "Subheadings from NIV 1984",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Subheadings from NIV 1984.graphe"
-          },
-          {
-            "title": "Subheadings from NIV 2011",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Subheadings from NIV 2011.graphe"
-          },
-          {
             "title": "Subheadings from the King James Version of the Holy Bible",
             "type": "Module",
             "extension": ".graphe",
@@ -9003,30 +8961,6 @@
             "path": "English/Reading Plans/Back to the Bible Reading Plan - StudioOneEditions.graphe"
           },
           {
-            "title": "ESV Chronicles and Prophets Reading Plan - StudioOneEditions",
-            "type": "Reading Plan",
-            "extension": ".graphe",
-            "path": "English/Reading Plans/ESV Chronicles and Prophets Reading Plan - StudioOneEditions.graphe"
-          },
-          {
-            "title": "ESV Gospels and Epistles Reading Plan - StudioOneEditions",
-            "type": "Reading Plan",
-            "extension": ".graphe",
-            "path": "English/Reading Plans/ESV Gospels and Epistles Reading Plan - StudioOneEditions.graphe"
-          },
-          {
-            "title": "ESV Literary Study Bible - StudioOneEditions",
-            "type": "Reading Plan",
-            "extension": ".graphe",
-            "path": "English/Reading Plans/ESV Literary Study Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "ESV Psalms and Wisdom Literature Reading Plan - StudioOneEditions",
-            "type": "Reading Plan",
-            "extension": ".graphe",
-            "path": "English/Reading Plans/ESV Psalms and Wisdom Literature Reading Plan - StudioOneEditions.graphe"
-          },
-          {
             "title": "Every Day in the Word - StudioOneEditions",
             "type": "Reading Plan",
             "extension": ".graphe",
@@ -9094,12 +9028,6 @@
             "path": "English (United States)/Bibles/A Faithful Version with Commentary. Special 2nd - StudioGraphēEditions.graphe"
           },
           {
-            "title": "A Voice in the Wilderness",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/A Voice in the Wilderness.graphe"
-          },
-          {
             "title": "American King James Version with embedded Strong's Numbers, Red letter",
             "type": "Bible",
             "extension": ".graphe",
@@ -9116,18 +9044,6 @@
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/American Standard Version 1901 (with Strong's numbers).graphe"
-          },
-          {
-            "title": "Amplified Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Amplified Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Amplified Bible, Classic Edition - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Amplified Bible, Classic Edition - StudioOneEditions.graphe"
           },
           {
             "title": "An Understandable Version - StudioOneEditions",
@@ -9278,12 +9194,6 @@
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Douay-Rheims Bible, Challoner Revision, 1752.graphe"
-          },
-          {
-            "title": "ESV Global Study Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/ESV Global Study Bible - StudioOneEditions.graphe"
           },
           {
             "title": "Easy-to-Read Version - StudioOneEditions",
@@ -10006,12 +9916,6 @@
             "path": "English (United States)/Bibles/The Godbey New Testament, 1902.graphe"
           },
           {
-            "title": "The Interliniar English-Greek New Testament (ESV + GNT Produced at Tyn",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Interliniar English-Greek New Testament (ESV + GNT Produced at Tyn.graphe"
-          },
-          {
             "title": "The Kingdom New Testament- A Contemporary Translat - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
@@ -10308,18 +10212,6 @@
             "path": "English (United States)/Commentaries/1599 Geneva Bible - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Amplified Bible, 2015 - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English (United States)/Commentaries/Amplified Bible, 2015 - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Amplified Bible, Classic Edition, 1987 - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English (United States)/Commentaries/Amplified Bible, Classic Edition, 1987 - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Brenton Septuagint Translation - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -10390,12 +10282,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English (United States)/Commentaries/New International Version - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "The ESV Global Study Bible - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English (United States)/Commentaries/The ESV Global Study Bible - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "The Holy Bible, New International Versio - StudioOneModernisedEditions",
@@ -17633,12 +17519,6 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "Latin/Dictionaries/Латино-русский словарь.graphe"
-          },
-          {
-            "title": "Латинско-русский словарь. © «Русский язык-Медиа», 2005, Дворецкий И.Х.",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "Latin/Dictionaries/Латинско-русский словарь. © «Русский язык-Медиа», 2005, Дворецкий И.Х..graphe"
           }
         ],
         "Other": [
@@ -25382,12 +25262,6 @@
       "categories": {
         "Bibles": [
           {
-            "title": "AlexBlend",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "Russian/Bibles/AlexBlend [B].graphe"
-          },
-          {
             "title": "Библейские переводы Андрея Десницкого",
             "type": "Bible",
             "extension": ".graphe",
@@ -25566,6 +25440,12 @@
             "type": "Bible",
             "extension": ".graphe",
             "path": "Russian/Bibles/Книги Ветхого Завета в переводе Павского.graphe"
+          },
+          {
+            "title": "Комментарии раввина Александра Бленда к отдельным - StudioOneEditions",
+            "type": "Bible",
+            "extension": ".graphe",
+            "path": "Russian/Bibles/Комментарии раввина Александра Бленда к отдельным - StudioOneEditions [B].graphe"
           },
           {
             "title": "Научные переводы Ветхого Завета",
@@ -25821,12 +25701,6 @@
           }
         ],
         "Commentaries": [
-          {
-            "title": "AlexBlend",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "Russian/Commentaries/AlexBlend [C].graphe"
-          },
           {
             "title": "Charles Rose Commentaries",
             "type": "Commentary",
@@ -26096,6 +25970,12 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "Russian/Commentaries/Комментарии к учительным и пророческим книгам Ветхого Завета, еп. Ирин.graphe"
+          },
+          {
+            "title": "Комментарии раввина Александра Бленда к отдельным - StudioOneEditions",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "Russian/Commentaries/Комментарии раввина Александра Бленда к отдельным - StudioOneEditions [C].graphe"
           },
           {
             "title": "Мень. Читая Апокалипсис",
@@ -32664,12 +32544,6 @@
             "path": "Ukrainian/Bibles/Велике Відкриття.graphe"
           },
           {
-            "title": "Канонічний переклад Біблії сучасною українською мовою. Переклав Олекса",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "Ukrainian/Bibles/Канонічний переклад Біблії сучасною українською мовою. Переклав Олекса.graphe"
-          },
-          {
             "title": "МСЦ, Новий переклад, 2022",
             "type": "Bible",
             "extension": ".graphe",
@@ -32736,12 +32610,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "Ukrainian/Commentaries/Біблія в пер. Івана Огієнка, 1988.graphe"
-          },
-          {
-            "title": "ДС-укр",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "Ukrainian/Commentaries/ДС-укр.graphe"
           },
           {
             "title": "Новий Завіт Господа нашого Ісуса Христа. Об'єднавч - StudioOneEditions",
@@ -34659,12 +34527,6 @@
             "path": "ZH SIMPLIFIED/Bibles/新遗诏圣经, 1864.graphe"
           },
           {
-            "title": "朱宝惠bbw",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "ZH SIMPLIFIED/Bibles/朱宝惠bbw [B].graphe"
-          },
-          {
             "title": "次经全书, 中华圣公会书籍委员会, 1933",
             "type": "Bible",
             "extension": ".graphe",
@@ -34695,10 +34557,10 @@
             "path": "ZH SIMPLIFIED/Bibles/现代中文译本 - Today's Chinese Version, 1997.graphe"
           },
           {
-            "title": "神天圣书",
+            "title": "重译新约全书 - ZHU Baohui, NT with study notes Simplified, 1936",
             "type": "Bible",
             "extension": ".graphe",
-            "path": "ZH SIMPLIFIED/Bibles/神天圣书.graphe"
+            "path": "ZH SIMPLIFIED/Bibles/重译新约全书 - ZHU Baohui, NT with study notes Simplified, 1936 [B].graphe"
           }
         ],
         "Commentaries": [
@@ -34743,12 +34605,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "ZH SIMPLIFIED/Commentaries/二十一世纪圣经新译.graphe"
-          },
-          {
-            "title": "信徒(简)",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "ZH SIMPLIFIED/Commentaries/信徒(简).graphe"
           },
           {
             "title": "北京官话译本, 1878",
@@ -34853,12 +34709,6 @@
             "path": "ZH SIMPLIFIED/Commentaries/新译本 - Chinese New Version, 1992 [C].graphe"
           },
           {
-            "title": "朱宝惠bbw",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "ZH SIMPLIFIED/Commentaries/朱宝惠bbw [C].graphe"
-          },
-          {
             "title": "活泉新约希腊文解经：罗伯逊博士 Archibald T.Robertson",
             "type": "Commentary",
             "extension": ".graphe",
@@ -34899,6 +34749,12 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "ZH SIMPLIFIED/Commentaries/读经扎记：王国显.graphe"
+          },
+          {
+            "title": "重译新约全书 - ZHU Baohui, NT with study notes Simplified, 1936",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "ZH SIMPLIFIED/Commentaries/重译新约全书 - ZHU Baohui, NT with study notes Simplified, 1936 [C].graphe"
           },
           {
             "title": "陈终道旧约小先知书及新约书信读经讲义",
@@ -35154,12 +35010,6 @@
             "path": "ZH TRADITIONAL/Bibles/新譯本 - Chinese New Version, 1992 [B].graphe"
           },
           {
-            "title": "朱寶惠bmw",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "ZH TRADITIONAL/Bibles/朱寶惠bmw [B].graphe"
-          },
-          {
             "title": "次經全書, 中華聖公會書籍委員會, 1933",
             "type": "Bible",
             "extension": ".graphe",
@@ -35206,6 +35056,12 @@
             "type": "Bible",
             "extension": ".graphe",
             "path": "ZH TRADITIONAL/Bibles/聖經恢復本串珠 - Recovery Version Cross References, 2003 [B].graphe"
+          },
+          {
+            "title": "重譯新約全書 - ZHU Baohui, NT with study notes, 1936",
+            "type": "Bible",
+            "extension": ".graphe",
+            "path": "ZH TRADITIONAL/Bibles/重譯新約全書 - ZHU Baohui, NT with study notes, 1936 [B].graphe"
           }
         ],
         "Commentaries": [
@@ -35318,12 +35174,6 @@
             "path": "ZH TRADITIONAL/Commentaries/新譯本 - Chinese New Version, 1992 [C].graphe"
           },
           {
-            "title": "朱寶惠bmw",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "ZH TRADITIONAL/Commentaries/朱寶惠bmw [C].graphe"
-          },
-          {
             "title": "活泉新約希臘文解經：羅伯遜博士 Archibald T.Robertson",
             "type": "Commentary",
             "extension": ".graphe",
@@ -35376,6 +35226,12 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "ZH TRADITIONAL/Commentaries/豐盛生命研讀本.graphe"
+          },
+          {
+            "title": "重譯新約全書 - ZHU Baohui, NT with study notes, 1936",
+            "type": "Commentary",
+            "extension": ".graphe",
+            "path": "ZH TRADITIONAL/Commentaries/重譯新約全書 - ZHU Baohui, NT with study notes, 1936 [C].graphe"
           },
           {
             "title": "陳終道小先知書及新約書信讀經講義",
