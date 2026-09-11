@@ -64,6 +64,21 @@
   .feature-card h3 em { font-style: italic; color: var(--gold); font-weight: 500; }
   .feature-card p { font-size: 15px; line-height: 1.6; color: var(--text-soft); }
 
+  .feature-card-wide { max-width: 960px; margin: 0 auto 24px; padding: 40px 40px 36px; border-top: 3px solid var(--gold); }
+  .feature-card-wide h3 { font-size: clamp(26px, 3.4vw, 34px); margin-bottom: 14px; }
+  .wide-eyebrow { font-size: 12px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-deep); margin-bottom: 10px; }
+  .feature-card-wide .wide-lede { font-size: 17px; line-height: 1.6; max-width: 72ch; }
+  .sport-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0 20px; }
+  .sport-chips li { font-size: 13.5px; font-weight: 500; letter-spacing: -0.005em; color: var(--text); background: var(--bg-soft); border: 1px solid var(--border-soft); border-radius: 999px; padding: 6px 14px; }
+  .sport-chips .chip-more { background: transparent; border-style: dashed; border-color: var(--border); color: var(--text-faint); font-style: italic; }
+  .feature-card-wide .wide-foot { font-size: 14.5px; color: var(--text-faint); padding-top: 18px; border-top: 1px solid var(--border-soft); }
+
+  @media (max-width: 640px) {
+    .feature-card-wide { padding: 30px 24px 26px; }
+    .sport-chips { gap: 6px; }
+    .sport-chips li { font-size: 12.5px; padding: 5px 11px; }
+  }
+
   .promise { padding: 100px 0; background: radial-gradient(ellipse at 50% 30%, rgba(220, 232, 244, 0.35) 0%, transparent 65%), linear-gradient(180deg, #BFD0DF 0%, #B5C5D4 100%); text-align: center; }
   .promise-headline { font-family: var(--serif); font-size: clamp(28px, 4.5vw, 40px); font-weight: 500; line-height: 1.15; letter-spacing: -0.015em; color: var(--text); margin-bottom: 24px; max-width: 720px; margin-left: auto; margin-right: auto; }
   .promise-headline em { font-style: italic; color: var(--gold); font-weight: 500; }
@@ -130,6 +145,27 @@
       <p class="section-lede">Every channel in your country's guide — plus the major subscription services — sorted into six focused tabs. No more scrolling through 200 channels to find tonight's film.</p>
     </div>
 
+    <article class="feature-card feature-card-wide">
+      <p class="wide-eyebrow">The big one</p>
+      <h3>Live <em>scorecards</em></h3>
+      <p class="wide-lede">Open <strong>any</strong> live sporting event for an on-demand scorecard — a running head-to-head score for team and one-v-one sports, a ranked leaderboard for field events. Nothing to set up, and it works on whatever the guide is showing.</p>
+      <ul class="sport-chips">
+        <li>Football</li>
+        <li>Rugby</li>
+        <li>Cricket</li>
+        <li>Tennis</li>
+        <li>Golf</li>
+        <li>Formula 1</li>
+        <li>Cycling</li>
+        <li>Athletics</li>
+        <li>Racing</li>
+        <li>Badminton</li>
+        <li>Kabaddi</li>
+        <li class="chip-more">and any other sport on air</li>
+      </ul>
+      <p class="wide-foot">Bring your own sports-data API key and the same card switches to a faster live feed.</p>
+    </article>
+
     <div class="features-grid">
       <article class="feature-card">
         <h3>A <em>world</em> of schedules</h3>
@@ -169,11 +205,6 @@
       <article class="feature-card">
         <h3>Yours, <em>not theirs</em></h3>
         <p>Pay for extra sport, film or documentary services? Toggle them on and each tab shows your subscription channels alongside your free‑to‑air ones.</p>
-      </article>
-
-      <article class="feature-card">
-        <h3>Live <em>scorecards</em></h3>
-        <p>Open any live sporting event for an on-demand scorecard — current score for team sports, ranked leaderboard for Formula 1 and golf. Add your own sports-data API key for a faster live feed.</p>
       </article>
 
       <article class="feature-card">
