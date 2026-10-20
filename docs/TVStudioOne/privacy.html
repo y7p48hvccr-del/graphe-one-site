@@ -99,7 +99,7 @@
     <p class="breadcrumb"><a href="/TVStudioOne/">← TV Studio One Overview</a></p>
     <h1 class="page-title"><em>Privacy</em> Policy</h1>
     <p class="page-subtitle">TV Studio One — TV and Radio Filter</p>
-    <p class="last-updated">Last updated: 11 September 2026</p>
+    <p class="last-updated">Last updated: 20 October 2026</p>
   </div>
 </section>
 
@@ -107,7 +107,7 @@
   <div class="container">
     <div class="content-card">
 
-      <p class="intro">Studio Graphē One ("we", "our", "us") built TV Studio One — TV and Radio Filter as an application for iPhone and iPad. This page describes what data the app handles, what we collect, and what we don't.</p>
+      <p class="intro">Studio Graphē One ("we", "our", "us") built TV Studio One — TV and Radio Filter as an application for iPhone, iPad and Android. This page describes what data the app handles, what we collect, and what we don't.</p>
 
       <h2>Information We Do <em>Not</em> Collect</h2>
       <p><strong>TV Studio One does not collect, transmit, or store any personal data on our servers.</strong> We operate no backend, no user accounts, no analytics, no tracking, and no advertising. You do not sign up. We do not know who you are.</p>
@@ -124,12 +124,21 @@
       <p>The live scorecard feature is optional. Its free mode uses your chosen AI provider's web search. If you add your own key for a premium sports-data provider (for example <strong>API-Sports</strong> or <strong>TheSportsDB</strong>), the app sends that provider only the event or team names needed to look up the current score. We only ever request scores, results and standings — never betting odds or gambling data. Requests go directly from your device to the provider under your own account.</p>
 
       <h2>iCloud <em>Sync</em></h2>
-      <p>If you leave iCloud sync on, some preferences — favourites, enabled services, genre and channel filters, and reminders — sync across your own Apple devices using Apple's private iCloud key-value storage, scoped to your Apple ID. TV Studio One has no servers and no access to it. Your API keys and your appearance setting are <strong>not</strong> synced. You can turn iCloud sync off in Settings.</p>
+      <p><strong>On iPhone and iPad:</strong> if you leave iCloud sync on, some preferences — favourites, enabled services, genre and channel filters, and reminders — sync across your own Apple devices using Apple's private iCloud key-value storage, scoped to your Apple ID. TV Studio One has no servers and no access to it. Your API keys and your appearance setting are <strong>not</strong> synced. You can turn iCloud sync off in Settings.</p>
 
       <h2>Data Stored <em>Locally</em></h2>
       <p>The following data is stored locally on your device only and is never transmitted to us:</p>
       <p>Your app preferences and tab filters; your reminder list; cached classification results; and the cached TV schedule.</p>
 
+      <h2 id="android">The <em>Android</em> App</h2>
+      <p>Everything above applies to the Android app too, apart from the iPhone and iPad specifics (iCloud, the iOS Keychain, iOS notifications). On Android:</p>
+      <p><strong>Your data stays on your phone.</strong> Favourites, reminders, filters, preferences, your country choice and the cached TV schedule are stored on your device only. We have no servers and no accounts, and we never receive them. There is no cross-device sync on Android.</p>
+      <p><strong>Android backup.</strong> If Android backup is on for your Google account, Android may back up and restore your favourites, reminders list, settings and the date your free trial began when you set up a new phone. That backup is operated by Google under Google&rsquo;s terms, not by us. The cached schedule and your AI API keys are excluded.</p>
+      <p><strong>AI keys.</strong> If you add your own Anthropic (Claude), OpenAI (GPT) or Google (Gemini) key, it is kept in your phone&rsquo;s encrypted secure storage, backed by the Android Keystore. It is excluded from Android backup and device-to-device transfer, and is sent only to the provider it belongs to. When you ask for an overview, the app sends that provider the programme title, channel and the programme&rsquo;s public EPG description; for classification it sends titles and public EPG category tags. No personal information is included. Requests go straight from your phone to the provider, under your account and their privacy policy.</p>
+      <p><strong>Purchases.</strong> The one-time unlock is sold and processed by Google Play. We never see your payment details or Google account. The app keeps only a flag saying whether you have unlocked it, and the date your free trial began, on your phone. Google Play Billing, which is Google&rsquo;s own software, checks with Google whether you own the unlock.</p>
+      <p><strong>Notifications.</strong> If you tap the bell on a programme, Android (version 13 and later) asks your permission to show notifications. Reminders are scheduled and delivered by your phone using Android&rsquo;s background-work service; we run no push notification server and are not told when reminders are set or shown.</p>
+      <p><strong>Permissions.</strong> The Android app asks for internet access, notifications, and Google Play billing. It also uses the standard Android permissions for background work (keeping the phone awake briefly, and re-arming reminders after a restart). It does not ask for your location, contacts, camera, microphone or files.</p>
+      <p><strong>Live sports scores.</strong> The paid sports-data feeds are not in the Android app at present. The AI sport overview is described above.</p>
       <h2>Notifications &amp; <em>Reminders</em></h2>
       <p>If you tap the bell icon on a programme, TV Studio One asks iOS for permission to send local notifications. Reminders are scheduled and delivered entirely by your device. We do not run a push notification server and we are not informed when reminders are set or fired.</p>
 

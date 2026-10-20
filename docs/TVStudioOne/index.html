@@ -93,6 +93,13 @@
 
   .appstore-btn { display: inline-flex; align-items: center; gap: 10px; margin-top: 36px; padding: 14px 28px; background: var(--text); color: #fff; border-radius: 12px; font-size: 15px; font-weight: 500; letter-spacing: -0.01em; transition: opacity 0.2s ease; }
   .appstore-btn:hover { opacity: 0.82; }
+.store-buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
+.store-buttons .appstore-btn { margin-top: 36px; }
+.appstore-btn.soon { opacity: 0.5; pointer-events: none; cursor: default; }
+.android-note { max-width: 640px; margin: 28px auto 0; font-size: 14px; line-height: 1.6; color: var(--text-soft); }
+.android-list { list-style: none; max-width: 640px; margin: 22px auto 0; padding: 0; text-align: left; }
+.android-list li { padding: 10px 0; border-top: 1px solid rgba(0,0,0,0.08); font-size: 15px; line-height: 1.55; }
+.android-list li:first-child { border-top: 0; }
   .appstore-btn svg { width: 22px; height: 22px; fill: #fff; flex-shrink: 0; }
   .appstore-badge-text { display: flex; flex-direction: column; line-height: 1.1; text-align: left; }
   .appstore-badge-text small { font-size: 10px; font-weight: 400; letter-spacing: 0.02em; opacity: 0.75; text-transform: uppercase; }
@@ -125,14 +132,26 @@
     <h1 class="display"><em>TV Studio</em> One</h1>
     <p class="hero-sub">TV and Radio Filter</p>
     <p class="lede">Find what you actually want to watch — wherever in the world you’re watching from — in a few taps.</p>
-    <p class="hero-note">Available worldwide · New countries added every month</p>
-    <a href="https://apps.apple.com/app/tv-studio-one/id6794702812" class="appstore-btn">
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-      <span class="appstore-badge-text">
-        <small>Download on the</small>
-        <strong>App Store</strong>
+    <p class="hero-note">iPhone, iPad and Android · New countries added every month</p>
+    <div class="store-buttons">
+      <a href="https://apps.apple.com/app/tv-studio-one/id6794702812" class="appstore-btn">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        <span class="appstore-badge-text">
+          <small>Download on the</small>
+          <strong>App Store</strong>
+        </span>
+      </a>
+      <!-- GOOGLE PLAY: when the listing is live, change this <span class="appstore-btn soon"> to
+           <a href="https://play.google.com/store/apps/details?id=one.graphe.tvstudioone" class="appstore-btn">
+           (and the closing </span> to </a>) and change "Coming soon" to "Get it on". -->
+      <span class="appstore-btn soon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.6 2.2c-.3.2-.5.6-.5 1.1v17.4c0 .5.2.9.5 1.1l9.7-9.8L3.6 2.2zm10.4 8.8 2.7-2.7-11.5-6.6 8.8 9.3zm0 2L5.2 22.3l11.5-6.6L14 13zm3.6-1.9-3 3 3.5 2 2.9-1.7c.8-.5.8-1.6 0-2.1l-3.4-1.2z"/></svg>
+        <span class="appstore-badge-text">
+          <small>Coming soon to</small>
+          <strong>Google Play</strong>
+        </span>
       </span>
-    </a>
+    </div>
   </div>
 </section>
 
@@ -187,7 +206,7 @@
 
       <article class="feature-card">
         <h3><em>Reminders</em>, on time</h3>
-        <p>Tap the bell to be notified ten minutes before a programme begins. Native iOS notifications — no account, no servers, no sign-in.</p>
+        <p>Tap the bell to be notified ten minutes before a programme begins. Native notifications on iPhone, iPad and Android — no account, no servers, no sign-in.</p>
       </article>
 
       <article class="feature-card">
@@ -207,9 +226,26 @@
 
       <article class="feature-card">
         <h3><em>Private</em> by design</h3>
-        <p>No accounts, no analytics, no tracking. Every country’s schedule loads anonymously from community EPG sources. Your favourites, reminders and preferences stay on your device, syncing across your own devices via iCloud if you choose.</p>
+        <p>No accounts, no analytics, no tracking. Every country’s schedule loads anonymously from community EPG sources. Your favourites, reminders and preferences stay on your device, syncing across your own Apple devices via iCloud if you choose (iPhone and iPad).</p>
       </article>
     </div>
+  </div>
+</section>
+
+<section class="section" id="android">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-eyebrow">On Android</p>
+      <h2 class="headline">TV Studio One for <em>Android</em>.</h2>
+      <p class="section-lede">The same six tabs, the same channel filters and the same optional AI overviews, built for Android phones and tablets. Free for 7 days, then a single one-time purchase through Google Play &mdash; no subscription.</p>
+    </div>
+    <ul class="android-list">
+      <li><strong>Works on Android 9 or later.</strong> A 7-day schedule for 32 countries across Europe, plus India and Indonesia.</li>
+      <li><strong>Reminders and favourites.</strong> Tap the bell for a notification ten minutes before a programme, or favourite a title and every airing reminds you automatically.</li>
+      <li><strong>Your key, your choice.</strong> Add your own Anthropic, OpenAI or Google API key for programme overviews and live-sport briefings. It stays in your phone&rsquo;s secure storage and is never backed up.</li>
+      <li><strong>Private.</strong> No account, no analytics, no tracking. Favourites, reminders and preferences stay on your phone.</li>
+    </ul>
+    <p class="android-note">The Android app&rsquo;s interface is in English for now, and the paid live-scorecard data feeds are iPhone and iPad only. Reminders can arrive a little late when your phone has been idle or Battery Saver is on. See <a href="/TVStudioOne/support.html#android">Support</a> and the <a href="/TVStudioOne/privacy.html#android">Privacy Policy</a> for the details.</p>
   </div>
 </section>
 
