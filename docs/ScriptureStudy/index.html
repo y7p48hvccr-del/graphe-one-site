@@ -5,11 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Studio Graphē One — ScriptureStudy Pro for Mac</title>
+  <title>Studio Graphē One — ScriptureStudy Pro for Mac and Windows</title>
 
   <meta
     name="description"
-    content="Graphē One™ ScriptureStudy Pro — a beautifully crafted Bible study app for Mac. Hundreds of free resources in dozens of languages."
+    content="Graphē One™ ScriptureStudy Pro — a beautifully crafted Bible study app for Mac and Microsoft Windows. Hundreds of free resources in dozens of languages."
   />
 
   <!-- Favicon -->
@@ -282,12 +282,23 @@
       transform: translateY(-2px);
     }
 
+    /* Not yet available: shown, but not a link. */
+    .btn-soon {
+      opacity: 0.6;
+      cursor: default;
+    }
+
+    .btn-soon:hover {
+      transform: none;
+    }
+
     /* =========================================================
        PLATFORM TEXT
     ========================================================= */
 
     .platform-text {
       margin-top: 28px;
+      text-align: center;
 
       font-size: 17px;
 
@@ -393,7 +404,7 @@
       </div>
 
       <div class="app-subtitle">
-        for macOS
+        for macOS and Microsoft Windows
       </div>
 
     </div>
@@ -409,9 +420,13 @@
 
     <div class="hero-cta">
 
-      <a class="btn-primary" href="#">
-        Coming Soon to the App Store
+      <a class="btn-primary" href="https://apps.apple.com/app/id6762391712" target="_blank" rel="noopener">
+        Download on the App Store
       </a>
+
+      <span class="btn-primary btn-soon" aria-disabled="true">
+        Coming Soon to the Microsoft Store
+      </span>
 
       <a class="btn-secondary" href="resources/">
         Resources
@@ -426,7 +441,8 @@
     <!-- Platform Support -->
 
     <div class="platform-text">
-      iOS 17, iPadOS 17, and macOS 14 or later
+      iOS 17, iPadOS 17, and macOS 14 or later<br />
+      Microsoft Windows 10 (version 1809) or later, and Windows 11
     </div>
 
   </section>
