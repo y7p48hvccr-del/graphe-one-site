@@ -1,0 +1,30 @@
+{
+  "_note": "The interface languages of ScriptureStudy Pro. Every announcement must exist in every one. Keep in step with ScriptureStudy_macOS/ScriptureStudy/Localizable.xcstrings: run tools/generate_announcements.py --check --app-strings <that file>.",
+  "languages": [
+    "en",
+    "ar",
+    "cs",
+    "da",
+    "de",
+    "es",
+    "fr",
+    "he",
+    "hi",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "lt",
+    "nl",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "ro",
+    "ru",
+    "sv",
+    "tr",
+    "zh-Hans",
+    "zh-Hant"
+  ]
+}
