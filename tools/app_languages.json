@@ -26,5 +26,7 @@
     "tr",
     "zh-Hans",
     "zh-Hant"
-  ]
+  ],
+  "languageFilterMinVersion": "2.3.3",
+  "_languageFilterMinVersion": "The first app version that understands a post's `languages` field. A post for chosen languages must have minVersion at least this, because older apps ignore the field and would show the post to everyone. Ship the build that adds the filter as exactly this version (or change this value to match)."
 }

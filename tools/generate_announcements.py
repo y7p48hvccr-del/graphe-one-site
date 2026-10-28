@@ -31,7 +31,13 @@ Post file format (see announcements/_TEMPLATE.md)
     minVersion:                      optional floor, e.g. 2.4 (2.4 and later)
     maxVersion:                      optional; covers its whole line, so 2.3 includes 2.3.5 and
                                      excludes 2.4 ("coming in 2.4" is maxVersion 2.3)
-    audience: all                    all | basic | full
+    audience: all                    all | basic | full | trial | expired
+    theme: standard                  standard | update | new   how the card looks in the app
+                                     (update = general notice; new = a new service, with fanfare).
+                                     Older apps ignore it and show the standard card.
+    languages: he, ar                optional: only users whose app language is listed see it
+                                     (blank = everyone). Needs minVersion of languageFilterMinVersion
+                                     or later (tools/app_languages.json), because older apps ignore it.
     action: openCatalogue            none | openCatalogue | openModule | openSettings | openUrl
     target:                          catalogue path / settings section / https URL
     ---
@@ -65,7 +71,8 @@ from pathlib import Path
 
 KINDS = ["weekly", "roundup", "catalogue", "licence", "app"]
 PLATFORMS = ["macos", "ios", "windows", "android"]
-AUDIENCES = ["all", "basic", "full"]
+AUDIENCES = ["all", "basic", "full", "trial", "expired"]
+THEMES = ["standard", "update", "new"]
 ACTIONS = ["none", "openCatalogue", "openModule", "openSettings", "openUrl"]
 ACTIONS_NEEDING_TARGET = ["openModule", "openSettings", "openUrl"]
 MAX_TITLE = 80
@@ -90,7 +97,17 @@ def read_languages(root):
     return langs
 
 
-def parse_post(path, languages):
+def read_language_filter_min_version(root):
+    """The first app version that understands a post's `languages` field (or None if not set)."""
+    path = root / "tools" / "app_languages.json"
+    return json.loads(path.read_text(encoding="utf-8")).get("languageFilterMinVersion")
+
+
+def version_tuple(value):
+    return tuple(int(x) for x in value.split("."))
+
+
+def parse_post(path, languages, filter_min_version=None):
     """Returns (post_dict, [errors]). Never raises for bad content."""
     errors = []
     name = path.name
@@ -135,6 +152,10 @@ def parse_post(path, languages):
     if audience not in AUDIENCES:
         err(f"audience {audience!r} must be one of {', '.join(AUDIENCES)}")
     post["audience"] = audience
+    theme = meta.get("theme", "standard") or "standard"
+    if theme not in THEMES:
+        err(f"theme {theme!r} must be one of {', '.join(THEMES)}")
+    post["theme"] = theme
 
     # dates
     def parse_date(field):
@@ -164,6 +185,26 @@ def parse_post(path, languages):
         if value and not VERSION.match(value):
             err(f"{field} {value!r} must look like 2.4 or 2.4.1")
         post[field] = value or None
+
+    # languages: who it is for (blank = everyone)
+    wanted = [c.strip() for c in meta.get("languages", "").split(",") if c.strip()]
+    for c in wanted:
+        if c not in languages:
+            err(f"languages: unknown language {c!r} (allowed: {', '.join(languages)})")
+    if len(set(wanted)) != len(wanted):
+        err("languages lists a language twice")
+    wanted = [c for c in languages if c in wanted]
+    if wanted and set(wanted) == set(languages):
+        wanted = []  # every language is the same as no restriction
+    if wanted:
+        if not filter_min_version:
+            err("languages needs languageFilterMinVersion in tools/app_languages.json "
+                "(older apps ignore the field and would show the post to everyone)")
+        elif not post["minVersion"] or version_tuple(post["minVersion"]) < version_tuple(filter_min_version):
+            err(f"a post for chosen languages needs minVersion {filter_min_version} or later, "
+                f"because older apps ignore the languages field and would show it to everyone")
+    post["languages"] = wanted
+    required = (["en"] + [c for c in wanted if c != "en"]) if wanted else list(languages)
 
     # action
     action = meta.get("action", "none") or "none"
@@ -197,14 +238,17 @@ def parse_post(path, languages):
         body = "\n".join(lines[1:]).strip()
         sections[code] = (title, body)
 
-    missing = [c for c in languages if c not in sections]
+    missing = [c for c in required if c not in sections]
     unknown = [c for c in sections if c not in languages]
+    extra = [c for c in sections if c in languages and c not in required]
     if missing:
-        err(f"missing {len(missing)} of {len(languages)} languages: {', '.join(missing)}")
+        err(f"missing {len(missing)} of {len(required)} languages: {', '.join(missing)}")
+    if extra:
+        err(f"text for languages the post is not for: {', '.join(extra)} (remove them or add them to languages)")
     if unknown:
         err(f"unknown language(s): {', '.join(unknown)}")
     title_map, body_map = {}, {}
-    for code in languages:
+    for code in required:
         if code not in sections:
             continue
         title, body = sections[code]
@@ -252,8 +296,10 @@ def feed_json(posts, languages, today, now):
             "minVersion": p["minVersion"],
             "maxVersion": p["maxVersion"],
             "audience": p["audience"],
-            "title": {c: p["title"][c] for c in languages},
-            "body": {c: p["body"][c] for c in languages},
+            "theme": None if p["theme"] == "standard" else p["theme"],
+            "languages": p["languages"] or None,
+            "title": {c: p["title"][c] for c in languages if c in p["title"]},
+            "body": {c: p["body"][c] for c in languages if c in p["body"]},
             "action": p["action"],
         })
     return {"schema": SCHEMA, "generated": now, "items": items}
@@ -270,10 +316,22 @@ def body_html(body):
     return "\n".join("<p>%s</p>" % inline_html(p).replace("\n", "<br>") for p in paras)
 
 
-def platform_note(platforms):
-    if set(platforms) == set(PLATFORMS):
-        return ""
-    return "For " + ", ".join(PLATFORM_LABELS[p] for p in platforms) + " only."
+LANGUAGE_LABELS = {
+    "en": "English", "ar": "Arabic", "cs": "Czech", "da": "Danish", "de": "German", "es": "Spanish",
+    "fr": "French", "he": "Hebrew", "hi": "Hindi", "hu": "Hungarian", "id": "Indonesian", "it": "Italian",
+    "ja": "Japanese", "ko": "Korean", "lt": "Lithuanian", "nl": "Dutch", "pl": "Polish",
+    "pt-BR": "Brazilian Portuguese", "pt-PT": "European Portuguese", "ro": "Romanian", "ru": "Russian",
+    "sv": "Swedish", "tr": "Turkish", "zh-Hans": "Simplified Chinese", "zh-Hant": "Traditional Chinese",
+}
+
+
+def platform_note(platforms, languages=None):
+    notes = []
+    if set(platforms) != set(PLATFORMS):
+        notes.append("For " + ", ".join(PLATFORM_LABELS[p] for p in platforms) + " only.")
+    if languages:
+        notes.append("For readers of " + ", ".join(LANGUAGE_LABELS.get(c, c) for c in languages) + " only.")
+    return " ".join(notes)
 
 
 def visible_posts(posts, today):
@@ -293,7 +351,7 @@ def feed_xml(posts, today, now):
     for p in visible_posts(posts, today):
         when = dt.datetime.combine(p["published"], dt.time(9, 0), tzinfo=dt.timezone.utc)
         text = p["body"]["en"]
-        note = platform_note(p["platforms"])
+        note = platform_note(p["platforms"], p.get("languages"))
         description = body_html(text) + (f"<p><em>{html.escape(note)}</em></p>" if note else "")
         out += ["<item>",
                 f"<title>{html.escape(p['title']['en'])}</title>",
@@ -381,7 +439,7 @@ def news_page(posts, today):
     if not shown:
         parts.append('  <p class="empty">No announcements yet.</p>')
     for p in shown:
-        note = platform_note(p["platforms"])
+        note = platform_note(p["platforms"], p.get("languages"))
         parts.append(
             f'  <article class="post" id="{p["id"]}">\n'
             f'    <h2>{html.escape(p["title"]["en"])}</h2>\n'
@@ -421,7 +479,7 @@ def run(root, today, now, check_only=False, app_strings=None):
     for path in sorted(posts_dir.glob("*.md")) if posts_dir.exists() else []:
         if path.name.startswith("_"):
             continue  # _TEMPLATE.md and other notes
-        post, errs = parse_post(path, languages)
+        post, errs = parse_post(path, languages, read_language_filter_min_version(root))
         errors += errs
         if post and not errs:
             if post["id"] in seen:

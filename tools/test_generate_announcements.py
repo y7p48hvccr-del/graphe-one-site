@@ -23,11 +23,15 @@ NOW = "2026-11-10T09:00:00Z"
 
 def post_text(pid="2026-11-05-weekly", published="2026-11-05", expires="2026-12-05", languages=None,
               platforms="macos, ios, windows, android", audience="all", action="none", target="",
-              min_version="", max_version="", kind="weekly", title=None, body=None, extra=""):
+              min_version="", max_version="", kind="weekly", title=None, body=None, extra="",
+              languages_field=None, theme=None):
     languages = REAL_LANGUAGES if languages is None else languages
     text = (f"---\nid: {pid}\nkind: {kind}\npublished: {published}\nexpires: {expires}\n"
             f"platforms: {platforms}\nminVersion: {min_version}\nmaxVersion: {max_version}\n"
-            f"audience: {audience}\naction: {action}\ntarget: {target}\n---\n\n")
+            f"audience: {audience}\n"
+            + (f"languages: {languages_field}\n" if languages_field is not None else "")
+            + (f"theme: {theme}\n" if theme is not None else "")
+            + f"action: {action}\ntarget: {target}\n---\n\n")
     for code in languages:
         text += f"[{code}]\n{title or 'Title ' + code}\n\n{body or 'Body for ' + code + '.'}\n\n"
     return text + extra
@@ -41,7 +45,7 @@ class Site:
         (self.root / "tools").mkdir()
         (self.root / "announcements").mkdir()
         (self.root / "tools" / "app_languages.json").write_text(
-            json.dumps({"languages": REAL_LANGUAGES}), encoding="utf-8")
+            json.dumps({"languages": REAL_LANGUAGES, "languageFilterMinVersion": "2.3.3"}), encoding="utf-8")
 
     def add(self, name, text):
         (self.root / "announcements" / name).write_text(text, encoding="utf-8")
@@ -106,6 +110,75 @@ class GeneratorTests(unittest.TestCase):
         item = self.site.feed()["items"][0]
         self.assertEqual(item["platforms"], ["macos", "windows"])
         self.assertEqual((item["minVersion"], item["audience"]), ("2.4", "basic"))
+
+    def test_trial_and_expired_audiences_are_accepted(self):
+        for name, audience in (("2026-11-05-weekly.md", "trial"), ("2026-11-06-weekly.md", "expired")):
+            self.site.add(name, post_text(pid=name[:-3], audience=audience))
+        self.site.run()
+        audiences = {i["id"]: i["audience"] for i in self.site.feed()["items"]}
+        self.assertEqual(audiences, {"2026-11-05-weekly": "trial", "2026-11-06-weekly": "expired"})
+
+    # ---- themes
+    def test_theme_is_carried_into_the_feed_and_standard_is_null(self):
+        for name, theme in (("2026-11-05-weekly.md", "update"), ("2026-11-06-weekly.md", "new"),
+                            ("2026-11-07-weekly.md", "standard"), ("2026-11-08-weekly.md", None)):
+            self.site.add(name, post_text(pid=name[:-3], theme=theme))
+        self.assertEqual(self.site.run()[0], [])
+        themes = {i["id"]: i["theme"] for i in self.site.feed()["items"]}
+        self.assertEqual(themes, {"2026-11-05-weekly": "update", "2026-11-06-weekly": "new",
+                                  "2026-11-07-weekly": None, "2026-11-08-weekly": None})
+
+    def test_an_unknown_theme_is_refused(self):
+        self.site.add("2026-11-05-weekly.md", post_text(theme="sparkly"))
+        self.assertRejected("theme 'sparkly'")
+
+    # ---- posts for chosen languages
+    def test_a_post_for_chosen_languages_needs_only_those_texts_and_English(self):
+        self.site.add("2026-11-05-weekly.md", post_text(
+            languages=["en", "he"], languages_field="he", min_version="2.3.3"))
+        self.assertEqual(self.site.run()[0], [])
+        item = self.site.feed()["items"][0]
+        self.assertEqual(item["languages"], ["he"])
+        self.assertEqual(list(item["title"]), ["en", "he"])
+        self.assertEqual(list(item["body"]), ["en", "he"])
+        self.assertIn("For readers of Hebrew only.", self.site.read("docs/ScriptureStudy/news.html"))
+
+    def test_a_post_for_every_language_is_the_same_as_no_restriction(self):
+        self.site.add("2026-11-05-weekly.md", post_text(languages_field=", ".join(REAL_LANGUAGES)))
+        self.assertEqual(self.site.run()[0], [])
+        self.assertIsNone(self.site.feed()["items"][0]["languages"])
+
+    def test_a_post_with_no_languages_field_has_none_in_the_feed(self):
+        self.site.add("2026-11-05-weekly.md", post_text())
+        self.site.run()
+        self.assertIsNone(self.site.feed()["items"][0]["languages"])
+
+    def test_chosen_languages_need_a_minimum_version_old_apps_would_ignore_the_filter(self):
+        for version in ("", "2.3.2", "2.3"):
+            self.site = Site()
+            self.site.add("2026-11-05-weekly.md", post_text(
+                languages=["en", "he"], languages_field="he", min_version=version))
+            errors, _ = self.site.run()
+            self.assertTrue(any("needs minVersion 2.3.3" in e for e in errors), f"{version!r}: {errors}")
+        self.site = Site()
+        self.site.add("2026-11-05-weekly.md", post_text(
+            languages=["en", "he"], languages_field="he", min_version="2.4"))
+        self.assertEqual(self.site.run()[0], [])
+
+    def test_unknown_and_repeated_languages_and_stray_texts_are_refused(self):
+        cases = [
+            (dict(languages=["en", "he"], languages_field="xx", min_version="2.3.3"), "unknown language 'xx'"),
+            (dict(languages=["en", "he"], languages_field="he, he", min_version="2.3.3"), "twice"),
+            (dict(languages=["en"], languages_field="he", min_version="2.3.3"), "missing 1 of 2 languages: he"),
+            (dict(languages=["en", "he", "de"], languages_field="he", min_version="2.3.3"), "not for: de"),
+            (dict(languages=["he"], languages_field="he", min_version="2.3.3"), "missing 1 of 2 languages: en"),
+        ]
+        for kwargs, fragment in cases:
+            self.site = Site()
+            self.site.add("2026-11-05-weekly.md", post_text(**kwargs))
+            errors, written = self.site.run()
+            self.assertTrue(any(fragment in e for e in errors), f"{fragment!r} not in {errors}")
+            self.assertEqual(written, [])
 
     def test_actions_with_targets(self):
         self.site.add("2026-11-05-weekly.md",

@@ -6,7 +6,7 @@ Files starting with `_` are ignored. This folder is not published; only the gene
     tools/generate_announcements.py --check     validate every post, write nothing
     tools/generate_announcements.py             validate, then write the feed, the RSS feed and the news page
 
-Every post needs all 25 languages (`tools/app_languages.json`), or nothing is written.
+Every post needs all 25 languages (`tools/app_languages.json`), or nothing is written. A post for chosen languages (`languages: he, ar`) needs English and those only, and a `minVersion` of at least `languageFilterMinVersion` in that file, because older apps ignore the field.
 A `published` date in the future keeps the post hidden until that day.
 Then commit and push the repository to publish.
 

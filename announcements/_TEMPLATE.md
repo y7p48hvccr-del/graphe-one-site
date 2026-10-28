@@ -7,6 +7,8 @@ platforms: macos, ios, windows, android
 minVersion:
 maxVersion:
 audience: all
+languages:
+theme:
 action: none
 target:
 ---
