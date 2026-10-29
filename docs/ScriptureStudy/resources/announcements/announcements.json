@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-29T23:25:47Z",
+  "generated": "2026-10-29T23:32:23Z",
   "items": [
     {
       "id": "2026-10-29-trial-extended",
@@ -69,6 +69,79 @@
         "tr": "**Ücretsiz deneme süreniz artık 30 gün** ve son güncellemeyle herkes için yeniden başlıyor. Basic satın aldıysanız, size ayrıca 14 gün boyunca Tam sürüm ücretsiz sunuluyor.\n\nHenüz güncellemediniz mi? Bunu almak için ScriptureStudy Pro™ uygulamasını App Store’dan güncelleyin ve yeni bir özelliği hiç kaçırmamak için otomatik güncellemeleri açın.",
         "zh-Hans": "**您的免费试用期现在是30天**，并且随最新更新对所有人重新开始。如果您购买过基础版，还可免费试用14天完整版。\n\n还没有更新？请在 App Store 中更新 ScriptureStudy Pro™ 即可获得，并开启自动更新，这样就不会错过任何新功能。",
         "zh-Hant": "**您的免費試用期現在是 30 天**，安裝最新更新後，所有人的試用期都會重新開始。如果您購買過基本版，還可獲得 14 天免費試用完整版。\n\n還沒更新嗎？請在 App Store 更新 ScriptureStudy Pro™，並開啟自動更新，這樣就不會錯過任何新功能。"
+      },
+      "action": {
+        "type": "none",
+        "target": null
+      }
+    },
+    {
+      "id": "2026-10-29-app-2",
+      "kind": "app",
+      "published": "2026-10-29",
+      "expires": "2026-11-28",
+      "platforms": [
+        "macos",
+        "ios"
+      ],
+      "minVersion": null,
+      "maxVersion": null,
+      "audience": "all",
+      "theme": null,
+      "languages": null,
+      "title": {
+        "en": "Notes are back on iPhone and iPad",
+        "ar": "عادت الملاحظات على iPhone و iPad",
+        "cs": "Poznámky se vrací na iPhone a iPad",
+        "da": "Noter er tilbage på iPhone og iPad",
+        "de": "Notizen sind zurück auf iPhone und iPad",
+        "es": "Las notas regresan en iPhone e iPad",
+        "fr": "Les notes sont de retour sur iPhone et iPad",
+        "he": "הערות חזרו ל-iPhone וiPad",
+        "hi": "iPhone और iPad पर नोट्स वापस आ गए हैं",
+        "hu": "Az Jegyzetek visszatért az iPhone-ra és iPad-re",
+        "id": "Catatan kembali di iPhone dan iPad",
+        "it": "Le note sono tornate su iPhone e iPad",
+        "ja": "iPhoneとiPadでノート機能が復活しました",
+        "ko": "iPhone와 iPad에서 노트 기능이 돌아왔습니다",
+        "lt": "Pastabos grįžo į iPhone ir iPad",
+        "nl": "Aantekeningen zijn terug op iPhone en iPad",
+        "pl": "Notatki wróciły na iPhone'a i iPada",
+        "pt-BR": "Anotações voltaram no iPhone e iPad",
+        "pt-PT": "As notas regressaram no iPhone e iPad",
+        "ro": "Notitele sunt din nou disponibile pe iPhone și iPad",
+        "ru": "Заметки вернулись на iPhone и iPad",
+        "sv": "Anteckningar är tillbaka på iPhone och iPad",
+        "tr": "iPhone ve iPad'de Notlar Geri Döndü",
+        "zh-Hans": "笔记功能在iPhone和iPad上回归",
+        "zh-Hant": "筆記功能已回到iPhone和iPad"
+      },
+      "body": {
+        "en": "Notes are back on iPhone and iPad. Write a note on the Desk, open it beside any verse in the Companion panel, and find it again with search.\n\nOn iPhone and iPad notes are plain text. A note you formatted on your Mac opens to read, marked with a small (i); edit it on the Mac and its formatting stays intact.\n\nNotes sync with your Mac through iCloud. Update to version 2.3.3 to use them.",
+        "ar": "عادت الملاحظات على iPhone و iPad. اكتب ملاحظة على Desk، وافتحها بجانب أي آية في لوحة Companion، وابحث عنها مجددًا بسهولة.\n\nعلى iPhone و iPad، الملاحظات نصوص عادية. الملاحظة التي صيغت على Mac تفتح للقراءة، مع علامة صغيرة (i)؛ عدّلها على Mac وتبقى تنسيقاتها كما هي.\n\nالملاحظات تتزامن مع Mac عبر iCloud. حدّث إلى الإصدار 2.3.3 لاستخدامها.",
+        "cs": "Poznámky se vrací na iPhone a iPad. Napište si poznámku na Pracovní ploše, otevřete si ji vedle kteréhokoli verše v panelu Doplňky a vyhledejte ji pomocí vyhledávání.\n\nNa iPhone a iPad jsou poznámky prostý text. Poznámka, kterou jste formátovali na Macu, se otevře ke čtení a bude označena malým (i); upravujte ji na Macu a její formátování zůstane zachováno.\n\nPoznámky se synchronizují s vaším Macem přes iCloud. Aktualizujte na verzi 2.3.3, abyste je mohli používat.",
+        "da": "Noter er tilbage på iPhone og iPad. Skriv en note på Skrivepulten, åbn den ved siden af et vers i Ledsager-panelet, og find den igen med søgning.\n\nPå iPhone og iPad er noter almindelig tekst. En note, som du formaterede på din Mac, åbnes for at læse, markeret med et lille (i); rediger den på Mac'en, og formateringen forbliver intakt.\n\nNoter synkroniseres med din Mac via iCloud. Opdater til version 2.3.3 for at bruge dem.",
+        "de": "Notizen sind zurück auf iPhone und iPad. Schreiben Sie eine Notiz am Schreibtisch, öffnen Sie sie neben einem beliebigen Vers im Begleitfeld und finden Sie sie später mit der Suche wieder.\n\nAuf iPhone und iPad sind Notizen reiner Text. Eine Notiz, die Sie auf dem Mac formatiert haben, wird zum Lesen geöffnet und ist mit einem kleinen (i) gekennzeichnet; bearbeiten Sie sie auf dem Mac, und die Formatierung bleibt erhalten.\n\nNotizen werden über iCloud mit Ihrem Mac synchronisiert. Aktualisieren Sie auf Version 2.3.3, um sie zu nutzen.",
+        "es": "Las notas regresan en iPhone e iPad. Escribe una nota en el Escritorio, ábrela junto a cualquier versículo en el panel Compañero, y encuéntrala de nuevo con la búsqueda.\n\nEn iPhone e iPad las notas son texto sin formato. Una nota que formateaste en tu Mac se abre para leer, marcada con una pequeña (i); edítala en la Mac y su formato se mantiene intacto.\n\nLas notas se sincronizan con tu Mac a través de iCloud. Actualiza a la versión 2.3.3 para usarlas.",
+        "fr": "Les notes sont de retour sur iPhone et iPad. Écrivez une note sur le Bureau, ouvrez-la à côté de n'importe quel verset dans le panneau Compagnon, et retrouvez-la avec la recherche.\n\nSur iPhone et iPad, les notes sont en texte brut. Une note que vous avez mise en forme sur votre Mac s'ouvre en lecture, marquée d'un petit (i) ; modifiez-la sur le Mac et sa mise en forme reste intacte.\n\nLes notes se synchronisent avec votre Mac via iCloud. Mettez à jour vers la version 2.3.3 pour les utiliser.",
+        "he": "הערות חזרו ל-iPhone וiPad. כתוב הערה ב-Desk, פתח אותה לצד כל פסוק בחלונית Companion, ומצא אותה שוב בחיפוש.\n\nב-iPhone וiPad הערות הן טקסט פשוט. הערה שעיצבת ב-Mac נפתחת לקריאה, מסומנת ב-(i) קטן; ערוך אותה ב-Mac וההעיצוב שלה יישאר בעינו.\n\nהערות מסתנכרנות עם Mac שלך דרך iCloud. עדכן לגרסה 2.3.3 כדי להשתמש בהן.",
+        "hi": "iPhone और iPad पर नोट्स वापस आ गए हैं। डेस्क पर एक नोट लिखें, इसे Companion पैनल में किसी भी आयत के बगल में खोलें, और सर्च से इसे फिर से खोजें।\n\niPhone और iPad पर नोट्स सादा पाठ हैं। आपने अपने Mac पर जो नोट फॉर्मेट किया है, वह एक छोटे (i) चिन्ह के साथ पढ़ने के लिए खुलता है; इसे Mac पर संपादित करें और इसका फॉर्मेटिंग बना रहता है।\n\nनोट्स iCloud के माध्यम से आपके Mac के साथ सिंक होते हैं। उन्हें उपयोग करने के लिए संस्करण 2.3.3 में अपडेट करें।",
+        "hu": "Az Jegyzetek visszatért az iPhone-ra és iPad-re. Írj egy jegyzetet az Asztalon, nyisd meg az Társpanel bármely verze mellett, és keress rá később. Az iPhone és iPad-en a Jegyzetek egyszerű szöveg. A Mac-en formázott jegyzet olvasható módon nyílik meg, egy kis (i) jelöléssel; szerkeszd a Mac-en, és a formázás megmarad. A Jegyzetek az iCloud-on keresztül szinkronizálódnak a Mac-eddel. Frissítsd a 2.3.3-as verzióra, hogy használhasd őket.",
+        "id": "Catatan kembali di iPhone dan iPad. Tulis catatan di Desk, buka di samping ayat mana pun di panel Companion, dan temukan lagi dengan pencarian.\n\nDi iPhone dan iPad catatan adalah teks biasa. Catatan yang Anda format di Mac terbuka untuk dibaca, ditandai dengan (i) kecil; edit di Mac dan formatnya tetap utuh.\n\nCatatan tersinkronisasi dengan Mac Anda melalui iCloud. Perbarui ke versi 2.3.3 untuk menggunakannya.",
+        "it": "Le note sono tornate su iPhone e iPad. Scrivi una nota sulla Scrivania, aprila accanto a qualsiasi versetto nel pannello Companion e ritrovala con la ricerca.\n\nSu iPhone e iPad le note sono testo semplice. Una nota formattata sul Mac si apre in lettura, contrassegnata da una piccola (i); modificala sul Mac e la formattazione rimane intatta.\n\nLe note si sincronizzano con il Mac tramite iCloud. Aggiorna alla versione 2.3.3 per usarle.",
+        "ja": "iPhoneとiPadでノート機能が復活しました。デスクでノートを書いて、コンパニオンパネルの任意の節の横に開き、検索で再び見つけることができます。\n\niPhoneとiPadのノートはプレーンテキストです。Macでフォーマットしたノートは小さい(i)マークが付いた状態で開きます。Macで編集するとフォーマットはそのまま保たれます。\n\nノートはiCloudを通じてMacと同期します。使用するにはバージョン2.3.3に更新してください。",
+        "ko": "iPhone과 iPad에서 노트 기능이 돌아왔습니다. 책상에서 노트를 작성하고, 동반자 패널의 구절 옆에서 열어보고, 검색으로 다시 찾을 수 있습니다.\n\niPhone과 iPad의 노트는 평문입니다. Mac에서 서식을 지정한 노트는 작은 (i) 표시와 함께 열려 있으며, Mac에서 편집하면 서식이 유지됩니다.\n\n노트는 iCloud를 통해 Mac과 동기화됩니다. 버전 2.3.3으로 업데이트하여 사용하세요.",
+        "lt": "Pastabos grįžo į iPhone ir iPad. Parašykite pastabą Darbastalyje, atidarykite ją šalia bet kurio eilučio Pagalbiniame skydelyje ir raskite ją naudodami paiešką.\n\niPhone ir iPad pastabos yra grynasis tekstas. Pastaba, kurią formatavote savo Mac kompiuteryje, atsidaro skaitymui, pažymėta mažu (i); redaguokite ją Mac kompiuteryje ir jos formatavimas išlieka nepakitęs.\n\nPastaбos sinchronizuojasi su jūsų Mac kompiuteriu per iCloud. Atnaujinkite į versiją 2.3.3, kad jas naudotumėte.",
+        "nl": "Aantekeningen zijn terug op iPhone en iPad. Schrijf een aantekening op het Desk, open het naast een vers in het Companion-paneel, en vind het terug met zoeken.\n\nOp iPhone en iPad zijn aantekeningen platte tekst. Een aantekening die je op je Mac hebt opgemaakt, opent ter lezing, gemarkeerd met een kleine (i); bewerk het op de Mac en de opmaak blijft behouden.\n\nAantekeningen synchroniseren met je Mac via iCloud. Update naar versie 2.3.3 om ze te gebruiken.",
+        "pl": "Notatki wróciły na iPhone'a i iPada. Napisz notatkę na Pulpicie, otwórz ją obok dowolnego wersetu w panelu Companion i znajdź ją ponownie za pomocą wyszukiwania.\n\nNa iPhone'ie i iPadzie notatki to zwykły tekst. Notatka sformatowana na Macu otwiera się do odczytu, oznaczona małą (i); edytuj ją na Macu, a jej formatowanie pozostaje nienaruszone.\n\nNotatki synchronizują się z Twoim Macem przez iCloud. Zaktualizuj do wersji 2.3.3, aby ich używać.",
+        "pt-BR": "Anotações voltaram no iPhone e iPad. Escreva uma anotação na Mesa, abra-a ao lado de qualquer versículo no painel Acompanhante e encontre-a novamente com a busca.\n\nNo iPhone e iPad as anotações são texto simples. Uma anotação que você formatou no Mac abre para leitura, marcada com um pequeno (i); edite-a no Mac e a formatação permanece intacta.\n\nAnotações sincronizam com seu Mac através do iCloud. Atualize para a versão 2.3.3 para usá-las.",
+        "pt-PT": "As notas regressaram no iPhone e iPad. Escreva uma nota na Secretária, abra-a ao lado de qualquer versículo no painel Companheiro e encontre-a novamente com a pesquisa.\n\nNo iPhone e iPad, as notas são texto simples. Uma nota que formatou no Mac abre para leitura, marcada com um pequeno (i); edite-a no Mac e a formatação mantém-se intacta.\n\nAs notas sincronizam com o seu Mac através do iCloud. Atualize para a versão 2.3.3 para as utilizar.",
+        "ro": "Notitele sunt din nou disponibile pe iPhone și iPad. Scrie o notă la Birou, deschide-o alături de orice verset în panoul Companion și găsește-o din nou cu căutarea.\n\nPe iPhone și iPad notitele sunt text simplu. O notă pe care ai formatat-o pe Mac se deschide pentru a o citi, marcată cu un mic (i); editează-o pe Mac și formatarea ei rămâne intactă.\n\nNotitele se sincronizează cu Mac-ul tău prin iCloud. Actualizează la versiunea 2.3.3 pentru a le folosi.",
+        "ru": "Заметки вернулись на iPhone и iPad. Напишите заметку на Desk, откройте её рядом с любым стихом в панели Companion и найдите её снова через поиск.\n\nНа iPhone и iPad заметки — это простой текст. Заметка, которую вы отформатировали на Mac, откроется для чтения с маленькой (i); отредактируйте её на Mac, и форматирование сохранится.\n\nЗаметки синхронизируются с вашим Mac через iCloud. Обновитесь до версии 2.3.3, чтобы их использовать.",
+        "sv": "Anteckningar är tillbaka på iPhone och iPad. Skriv en anteckning på Desk, öppna den bredvid valfri vers i panelen Companion och hitta den igen med sökning.\n\nPå iPhone och iPad är anteckningar oformaterad text. En anteckning som du formaterade på din Mac öppnas för läsning, märkt med en liten (i); redigera den på Mac så förblir formateringen intakt.\n\nAnteckningar synkroniseras med din Mac via iCloud. Uppdatera till version 2.3.3 för att använda dem.",
+        "tr": "iPhone ve iPad'de notlar geri döndü. Masada bir not yazın, bunu Companion panelinde herhangi bir ayetin yanında açın ve aramayı kullanarak tekrar bulun.\n\niPhone ve iPad'de notlar sade metindir. Mac'te biçimlendirdiğiniz bir not açılmak üzere görünür ve küçük bir (i) işaretiyle işaretlenir; Mac'te düzenleyin ve biçimlendirmesi korunur.\n\nNotlar iCloud aracılığıyla Mac'inizle senkronize olur. Bunları kullanmak için 2.3.3 sürümüne güncelleyin.",
+        "zh-Hans": "笔记功能在iPhone和iPad上回归。在工作台上写笔记，在伴读面板中打开任何经文时显示笔记，还可以用搜索功能找到它们。\n\niPhone和iPad上的笔记为纯文本格式。你在Mac上格式化的笔记会以只读状态打开，用小圆圈(i)标记；在Mac上编辑笔记时，格式设置会保持不变。\n\n笔记通过iCloud与你的Mac同步。请更新到2.3.3版本以使用此功能。",
+        "zh-Hant": "筆記功能已回到iPhone和iPad。在書桌上寫筆記，在伴讀面板中的任何經文旁邊打開它，並用搜尋功能再次找到它。\n\n在iPhone和iPad上，筆記是純文本格式。你在Mac上格式化的筆記會以只讀模式打開，並標有小(i)符號；在Mac上編輯它，其格式將保持不變。\n\n筆記通過iCloud與你的Mac同步。更新到版本2.3.3以使用此功能。"
       },
       "action": {
         "type": "none",
