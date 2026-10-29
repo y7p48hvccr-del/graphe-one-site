@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-29T13:50:55Z",
+  "generated": "2026-10-29T15:08:52Z",
   "items": [
     {
       "id": "2026-10-29-app",
@@ -9,9 +9,7 @@
       "expires": "2026-11-28",
       "platforms": [
         "macos",
-        "ios",
-        "windows",
-        "android"
+        "ios"
       ],
       "minVersion": null,
       "maxVersion": null,
@@ -84,9 +82,7 @@
       "expires": "2026-11-27",
       "platforms": [
         "macos",
-        "ios",
-        "windows",
-        "android"
+        "ios"
       ],
       "minVersion": null,
       "maxVersion": null,
