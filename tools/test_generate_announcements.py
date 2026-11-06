@@ -190,11 +190,11 @@ class GeneratorTests(unittest.TestCase):
     # ---- the language rule
     def test_a_missing_language_blocks_publication(self):
         self.site.add("2026-11-05-weekly.md", post_text(languages=[c for c in REAL_LANGUAGES if c != "lt"]))
-        self.assertRejected("missing 1 of 25 languages: lt")
+        self.assertRejected(f"missing 1 of {len(REAL_LANGUAGES)} languages: lt")
 
     def test_an_unknown_language_is_rejected(self):
-        self.site.add("2026-11-05-weekly.md", post_text(languages=REAL_LANGUAGES + ["el"]))
-        self.assertRejected("unknown language(s): el")
+        self.site.add("2026-11-05-weekly.md", post_text(languages=REAL_LANGUAGES + ["xx"]))
+        self.assertRejected("unknown language(s): xx")
 
     def test_an_empty_body_is_rejected(self):
         text = post_text().replace("Body for de.", "")
@@ -336,15 +336,15 @@ class GeneratorTests(unittest.TestCase):
         langs = {c: {} for c in REAL_LANGUAGES if c != "en"}
         strings.write_text(json.dumps({"sourceLanguage": "en", "strings": {"k": {"localizations": langs}}}))
         self.assertEqual(self.site.run(check_only=True, app_strings=strings)[0], [])
-        langs["el"] = {}
+        langs["xx"] = {}
         strings.write_text(json.dumps({"sourceLanguage": "en", "strings": {"k": {"localizations": langs}}}))
         errors = self.site.run(check_only=True, app_strings=strings)[0]
-        self.assertTrue(any("missing from tools/app_languages.json: el" in e for e in errors), errors)
+        self.assertTrue(any("missing from tools/app_languages.json: xx" in e for e in errors), errors)
 
     def test_the_real_language_list_has_no_duplicates_and_starts_with_english(self):
         self.assertEqual(len(set(REAL_LANGUAGES)), len(REAL_LANGUAGES))
         self.assertEqual(REAL_LANGUAGES[0], "en")
-        self.assertEqual(len(REAL_LANGUAGES), 25)
+        self.assertEqual(len(REAL_LANGUAGES), 46)  # English + the 45 app languages (21 added for 2.3.4)
 
 
 if __name__ == "__main__":
