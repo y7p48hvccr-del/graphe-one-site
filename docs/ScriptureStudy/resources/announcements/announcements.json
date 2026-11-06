@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-11-06T03:51:58Z",
+  "generated": "2026-11-06T05:01:08Z",
   "items": [
     {
       "id": "2026-10-29-trial-extended",
@@ -14,10 +14,10 @@
       "minVersion": null,
       "maxVersion": null,
       "audience": "all",
-      "theme": "new",
+      "theme": "update",
       "languages": null,
       "title": {
-        "en": "Free trial extended to 30 days, starting afresh for everyone",
+        "en": "We apologise for the delay!",
         "ar": "الفترة التجريبية المجانية صارت 30 يومًا وتبدأ من جديد للجميع",
         "cs": "Bezplatná zkušební doba se prodlužuje na 30 dní a začíná znovu pro všechny",
         "da": "Gratis prøveperiode forlænget til 30 dage – og starter forfra for alle",
@@ -44,7 +44,7 @@
         "zh-Hant": "免費試用期延長至 30 天，所有人都將重新開始"
       },
       "body": {
-        "en": "**Your free trial is now 30 days**, and it starts again for everyone with the latest update. If you bought Basic, you are also offered 14 days of Full free.\n\nHaven't updated yet? Update ScriptureStudy Pro™ in the App Store to get it, and turn on automatic updates so you never miss a new feature.",
+        "en": "A big update to ScriptureStudy Pro™ is on its way to the App Store in days. Thank you for your patience. The Online Catalogue is now in basic and full, so you can download modules without upgrading. The Encyclopedia has been rebuilt with many more articles and links to Strong’s. The Companion Panel is a tap away on iPhone and iPad,.Plus many bug fixes, lots of polish, and updated help in every language. Your experience as a user will feel elevated and more tightly integrated. You will be notified as soon as it arrives in the store.",
         "ar": "**فترتك التجريبية المجانية صارت الآن 30 يومًا**، وتبدأ من جديد للجميع مع هذا التحديث. وإذا اشتريت الإصدار الأساسي، فستحصل أيضًا على 14 يومًا مجانًا من الإصدار الكامل.\n\nلم تحدّث بعد؟ حدّث ScriptureStudy Pro™ من App Store لتحصل عليها، وفعّل التحديثات التلقائية كي لا تفوتك أي ميزة جديدة.",
         "cs": "**Vaše bezplatná zkušební doba nyní trvá 30 dní** a s nejnovější aktualizací začíná znovu pro všechny. Pokud jste si koupili verzi Základní, nabízíme vám navíc 14 dní verze Plná zdarma.\n\nJeště jste neaktualizovali? Aktualizujte ScriptureStudy Pro™ v App Store a zapněte si automatické aktualizace, ať vám neunikne žádná nová funkce.",
         "da": "**Din gratis prøveperiode er nu 30 dage**, og den starter forfra for alle med den nyeste opdatering. Hvis du har købt Basic, får du også tilbudt 14 dages Fuld gratis.\n\nHar du ikke opdateret endnu? Opdater ScriptureStudy Pro™ i App Store, og slå automatiske opdateringer til, så du aldrig går glip af en ny funktion.",

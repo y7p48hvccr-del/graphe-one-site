@@ -8,17 +8,15 @@ minVersion:
 maxVersion:
 audience: all
 languages:
-theme: new
+theme: update
 action: none
 target:
 ---
 
 [en]
-Free trial extended to 30 days, starting afresh for everyone
+We apologise for the delay!
 
-**Your free trial is now 30 days**, and it starts again for everyone with the latest update. If you bought Basic, you are also offered 14 days of Full free.
-
-Haven't updated yet? Update ScriptureStudy Pro™ in the App Store to get it, and turn on automatic updates so you never miss a new feature.
+A big update to ScriptureStudy Pro™ is on its way to the App Store in days. Thank you for your patience. The Online Catalogue is now in basic and full, so you can download modules without upgrading. The Encyclopedia has been rebuilt with many more articles and links to Strong’s. The Companion Panel is a tap away on iPhone and iPad,.Plus many bug fixes, lots of polish, and updated help in every language. Your experience as a user will feel elevated and more tightly integrated. You will be notified as soon as it arrives in the store.
 
 [ar]
 الفترة التجريبية المجانية صارت 30 يومًا وتبدأ من جديد للجميع
