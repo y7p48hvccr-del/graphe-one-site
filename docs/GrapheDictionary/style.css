@@ -21,29 +21,30 @@ a:hover { color: var(--slate-deep); text-decoration: underline; }
 .nav-links a { color: rgba(245,244,240,0.78); }
 .nav-links a:hover { color: #fff; text-decoration: none; }
 
-.hero { text-align: center; padding: 56px 0 28px; }
+.hero { text-align: center; padding: 56px 0 40px; background: var(--stone); border-bottom: 3px solid var(--sage); }
 .hero img.logo { width: min(440px, 88%); height: auto; }
-.page-head { padding: 56px 0 6px; text-align: center; }
+.page-head { padding: 52px 0 22px; text-align: center; background: var(--stone); border-bottom: 3px solid var(--sage); }
 h1 { font-family: var(--serif); font-size: clamp(30px, 5vw, 44px); font-weight: 500; color: var(--graphite); }
-.effective { text-align: center; font-size: 13px; color: var(--text-faint); margin-bottom: 26px; }
+.effective { text-align: center; font-size: 13px; color: var(--text-soft); margin: 14px 0 26px; }
 .lede { text-align: center; font-size: 19px; color: var(--text-soft); margin: 18px auto 0; max-width: 560px; }
 
 main { padding-bottom: 80px; }
-h2 { font-family: var(--serif); font-size: 24px; font-weight: 500; color: var(--graphite); margin: 38px 0 8px; }
+h2 { font-family: var(--serif); font-size: 24px; font-weight: 500; color: var(--graphite); margin: 38px 0 8px; padding-bottom: 6px; border-bottom: 2px solid var(--sage); }
 h3 { font-size: 17px; font-weight: 600; color: var(--graphite); margin: 22px 0 4px; }
 p { color: var(--text-soft); margin: 10px 0; }
 ul, ol { padding-left: 22px; margin: 10px 0; }
 li { color: var(--text-soft); margin: 6px 0; }
 b, strong { color: var(--text); }
-code, kbd { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.9em; background: var(--stone); padding: 1px 6px; border-radius: 5px; color: var(--text); }
+code, kbd { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.9em; background: var(--stone); border: 1px solid var(--sage); padding: 1px 6px; border-radius: 5px; color: var(--text); }
 
-.card { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 22px 26px; margin: 22px 0; }
+.card { background: var(--stone); border: 1px solid var(--sage); border-left: 5px solid var(--slate); border-radius: 14px; padding: 22px 26px; margin: 22px 0; }
 .card p { font-size: 16px; }
 .pillrow { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 26px 0 6px; }
 .pill { background: var(--slate); color: var(--ivory); padding: 8px 20px; border-radius: 999px; font-size: 15px; font-weight: 500; }
 .pill:hover { background: var(--slate-deep); color: #fff; text-decoration: none; }
 table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 15px; }
 th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border-soft); color: var(--text-soft); }
-th { color: var(--text); font-weight: 600; }
+th { color: var(--text); font-weight: 600; background: var(--stone); }
 
-.site-footer { padding: 40px 0; border-top: 1px solid var(--border-soft); text-align: center; font-size: 13px; color: var(--text-faint); }
+.site-footer { padding: 36px 0; background: var(--sage); text-align: center; font-size: 13px; color: var(--graphite); }
+.site-footer a { color: var(--graphite); text-decoration: underline; }
