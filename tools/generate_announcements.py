@@ -75,8 +75,8 @@ AUDIENCES = ["all", "basic", "full", "trial", "expired"]
 THEMES = ["standard", "update", "new"]
 ACTIONS = ["none", "openCatalogue", "openModule", "openSettings", "openUrl"]
 ACTIONS_NEEDING_TARGET = ["openModule", "openSettings", "openUrl"]
-MAX_TITLE = 80
-MAX_BODY = 600
+MAX_TITLE = 80      # English only
+MAX_BODY = 600      # English only
 SCHEMA = 1
 
 PLATFORM_LABELS = {"macos": "macOS", "ios": "iPhone and iPad", "windows": "Windows", "android": "Android"}
@@ -256,9 +256,11 @@ def parse_post(path, languages, filter_min_version=None):
             err(f"[{code}] has no title")
         if not body:
             err(f"[{code}] has no body")
-        if len(title) > MAX_TITLE:
+        # The limits apply to the English text only (Richard, 14 November 2026): a translation needs as many
+        # characters as its language needs, and has no limit of its own.
+        if code == "en" and len(title) > MAX_TITLE:
             err(f"[{code}] title is {len(title)} characters (limit {MAX_TITLE})")
-        if len(body) > MAX_BODY:
+        if code == "en" and len(body) > MAX_BODY:
             err(f"[{code}] body is {len(body)} characters (limit {MAX_BODY})")
         for label, value in (("title", title), ("body", body)):
             for problem in markup_problems(value):

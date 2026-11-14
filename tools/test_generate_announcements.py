@@ -214,6 +214,18 @@ class GeneratorTests(unittest.TestCase):
         self.site.add("2026-11-05-weekly.md", post_text(body="B" * 601))
         self.assertRejected("body is 601 characters")
 
+    def test_translations_have_no_length_limit(self):
+        text = post_text().replace("Title de\n", "T" * 300 + "\n").replace("Body for de.", "B" * 2500)
+        self.site.add("2026-11-05-weekly.md", text)
+        self.assertEqual(self.site.run()[0], [])
+
+    def test_only_the_english_is_checked_against_the_limit(self):
+        text = post_text().replace("Title en\n", "T" * 81 + "\n").replace("Body for en.", "B" * 601)
+        self.site.add("2026-11-05-weekly.md", text)
+        errors = self.site.run()[0]
+        self.assertTrue(any("[en] title is 81 characters" in e for e in errors), errors)
+        self.assertTrue(any("[en] body is 601 characters" in e for e in errors), errors)
+
     def test_html_is_rejected(self):
         self.site.add("2026-11-05-weekly.md", post_text(body="Click <b>here</b>"))
         self.assertRejected("HTML is not allowed")
