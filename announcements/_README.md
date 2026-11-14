@@ -10,6 +10,10 @@ Every post needs all 46 languages (`tools/app_languages.json`), or nothing is wr
 A `published` date in the future keeps the post hidden until that day.
 Then commit and push the repository to publish.
 
+TV Studio One's posts live in `tvstudioone/` (copy `tvstudioone/_TEMPLATE.md`) and are checked and written with
+`--app tvstudioone`: Android only, audiences all / trial / full / expired, buttons openUrl and openSettings, and its own 28
+languages (`tools/app_languages_tvstudioone.json`). Its feed is `docs/TVStudioOne/resources/announcements/announcements.json`.
+
 The format is defined in `ScriptureStudy_macOS/docs/ANNOUNCEMENTS_INBOX_SPEC.md`.
 
 © 2026 Studio Graphē One Ltd

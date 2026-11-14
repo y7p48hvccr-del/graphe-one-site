@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Generate ScriptureStudy Pro's announcements feed from the post files.
+Generate an app's announcements feed from the post files: ScriptureStudy Pro's (the default) or TV Studio One's
+(--app tvstudioone).
 
 What it does
 ------------
@@ -50,6 +51,19 @@ Post file format (see announcements/_TEMPLATE.md)
     [de]
     ...
 
+Two apps
+--------
+    --app scripturestudy   (default) posts in announcements/, languages in tools/app_languages.json, feed under
+                           docs/ScriptureStudy/, plus the RSS feed and the public news page.
+    --app tvstudioone      posts in announcements/tvstudioone/, languages in tools/app_languages_tvstudioone.json
+                           (they are TV Studio One's own string catalogue, SKIP-TVSO/Sources/TVStudioOne/Resources/
+                           Localizable.xcstrings), feed at docs/TVStudioOne/resources/announcements/announcements.json
+                           (https://graphe.one/TVStudioOne/resources/announcements/announcements.json) and nothing else.
+                           The format is the same (schema 1). TV Studio One is Android only: platforms must be
+                           android. Audiences: all, trial, full (owns the Lifetime unlock), expired; never basic.
+                           Buttons: none, openUrl and openSettings; openCatalogue and openModule show no button there,
+                           so they are refused.
+
 Usage
 -----
     tools/generate_announcements.py                  validate, then write the three outputs
@@ -75,6 +89,28 @@ AUDIENCES = ["all", "basic", "full", "trial", "expired"]
 THEMES = ["standard", "update", "new"]
 ACTIONS = ["none", "openCatalogue", "openModule", "openSettings", "openUrl"]
 ACTIONS_NEEDING_TARGET = ["openModule", "openSettings", "openUrl"]
+APPS = {
+    "scripturestudy": {
+        "name": "ScriptureStudy Pro",
+        "posts": "announcements",
+        "feed": "docs/ScriptureStudy/resources/announcements",
+        "languages": "tools/app_languages.json",
+        "platforms": PLATFORMS,
+        "audiences": AUDIENCES,
+        "actions": ACTIONS,
+        "extras": True,     # the RSS feed and the public news page
+    },
+    "tvstudioone": {
+        "name": "TV Studio One",
+        "posts": "announcements/tvstudioone",
+        "feed": "docs/TVStudioOne/resources/announcements",
+        "languages": "tools/app_languages_tvstudioone.json",
+        "platforms": ["android"],
+        "audiences": ["all", "trial", "full", "expired"],
+        "actions": ["none", "openSettings", "openUrl"],
+        "extras": False,
+    },
+}
 MAX_TITLE = 80      # English only
 MAX_BODY = 600      # English only
 SCHEMA = 1
@@ -88,8 +124,8 @@ VERSION = re.compile(r"^\d+\.\d+(?:\.\d+)?$")
 
 # --------------------------------------------------------------------------- parsing
 
-def read_languages(root):
-    path = root / "tools" / "app_languages.json"
+def read_languages(root, app="scripturestudy"):
+    path = root / APPS[app]["languages"]
     data = json.loads(path.read_text(encoding="utf-8"))
     langs = data["languages"]
     if len(set(langs)) != len(langs):
@@ -97,9 +133,9 @@ def read_languages(root):
     return langs
 
 
-def read_language_filter_min_version(root):
+def read_language_filter_min_version(root, app="scripturestudy"):
     """The first app version that understands a post's `languages` field (or None if not set)."""
-    path = root / "tools" / "app_languages.json"
+    path = root / APPS[app]["languages"]
     return json.loads(path.read_text(encoding="utf-8")).get("languageFilterMinVersion")
 
 
@@ -107,8 +143,9 @@ def version_tuple(value):
     return tuple(int(x) for x in value.split("."))
 
 
-def parse_post(path, languages, filter_min_version=None):
+def parse_post(path, languages, filter_min_version=None, app="scripturestudy"):
     """Returns (post_dict, [errors]). Never raises for bad content."""
+    rules = APPS[app]
     errors = []
     name = path.name
 
@@ -149,8 +186,9 @@ def parse_post(path, languages, filter_min_version=None):
         err(f"kind {kind!r} must be one of {', '.join(KINDS)}")
     post["kind"] = kind
     audience = meta.get("audience", "all") or "all"
-    if audience not in AUDIENCES:
-        err(f"audience {audience!r} must be one of {', '.join(AUDIENCES)}")
+    if audience not in rules["audiences"]:
+        err(f"audience {audience!r} must be one of {', '.join(rules['audiences'])}"
+            + (f" ({rules['name']} has no {audience} audience)" if audience in AUDIENCES else ""))
     post["audience"] = audience
     theme = meta.get("theme", "standard") or "standard"
     if theme not in THEMES:
@@ -177,6 +215,9 @@ def parse_post(path, languages, filter_min_version=None):
     for p in plats:
         if p not in PLATFORMS:
             err(f"unknown platform {p!r} (allowed: {', '.join(PLATFORMS)})")
+        elif p not in rules["platforms"]:
+            err(f"{rules['name']} is {' and '.join(PLATFORM_LABELS[x] for x in rules['platforms'])} only: "
+                f"platforms must be {', '.join(rules['platforms'])}, not {p}")
     post["platforms"] = [p for p in PLATFORMS if p in plats]
 
     # versions
@@ -211,6 +252,8 @@ def parse_post(path, languages, filter_min_version=None):
     target = meta.get("target", "")
     if action not in ACTIONS:
         err(f"action {action!r} must be one of {', '.join(ACTIONS)}")
+    elif action not in rules["actions"]:
+        err(f"action {action} shows no button in {rules['name']}: use {', '.join(rules['actions'])}")
     elif action in ACTIONS_NEEDING_TARGET and not target:
         err(f"action {action} needs a target")
     elif action not in ACTIONS_NEEDING_TARGET and target:
@@ -455,33 +498,35 @@ def news_page(posts, today):
 
 # --------------------------------------------------------------------------- driver
 
-def check_app_languages(languages, xcstrings_path):
+def check_app_languages(languages, xcstrings_path, app="scripturestudy"):
+    languages_file = APPS[app]["languages"]
     data = json.loads(Path(xcstrings_path).read_text(encoding="utf-8"))
     found = {data.get("sourceLanguage", "en")}
     for entry in data.get("strings", {}).values():
         found.update((entry.get("localizations") or {}).keys())
     problems = []
     if found - set(languages):
-        problems.append("the app has languages missing from tools/app_languages.json: "
+        problems.append(f"the app has languages missing from {languages_file}: "
                         + ", ".join(sorted(found - set(languages))))
     if set(languages) - found:
-        problems.append("tools/app_languages.json lists languages the app does not have: "
+        problems.append(f"{languages_file} lists languages the app does not have: "
                         + ", ".join(sorted(set(languages) - found)))
     return problems
 
 
-def run(root, today, now, check_only=False, app_strings=None):
+def run(root, today, now, check_only=False, app_strings=None, app="scripturestudy"):
     """Returns (errors, written_paths). Writes nothing when there are errors."""
     root = Path(root)
-    languages = read_languages(root)
+    rules = APPS[app]
+    languages = read_languages(root, app)
     errors, posts, seen = [], [], {}
     if app_strings:
-        errors += check_app_languages(languages, app_strings)
-    posts_dir = root / "announcements"
+        errors += check_app_languages(languages, app_strings, app)
+    posts_dir = root / rules["posts"]
     for path in sorted(posts_dir.glob("*.md")) if posts_dir.exists() else []:
         if path.name.startswith("_"):
             continue  # _TEMPLATE.md and other notes
-        post, errs = parse_post(path, languages, read_language_filter_min_version(root))
+        post, errs = parse_post(path, languages, read_language_filter_min_version(root, app), app)
         errors += errs
         if post and not errs:
             if post["id"] in seen:
@@ -491,21 +536,24 @@ def run(root, today, now, check_only=False, app_strings=None):
     if errors or check_only:
         return errors, []
 
-    out_dir = root / "docs" / "ScriptureStudy" / "resources" / "announcements"
+    out_dir = root / rules["feed"]
     out_dir.mkdir(parents=True, exist_ok=True)
     outputs = {
         out_dir / "announcements.json": json.dumps(feed_json(posts, languages, today, now),
                                                     ensure_ascii=False, indent=2) + "\n",
-        out_dir / "feed.xml": feed_xml(posts, today, now),
-        root / "docs" / "ScriptureStudy" / "news.html": news_page(posts, today),
     }
+    if rules["extras"]:
+        outputs[out_dir / "feed.xml"] = feed_xml(posts, today, now)
+        outputs[root / "docs" / "ScriptureStudy" / "news.html"] = news_page(posts, today)
     for path, content in outputs.items():
         path.write_text(content, encoding="utf-8")
     return [], list(outputs)
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="Generate the ScriptureStudy Pro announcements feed.")
+    ap = argparse.ArgumentParser(description="Generate an app's announcements feed (ScriptureStudy Pro, or TV Studio One).")
+    ap.add_argument("--app", choices=sorted(APPS), default="scripturestudy",
+                    help="which app's feed (default scripturestudy)")
     ap.add_argument("--check", action="store_true", help="validate only; write nothing")
     ap.add_argument("--now", metavar="YYYY-MM-DD", help="pretend today is this date")
     ap.add_argument("--app-strings", metavar="PATH", help="Localizable.xcstrings, to cross-check the language list")
@@ -519,7 +567,7 @@ def main(argv=None):
         stamp = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
         today, now = stamp.date(), stamp.isoformat().replace("+00:00", "Z")
 
-    errors, written = run(args.root, today, now, args.check, args.app_strings)
+    errors, written = run(args.root, today, now, args.check, args.app_strings, args.app)
     if errors:
         print(f"{len(errors)} problem(s); nothing was written:", file=sys.stderr)
         for e in errors:

@@ -359,5 +359,133 @@ class GeneratorTests(unittest.TestCase):
         self.assertEqual(len(REAL_LANGUAGES), 46)  # English + the 45 app languages (21 added for 2.3.4)
 
 
+# ---------------------------------------------------------------------------------------- TV Studio One
+
+TV_LANGUAGES = json.loads((Path(__file__).resolve().parent / "app_languages_tvstudioone.json").read_text(encoding="utf-8"))["languages"]
+TV_FEED = "docs/TVStudioOne/resources/announcements/announcements.json"
+
+
+class TVSite(Site):
+    """The same throwaway layout, with TV Studio One's own posts folder and language list."""
+    def __init__(self):
+        super().__init__()
+        (self.root / "announcements" / "tvstudioone").mkdir()
+        (self.root / "tools" / "app_languages_tvstudioone.json").write_text(
+            json.dumps({"languages": TV_LANGUAGES, "languageFilterMinVersion": "1.0"}), encoding="utf-8")
+
+    def add(self, name, text):
+        (self.root / "announcements" / "tvstudioone" / name).write_text(text, encoding="utf-8")
+
+    def run(self, **kw):
+        return g.run(self.root, kw.pop("today", TODAY), NOW, app="tvstudioone", **kw)
+
+    def feed(self):
+        return json.loads((self.root / TV_FEED).read_text(encoding="utf-8"))
+
+
+def tv_post(**kw):
+    kw.setdefault("languages", TV_LANGUAGES)
+    kw.setdefault("platforms", "android")
+    kw.setdefault("pid", "2026-11-05-app")      # the file name used in these tests
+    kw.setdefault("kind", "app")
+    return post_text(**kw)
+
+
+class TVStudioOneTests(unittest.TestCase):
+    def setUp(self):
+        self.site = TVSite()
+
+    def tearDown(self):
+        self.site.dir.cleanup()
+
+    def assertRejected(self, fragment):
+        errors, written = self.site.run()
+        self.assertTrue(any(fragment in e for e in errors), f"expected {fragment!r} in {errors}")
+        self.assertEqual(written, [])
+
+    def test_the_language_list_is_the_27_besides_english(self):
+        self.assertEqual(TV_LANGUAGES[0], "en")
+        self.assertEqual(TV_LANGUAGES[1:], "bg cs da de el es fi fr hi hr hu id it lt lv nb nl pl pt ro ru sk sv ta te tr uk".split())
+        self.assertEqual(len(TV_LANGUAGES) - 1, 27)
+
+    def test_the_feed_is_written_at_the_address_the_app_reads_and_nothing_else(self):
+        errors, written = self.site.run()
+        self.assertEqual(errors, [])
+        self.assertEqual([Path(w).relative_to(self.site.root).as_posix() for w in written], [TV_FEED])
+        feed = self.site.feed()
+        self.assertEqual((feed["schema"], feed["items"]), (1, []))
+        self.assertFalse((self.site.root / "docs/ScriptureStudy").exists(), "the other app's files are not touched")
+
+    def test_a_post_has_all_28_languages_in_the_same_format(self):
+        self.site.add("2026-11-05-app.md", tv_post())
+        self.assertEqual(self.site.run()[0], [])
+        item = self.site.feed()["items"][0]
+        self.assertEqual(list(item["title"]), TV_LANGUAGES)
+        self.assertEqual(item["platforms"], ["android"])
+        self.assertEqual(set(item), {"id", "kind", "published", "expires", "platforms", "minVersion", "maxVersion",
+                                     "audience", "theme", "languages", "title", "body", "action"})
+
+    def test_only_this_apps_folder_is_read(self):
+        (self.site.root / "announcements" / "2026-11-05-weekly.md").write_text(post_text(), encoding="utf-8")   # ScriptureStudy's
+        self.assertEqual(self.site.run()[0], [])
+        self.assertEqual(self.site.feed()["items"], [])
+
+    def test_a_missing_language_is_refused(self):
+        self.site.add("2026-11-05-app.md", tv_post(languages=[c for c in TV_LANGUAGES if c != "lv"]))
+        self.assertRejected("missing 1 of 28 languages: lv")
+
+    def test_it_is_android_only(self):
+        for plat in ("macos", "android, ios"):
+            self.setUp()
+            self.site.add("2026-11-05-app.md", tv_post(platforms=plat))
+            self.assertRejected("is Android only")
+            self.tearDown()
+        self.setUp()
+        self.site.add("2026-11-05-app.md", tv_post(platforms=""))
+        self.assertRejected("platforms is empty")
+
+    def test_audiences_are_all_trial_full_and_expired_never_basic(self):
+        for audience in ("all", "trial", "full", "expired"):
+            self.setUp()
+            self.site.add("2026-11-05-app.md", tv_post(audience=audience))
+            self.assertEqual(self.site.run()[0], [], audience)
+            self.assertEqual(self.site.feed()["items"][0]["audience"], audience)
+            self.tearDown()
+        self.setUp()
+        self.site.add("2026-11-05-app.md", tv_post(audience="basic"))
+        self.assertRejected("has no basic audience")
+
+    def test_only_open_url_and_open_settings_make_a_button(self):
+        for action, target in (("none", ""), ("openUrl", "https://graphe.one/TVStudioOne/"), ("openSettings", "language")):
+            self.setUp()
+            self.site.add("2026-11-05-app.md", tv_post(action=action, target=target))
+            self.assertEqual(self.site.run()[0], [], action)
+            self.tearDown()
+        for action, target in (("openCatalogue", ""), ("openModule", "x")):
+            self.setUp()
+            self.site.add("2026-11-05-app.md", tv_post(action=action, target=target))
+            self.assertRejected("shows no button in TV Studio One")
+            self.tearDown()
+        self.setUp()
+
+    def test_only_the_english_has_a_length_limit(self):
+        text = tv_post().replace("Body for de.", "B" * 2500).replace("Title de\n", "T" * 300 + "\n")
+        self.site.add("2026-11-05-app.md", text)
+        self.assertEqual(self.site.run()[0], [])
+        self.setUp()
+        self.site.add("2026-11-05-app.md", tv_post().replace("Body for en.", "B" * 601))
+        self.assertRejected("[en] body is 601 characters")
+
+    def test_the_language_list_is_checked_against_the_apps_own_catalogue(self):
+        catalogue = self.site.root / "Localizable.xcstrings"
+        langs = {"en": {}, **{c: {} for c in TV_LANGUAGES[1:]}}
+        catalogue.write_text(json.dumps({"sourceLanguage": "en", "strings": {"Hi": {"localizations": {c: {} for c in langs}}}}), encoding="utf-8")
+        self.assertEqual(self.site.run(check_only=True, app_strings=str(catalogue))[0], [])
+        langs.pop("lv")
+        catalogue.write_text(json.dumps({"sourceLanguage": "en", "strings": {"Hi": {"localizations": {c: {} for c in langs}}}}), encoding="utf-8")
+        errors = self.site.run(check_only=True, app_strings=str(catalogue))[0]
+        self.assertTrue(any("app_languages_tvstudioone.json lists languages the app does not have: lv" in e for e in errors), errors)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)
