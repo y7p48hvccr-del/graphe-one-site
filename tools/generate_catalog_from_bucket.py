@@ -101,6 +101,17 @@ _TITLE_DOT_TOKENS = (".commentaries", ".dictionary", ".devotions", ".interlinear
                      ".crossreferences", ".encyclopedia", ".strongs", ".maps")
 
 
+def load_titles(path=None) -> dict:
+    """Common names for modules whose file name is a short code ("CBSC - StudioOneEditions.graphe"): the catalogue lists
+    and searches the title, so it must be the name readers know ("Cambridge Bible for Schools and Colleges"), never the
+    file name (Richard, 16 November 2026). A missing file means every title comes from the file name, as before."""
+    p = Path(path) if path else Path(__file__).resolve().parent / "catalog_titles.json"
+    if not p.exists():
+        return {}
+    data = json.loads(p.read_text(encoding="utf-8"))
+    return {str(k): str(v) for k, v in data.items() if v}
+
+
 def display_title(filename: str) -> str:
     stem = Path(filename).stem.rstrip()
     # Peel structural dot-tokens off the tail (may chain).
@@ -213,9 +224,13 @@ def main() -> None:
         "--manifest", metavar="PATH",
         help="Path to <workingFolder>/_workbench/manifest.json. "
              "withdrawn modules are excluded; unreleased are marked availability=unreleased.")
+    parser.add_argument("--titles", help="JSON file mapping a bucket path (<language>/<category>/<file>.graphe) to the module's "
+                        "common name, used as the catalogue title instead of one derived from the file name. Default: "
+                        "catalog_titles.json beside this script, if present.")
     args = parser.parse_args()
 
     manifest = load_manifest(args.manifest) if args.manifest else {}
+    titles = load_titles(args.titles)
 
     rel_paths = [p for p in list_bucket_objects() if p.endswith(VALID_SUFFIXES)]
 
@@ -251,7 +266,7 @@ def main() -> None:
             continue
 
         entry = {
-            "title": display_title(filename),
+            "title": titles.get(rel) or display_title(filename),
             "type": infer_type(filename, category),
             "extension": suffix,
             "path": rel,               # relative to GrapheModules/ — matches moduleBaseURL
