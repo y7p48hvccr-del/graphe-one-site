@@ -112,6 +112,18 @@ def load_titles(path=None) -> dict:
     return {str(k): str(v) for k, v in data.items() if v}
 
 
+def load_meta(path=None) -> dict:
+    """Per-module search details (Richard, 16 November 2026): `catalog_meta.json` maps a bucket path to
+    {"title", "author", "publisher", "summary"}, written by Converters/make_catalog_meta.py from the modules themselves.
+    The app's catalogue search matches every word typed against the name, author, publisher, summary, category and
+    language. A module without an entry is still listed and found by its title."""
+    p = Path(path) if path else Path(__file__).resolve().parent / "catalog_meta.json"
+    if not p.exists():
+        return {}
+    data = json.loads(p.read_text(encoding="utf-8"))
+    return {str(k): v for k, v in data.items() if isinstance(v, dict)}
+
+
 def display_title(filename: str) -> str:
     stem = Path(filename).stem.rstrip()
     # Peel structural dot-tokens off the tail (may chain).
@@ -227,10 +239,13 @@ def main() -> None:
     parser.add_argument("--titles", help="JSON file mapping a bucket path (<language>/<category>/<file>.graphe) to the module's "
                         "common name, used as the catalogue title instead of one derived from the file name. Default: "
                         "catalog_titles.json beside this script, if present.")
+    parser.add_argument("--meta", help="JSON file of per-module author, publisher, summary and title for the catalogue search. "
+                        "Default: catalog_meta.json beside this script, if present.")
     args = parser.parse_args()
 
     manifest = load_manifest(args.manifest) if args.manifest else {}
     titles = load_titles(args.titles)
+    meta = load_meta(args.meta)
 
     rel_paths = [p for p in list_bucket_objects() if p.endswith(VALID_SUFFIXES)]
 
@@ -266,11 +281,16 @@ def main() -> None:
             continue
 
         entry = {
-            "title": titles.get(rel) or display_title(filename),
+            "title": (meta.get(rel, {}).get("title") or titles.get(rel) or display_title(filename)),
             "type": infer_type(filename, category),
             "extension": suffix,
             "path": rel,               # relative to GrapheModules/ — matches moduleBaseURL
         }
+
+        for field in ("author", "publisher", "summary"):
+            value = (meta.get(rel, {}).get(field) or "").strip()
+            if value:
+                entry[field] = value
 
         if avail == "unreleased":
             unreleased_count += 1
