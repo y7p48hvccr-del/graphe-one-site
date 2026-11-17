@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T03:00:46.597634",
+  "generated": "2026-11-17T07:30:24.112840",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -6517,12 +6517,6 @@
             "summary": "Modernised edition. Dummelow's Commentary on the Holy Bible, edited by J. R. Dummelow and first published in 1909, is a one-volume scholarly commentary covering the entire Protestant canon of Scripture. It was produced by a team of Cambridge scholars and is notable for balancing critical…"
           },
           {
-            "title": "A Commentary on the Holy Bible - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/A Commentary on the Holy Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "A Faithful Version Commentary Notes - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6631,12 +6625,6 @@
             "path": "English/Commentaries/Barnes' Notes on the New Testament - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Benson Commentary on the Old and New Tes - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Benson Commentary on the Old and New Tes - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Benson's Commentary on the Old and New Testaments - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6700,12 +6688,6 @@
             "summary": "Original edition. Calvin's Commentaries is a monumental 22-volume set of biblical expositions by the sixteenth-century Swiss Reformer John Calvin, covering nearly the entire Bible with the exception of a few Old Testament books such as Proverbs, Ecclesiastes, Song of Solomon, Ezra, Nehemiah, and…"
           },
           {
-            "title": "Calvin's Commentaries - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Calvin's Commentaries - StudioOneEditions.graphe"
-          },
-          {
             "title": "Calvin's Commentaries - StudioOneModernEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6713,12 +6695,6 @@
             "author": "John Calvin",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Calvin's Commentaries on the Bible constitute one of the most extensive and influential exegetical works in the history of Protestant Christianity, covering nearly every book of Scripture across 22 volumes. Calvin approaches each text with rigorous humanist philological method…"
-          },
-          {
-            "title": "Calvin's Commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Calvin's Commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Cambridge Bible for Schools and Colleges - StudioOneEditions",
@@ -6729,30 +6705,12 @@
             "summary": "Original edition."
           },
           {
-            "title": "Cambridge Bible for Schools and Colleges - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Cambridge Bible for Schools and Colleges - StudioOneEditions.graphe"
-          },
-          {
             "title": "Cambridge Bible for Schools and Colleges - StudioOneModernEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/CBSC - StudioOneModernEditions.graphe",
             "publisher": "Cambridge University Press",
             "summary": "Modernised edition."
-          },
-          {
-            "title": "Cambridge Bible for Schools and Colleges - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Cambridge Bible for Schools and Colleges - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Cambridge Greek Testament for Schools an - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Cambridge Greek Testament for Schools an - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Cambridge Greek Testament for Schools and Colleges - StudioOneEditions",
@@ -6764,12 +6722,6 @@
             "summary": "Original edition. The Cambridge Greek Testament for Schools and Colleges is a landmark multi-volume series of exegetical commentaries on the Greek New Testament, published by Cambridge University Press beginning in 1881. Each volume was prepared by a specialist scholar and presents the Greek text…"
           },
           {
-            "title": "Cambridge Greek Testament for Schools and Colleges - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Cambridge Greek Testament for Schools and Colleges - StudioOneEditions.graphe"
-          },
-          {
             "title": "Cambridge Greek Testament for Schools and Colleges - StudioOneModernEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6777,12 +6729,6 @@
             "author": "Frederick Henry Ambrose Scrivener",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. The Cambridge Greek Testament for Schools and Colleges is a landmark multi-volume commentary series published by Cambridge University Press beginning in 1881, providing the Greek text of the New Testament alongside detailed philological, textual, and exegetical notes aimed at…"
-          },
-          {
-            "title": "Caton-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Caton-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Charles Box Commentaries - StudioOneEditions",
@@ -6806,18 +6752,6 @@
             "path": "English/Commentaries/Christian Standard Bible, 2017.graphe"
           },
           {
-            "title": "Clarke's Commentary and Critical Notes o - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Clarke's Commentary and Critical Notes o - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Clarke's Commentary and Critical Notes on the Bibl - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Clarke's Commentary and Critical Notes on the Bibl - StudioOneEditions.graphe"
-          },
-          {
             "title": "Clarke's Commentary and Critical Notes on the Bible - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6836,18 +6770,6 @@
             "summary": "Modernised edition. Adam Clarke's Commentary and Critical Notes on the Bible is a monumental verse-by-verse exposition of the entire Christian Scripture, originally published in eight volumes between 1810 and 1826. Clarke, a Methodist theologian and philologist, brought extensive knowledge of…"
           },
           {
-            "title": "Coke's Commentary on the Holy Bible - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Coke's Commentary on the Holy Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Coke's Commentary on the Holy Bible - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Coke's Commentary on the Holy Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "College Press Bible Study Textbook Serie - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6858,18 +6780,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/College Press Bible Study Textbook Series - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Commentary Critical and Explanatory on t - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Commentary Critical and Explanatory on t - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Commentary Critical and Explanatory on the Whole B - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Commentary Critical and Explanatory on the Whole B - StudioOneEditions.graphe"
           },
           {
             "title": "Commentary Critical and Explanatory on the Whole Bible - StudioOneEditions",
@@ -6998,12 +6908,6 @@
             "summary": "Modernised edition. Heinrich August Wilhelm Meyer's Critical and Exegetical Commentary on the New Testament is a monumental 21-volume work of German Protestant scholarship, originally published in German and translated into English, covering every book of the New Testament with rigorous…"
           },
           {
-            "title": "DBD-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/DBD-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Dake's Annotated Reference Bible Study N - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7082,18 +6986,6 @@
             "summary": "Original edition. Ellicott's Commentary on the Whole Bible is a comprehensive verse-by-verse exposition of both the Old and New Testaments, originally issued in eight volumes and edited by Charles John Ellicott, Bishop of Gloucester. Designed expressly for English readers without knowledge of the…"
           },
           {
-            "title": "Ellicott's Commentary on the Whole Bible - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Ellicott's Commentary on the Whole Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Ellicott's Commentary on the Whole Bible - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Ellicott's Commentary on the Whole Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "English Majority Text Version, 2012 Edition with Greek Explanatory Not",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7127,12 +7019,6 @@
             "title": "Exposition of the Entire Bible - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Exposition of the Entire Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Exposition of the Entire Bible - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
             "path": "English/Commentaries/Gill - StudioOneEditions.graphe",
             "author": "John Gill",
             "publisher": "Studio Graphē One Ltd",
@@ -7146,12 +7032,6 @@
             "author": "John Gill",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. John Gill's Exposition of the Entire Bible is a monumental verse-by-verse commentary covering every book of the Old and New Testaments, composed by the prolific Calvinist Baptist theologian John Gill (1697–1771). Originally published in nine folio volumes between 1746 and 1763…"
-          },
-          {
-            "title": "Exposition of the Entire Bible - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Exposition of the Entire Bible - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Exposition of the Gospel of John - StudioOneModernisedEditions",
@@ -7172,12 +7052,6 @@
             "title": "Expositions of Holy Scripture - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
-            "path": "English/Commentaries/Expositions of Holy Scripture - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Expositions of Holy Scripture - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
             "path": "English/Commentaries/MacL - StudioOneEditions.graphe",
             "author": "Alexander Maclaren",
             "publisher": "Studio Graphē One Ltd",
@@ -7191,12 +7065,6 @@
             "author": "Alexander Maclaren",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Expositions of Holy Scripture is a monumental 32-volume expository commentary by Alexander Maclaren (1826–1910), the celebrated British Baptist preacher often regarded as one of the greatest expositors of the nineteenth century. The work covers virtually the entire Bible…"
-          },
-          {
-            "title": "Expositions of Holy Scripture - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Expositions of Holy Scripture - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Expository Notes, with Practical Observations on the New Testament - StudioOneEditions",
@@ -7256,24 +7124,6 @@
             "summary": "Original edition. Gary C. Hampton's commentaries offer verse-by-verse exposition of selected books of the Bible from a Churches of Christ perspective, emphasising practical application and doctrinal soundness. The work engages both textual analysis and apologetic concerns, as evidenced by the…"
           },
           {
-            "title": "Gary Hampton Commentary on Genesis - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Gary Hampton Commentary on Genesis - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Gary Hampton Commentary on Genesis - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Gary Hampton Commentary on Genesis - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Geneva Bible Notes - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Geneva Bible Notes - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Good News Translation (US Version)",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7289,12 +7139,6 @@
             "summary": "Original edition. Haydock's Catholic Bible Commentary is a comprehensive verse-by-verse commentary on the entire Catholic Bible, originally compiled by George Leo Haydock and first published in the early nineteenth century. It draws heavily on the Latin Vulgate text and incorporates the annotations…"
           },
           {
-            "title": "Haydock's Catholic Bible Commentary - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Haydock's Catholic Bible Commentary - StudioOneEditions.graphe"
-          },
-          {
             "title": "Haydock's Catholic Bible Commentary - StudioOneModernEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7302,12 +7146,6 @@
             "author": "George Leo Haydock",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Haydock's Catholic Bible Commentary is a comprehensive verse-by-verse commentary on the entire Catholic Bible, originally compiled by George Leo Haydock and drawing heavily on the notes of Challoner, Calmet, and other Catholic scholars. It is written from a traditional Roman…"
-          },
-          {
-            "title": "Haydock's Catholic Bible Commentary - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Haydock's Catholic Bible Commentary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Holman Christian Standard Bible, 2009",
@@ -7338,12 +7176,6 @@
             "author": "Charles Simeon",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Horae Homileticae is a monumental expository and homiletical commentary on the entire Bible by Charles Simeon (1759–1836), the influential Anglican evangelical minister of Holy Trinity Church, Cambridge. Originally published in 21 volumes, the work provides sermon outlines and…"
-          },
-          {
-            "title": "Horae Homileticae - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Horae Homileticae - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "International Bible School Commentary - StudioOneEditions",
@@ -7400,12 +7232,6 @@
             "path": "English/Commentaries/KJV Marginal Notes - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "KJV Original Language Details - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/KJV Original Language Details - StudioOneEditions.graphe"
-          },
-          {
             "title": "KJV Original Language Details - StudioOneModernEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7413,12 +7239,6 @@
             "author": "KJV Translation Committee",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. KJV Original Language Details is a Bible software commentary module presenting the original apparatus of the 1611 King James Version, including the chapter arguments (brief summaries prefacing each chapter), marginal cross-references, and original language annotations as printed…"
-          },
-          {
-            "title": "KJV Original Language Details - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/KJV Original Language Details - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Keil and Delitzsch Commentary on the Old - StudioOneModernisedEditions",
@@ -7484,12 +7304,6 @@
             "summary": "Modernised edition. Kretzmann's Popular Commentary of the Bible is a four-volume expository commentary covering the entire Old and New Testaments, written by Lutheran theologian Paul E. Kretzmann and first published in 1921–1923. The work is written in accessible language intended for lay readers…"
           },
           {
-            "title": "Lange's Commentary on the Holy Scripture - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Lange's Commentary on the Holy Scripture - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Lange's Commentary on the Holy Scriptures - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7497,12 +7311,6 @@
             "author": "Johann Peter Lange",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Original edition. Lange's Commentary on the Holy Scriptures is a monumental critical and exegetical commentary covering the entire Bible, originally composed in German by Johann Peter Lange and translated, expanded, and edited for the English-speaking world by Philip Schaff alongside a team of…"
-          },
-          {
-            "title": "Lange's Commentary on the Holy Scriptures - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Lange's Commentary on the Holy Scriptures - StudioOneEditions.graphe"
           },
           {
             "title": "Lange's Commentary on the Holy Scriptures - StudioOneModernEditions",
@@ -7551,18 +7359,6 @@
             "author": "Matthew Poole",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Original edition. Matthew Poole's Commentary on the Holy Bible is a monumental exegetical work by the English Nonconformist scholar Matthew Poole (1624–1679), originally published posthumously in three folio volumes. Drawing on an extraordinary range of patristic, Reformation, and contemporary…"
-          },
-          {
-            "title": "Meyer-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Meyer-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Morgan-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Morgan-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Murd.commentaries - StudioOneModernisedEditions",
@@ -7715,18 +7511,6 @@
             "summary": "Modernised edition. Notes from the Numerical Bible is a condensed and accessible distillation of F. W. Grant's larger multivolume work, The Numerical Bible, presenting his typological and dispensational commentary on the whole of Scripture. Grant, a prominent Plymouth Brethren teacher of the…"
           },
           {
-            "title": "Notes from the Numerical Bible, Grant, 1 - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Notes from the Numerical Bible, Grant, 1 - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Notes from the Numerical Bible, Grant, 1932",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Notes from the Numerical Bible, Grant, 1932.graphe"
-          },
-          {
             "title": "Notes on Scripture - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7737,12 +7521,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Notes on the Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Notes on the Pentateuch",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Notes on the Pentateuch.graphe"
           },
           {
             "title": "Notes on the Pentateuch - StudioOneEditions",
@@ -7763,12 +7541,6 @@
             "summary": "Modernised edition. Notes on the Pentateuch is a classic devotional and expository commentary by Charles Henry Mackintosh (C.H.M.), covering Genesis through Deuteronomy in six volumes, first published between 1858 and 1880. Written from a Plymouth Brethren perspective, the work is characterised by…"
           },
           {
-            "title": "Notes on the Pentateuch - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Notes on the Pentateuch - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "OBB-c.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7787,18 +7559,6 @@
             "path": "English/Commentaries/Open English Bible, 2016 (Commonwealth spelling).graphe"
           },
           {
-            "title": "Owen-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Owen-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "PCHC-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/PCHC-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "PEV'21.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7809,12 +7569,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/PNT-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Patmos-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Patmos-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Peake's commentary on the Bible",
@@ -7829,24 +7583,6 @@
             "path": "English/Commentaries/Peake's commentary on the Bible - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Pool-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Pool-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Popular Commentary of the Bible - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Popular Commentary of the Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Popular Commentary of the Bible - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Popular Commentary of the Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Practical Discourses on All the Books of - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7857,12 +7593,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Pulpit-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "RWP-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/RWP-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Rem.commentaries - StudioOneModernisedEditions",
@@ -7905,12 +7635,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Schaff-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Scof-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Scof-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Scofield Reference Bible - StudioOneEditions",
@@ -7973,18 +7697,6 @@
             "summary": "Modernised edition. Spurgeon's Verse Expositions of the Bible is a three-volume collection of verse-by-verse expository comments drawn from the sermons and writings of Charles Haddon Spurgeon, the celebrated Victorian Baptist preacher. The work provides devotional and homiletical insights on…"
           },
           {
-            "title": "Spurgeon’s Verse Expositions of the Bibl - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Spurgeon’s Verse Expositions of the Bibl - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Spurgeon’s Verse Expositions of the Bible",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Spurgeon’s Verse Expositions of the Bible.graphe"
-          },
-          {
             "title": "Study Notes on the Holy Scriptures - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7995,12 +7707,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Study Notes on the Holy Scriptures - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Summ-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Summ-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Summarized Bible - StudioOneEditions",
@@ -8033,12 +7739,6 @@
             "path": "English/Commentaries/Summarized Bible Commentary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Sutcl-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Sutcl-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Sutcliffe's Commentary on the Old and New Testaments - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -8069,34 +7769,10 @@
             "path": "English/Commentaries/TGC-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "TPC.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/TPC.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "TS'2009.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/TS'2009.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "TSK-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/TSK-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "The Bible Study NT Explanatory Notes",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Bible Study NT Explanatory Notes.graphe"
-          },
-          {
-            "title": "The Bible Study NT Explanatory Notes - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Bible Study NT Explanatory Notes - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "The Bible Study New Testament - StudioOneEditions",
@@ -8159,24 +7835,6 @@
             "summary": "Modernised edition. The Companion Bible is a comprehensive annotated study Bible compiled by Ethelbert William Bullinger and first published in parts from 1909 to 1922, with the complete one-volume edition appearing posthumously in 1922. It presents the King James Version text alongside an…"
           },
           {
-            "title": "The Companion Bible - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Companion Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "The Companion Bible CB, Bullinger, 1922",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Companion Bible CB, Bullinger, 1922.graphe"
-          },
-          {
-            "title": "The Companion Bible CB, Bullinger, 1922 - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Companion Bible CB, Bullinger, 1922 - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "The Daily Study Bible- New Testament - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -8205,12 +7863,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/The Expositor's Greek Testament - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "The Fourfold Gospel - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Fourfold Gospel - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "The Fourfold Gospel and Commentary on Acts of the Apostles - StudioOneEditions",
@@ -8294,18 +7946,6 @@
             "summary": "Original edition. The People's Bible is a monumental expository and devotional commentary on the entire Bible by the celebrated Victorian Congregationalist preacher Joseph Parker (1830–1902), originally delivered as sermons at the City Temple in London and subsequently published in 25 volumes.…"
           },
           {
-            "title": "The People's Bible Commentary, 2002",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The People's Bible Commentary, 2002.graphe"
-          },
-          {
-            "title": "The People's Bible Commentary, 2002 - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The People's Bible Commentary, 2002 - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "The Preacher's Complete Homiletical Comm - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -8384,30 +8024,6 @@
             "summary": "Modernised edition. The Sermon Bible is a multi-volume homiletical commentary edited by W. Robertson Nicoll, compiling thousands of sermon outlines and illustrative extracts from leading Victorian preachers on every chapter of the Bible. It provides preachers with structured outlines, points of…"
           },
           {
-            "title": "The Sermon Bible Commentary",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Sermon Bible Commentary.graphe"
-          },
-          {
-            "title": "The Sermon Bible Commentary - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Sermon Bible Commentary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "The children's great texts of the Bible",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The children's great texts of the Bible.graphe"
-          },
-          {
-            "title": "The children's great texts of the Bible - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The children's great texts of the Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Through the Bible Commentary - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -8436,12 +8052,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Translation for Translators - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Trapp-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Trapp-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Treasury of Scripture Knowledge - StudioOneEditions",
@@ -8480,12 +8090,6 @@
             "path": "English/Commentaries/ULB.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "VWS-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/VWS-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Vincent's Word Studies in the New Testament - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -8502,12 +8106,6 @@
             "author": "Marvin R. Vincent",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Vincent's Word Studies in the New Testament is a four-volume exegetical reference work by Marvin R. Vincent, first published in 1887, offering detailed philological and grammatical analysis of key Greek terms throughout the New Testament. Vincent examines the etymology…"
-          },
-          {
-            "title": "WBEN-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/WBEN-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "WCA-c.commentaries - StudioOneModernisedEditions",
@@ -8543,12 +8141,6 @@
             "summary": "Modernised edition. Wells of Living Water is a multi-volume expository commentary series written by Dr. Robert Edward Neighbour (1866–1945), a Baptist pastor and prolific Bible teacher. The series provides detailed, devotionally rich expositions of Scripture arranged thematically and book by book…"
           },
           {
-            "title": "Wells of Living Water Commentary",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Wells of Living Water Commentary.graphe"
-          },
-          {
             "title": "Wells of Living Water Commentary - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -8558,28 +8150,10 @@
             "summary": "Original edition. Wells of Living Water is a multi-volume expository commentary series written by Dr. Robert Edward Neighbour (1866–1945), a Baptist pastor and evangelist. The series provides thematic and verse-by-verse exposition of Scripture, organized around devotional and doctrinal themes drawn…"
           },
           {
-            "title": "Wells of Living Water Commentary - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Wells of Living Water Commentary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Wesley's Notes on the Bible - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Wesley's Notes on the Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Whedon's Commentary on the Bible - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Whedon's Commentary on the Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Whedon's Commentary on the Bible - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Whedon's Commentary on the Bible - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Whedon's Commentary on the Old and New Testaments - StudioOneEditions",
@@ -8921,18 +8495,6 @@
             "path": "English/Dictionaries/A Theological and Syntactical Biblical D - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "BCWBD.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/BCWBD.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Babylon English-Spanish",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Babylon English-Spanish.graphe"
-          },
-          {
             "title": "Biblical and Theological Dictionary - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -8961,18 +8523,6 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/Buck.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "CBAPP.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/CBAPP.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "CBC.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/CBC.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Condensed Biblical Cyclopedia - StudioOneEditions",
@@ -9015,12 +8565,6 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/DPBN.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "DPR.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/DPR.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Diccionario Bíblico Inglés-Español de Babilonia - StudioOneEditions",
@@ -9100,22 +8644,10 @@
             "summary": "Modernised edition. Easton's Bible Dictionary is a comprehensive evangelical Bible dictionary first published in 1893, containing approximately 3,900 entries covering biblical persons, places, objects, and theological concepts. Compiled by Scottish Presbyterian minister Matthew George Easton, it…"
           },
           {
-            "title": "Easton.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Easton.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Etym.dictionary - StudioOneModernisedEditions",
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/Etym.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "FFA.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/FFA.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Fausset's Bible Dictionary - Andrew Robert Fausset",
@@ -9160,22 +8692,10 @@
             "summary": "Modernised edition. Figures of Speech Used in the Bible by E. W. Bullinger (1898) is a monumental reference work cataloguing over 200 distinct rhetorical and literary figures of speech found throughout the biblical text. Bullinger systematically defines each figure of speech, traces its Greek or…"
           },
           {
-            "title": "FoS.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/FoS.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "FreGBM.dictionary - StudioOneModernisedEditions",
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/FreGBM.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "GOTS.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/GOTS.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "HBD.dictionary - StudioOneModernisedEditions",
@@ -9196,12 +8716,6 @@
             "path": "English/Dictionaries/Holman Treasury of Key Bible Words (Hebrew) by Eugene E. Carpenter and.graphe"
           },
           {
-            "title": "Illustr.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Illustr.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Illustrations of the Bible - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -9216,12 +8730,6 @@
             "path": "English/Dictionaries/Illustr - StudioOneModernEditions.graphe",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Illustrations of the Bible is a topical compilation of sermon illustrations, anecdotes, and illustrative stories drawn from a wide range of sources including explorers, missionaries, travellers, and everyday life, designed to illuminate biblical passages and themes for preachers…"
-          },
-          {
-            "title": "KJVD.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/KJVD.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "King James Dictionary - StudioOneEditions",
@@ -9257,12 +8765,6 @@
             "summary": "Original edition. The Modern Literal Version (MLV) Definitions module is a companion reference work to the Modern Literal Version of the New Testament, providing word-level glossary and definitional entries that explain the translation choices made throughout the MLV text. It clarifies how specific…"
           },
           {
-            "title": "Modern Literal Version, 2019 — Definitions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Modern Literal Version, 2019 — Definitions.graphe"
-          },
-          {
             "title": "Morrish Bible Dictionary - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -9270,12 +8772,6 @@
             "author": "George Morrish",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Original edition. Morrish Bible Dictionary is a compact biblical reference work compiled by George Morrish, a nineteenth-century Plymouth Brethren publisher and author based in London. The dictionary provides succinct explanations of biblical names, places, persons, and terms drawn from both the…"
-          },
-          {
-            "title": "Morrish.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Morrish.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "NAVE.dictionary - StudioOneModernisedEditions",
@@ -9294,12 +8790,6 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/Nave's Topical Bible.graphe"
-          },
-          {
-            "title": "Noah.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Noah.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "PCBL.dictionary - StudioOneModernisedEditions",
@@ -9330,18 +8820,6 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/Perf.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Rice.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Rice.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Scof.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Scof.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Scofield Reference Index - StudioOneEditions",
@@ -9375,12 +8853,6 @@
             "author": "Robert Baker Girdlestone",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Synonyms of the Old Testament by Robert Baker Girdlestone (1836–1923) is a classic lexical reference work that examines the principal Hebrew and Chaldee words of the Old Testament, grouping synonymous terms and tracing their distinctive shades of meaning as reflected in the…"
-          },
-          {
-            "title": "TTT.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/TTT.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "TWOT.dictionary - StudioOneModernisedEditions",
@@ -9458,12 +8930,6 @@
             "summary": "Modernised edition. Torrey's New Topical Textbook is a comprehensive topical index and concordance of the Bible compiled by R. A. Torrey, organizing thousands of Scripture references under doctrinal, devotional, and practical headings. It is designed to assist Bible students, preachers, and…"
           },
           {
-            "title": "Unabridged plain text Webster's dictionary",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Unabridged plain text Webster's dictionary.graphe"
-          },
-          {
             "title": "VineNT.dictionary - StudioOneModernisedEditions",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -9474,18 +8940,6 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/VineOT.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Wace.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Wace.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Watson.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Watson.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Webster's Dictionary",
@@ -9529,12 +8983,6 @@
             "summary": "Original edition. Word Studies OT, NT is a topical-devotional reference module covering key biblical terms and themes across both the Old and New Testaments. Entries are organised alphabetically by subject word or theme, drawing on classic English Bible translations (notably the American Standard…"
           },
           {
-            "title": "Word.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Word.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "WordNet.dictionary - StudioOneModernisedEditions",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -9563,12 +9011,6 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/en-de.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "en-es-GU.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/en-es-GU.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "en-es.dictionary - StudioOneModernisedEditions",
