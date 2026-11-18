@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Privacy Statement — Graphē Dictionary</title>
-<meta name="description" content="Privacy statement for Graphē Dictionary. No tracking, no analytics, no accounts, no data collected.">
+<meta name="description" content="Privacy statement for Graphē Dictionary. No tracking, no analytics, no accounts. Optional sync is locked on your device, so nobody else can read it.">
 <link rel="icon" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,15 +26,16 @@
 </header>
 
 <div class="page-head container"><h1>Graphē Dictionary Privacy Statement</h1></div>
-<p class="effective">Effective 13 November 2026</p>
+<p class="effective">Effective 18 November 2026</p>
 
 <main class="container">
 
   <div class="card">
     <p><b>The short version:</b> Graphē Dictionary collects nothing about you. There are no
     accounts, no analytics, no advertising and no tracking. The words you look up are handled
-    on your device and are never sent to us. Studio Graphē One Ltd. operates no servers that
-    receive your data.</p>
+    on your device and are never sent to us. If you choose to turn on Sync, your history and
+    favourites are locked on your device before they leave it, so the copy kept for syncing can't
+    be read by Studio Graphē One Ltd. or anyone else.</p>
   </div>
 
   <h2>What stays on your device</h2>
@@ -42,17 +43,28 @@
     <li><b>The dictionary itself</b> — the bundled dictionary and any larger one you download are files on your device. Searching and reading use only those files.</li>
     <li><b>My Dictionary</b> — if you add your own words and meanings, they are saved in a file on your device and searched along with the other dictionaries. If you are signed in to iCloud and leave <b>Sync with iCloud</b> on, they are also kept in your own iCloud account (Apple's iCloud key-value storage) so they appear on your other devices. That copy belongs to your Apple Account: Studio Graphē One cannot see it, and nothing is ever sent to us or to anyone else. You can switch syncing off at any time in My Dictionary.</li>
     <li><b>Your preferences</b> — text size, which switches are on (Examples, Quotations, Webster's), spelling choice, the language you chose for the app, which dictionary you are looking words up in, the language you chose for Wikipedia, the topic you filtered by, and any categories you have hidden.</li>
+    <li><b>History and Favourites</b> — the last 20 words and Wikipedia articles you opened, and the ones you starred, each favourite with a short summary. They are saved in a file on your device. The summary is written on your device: by Apple Intelligence where your device has it (it runs on the device, and Apple doesn't receive the text), or otherwise from the dictionary's own words. For a Wikipedia article, the app asks Wikipedia for the article's short description and opening paragraph, as described below.</li>
     <li><b>Your session</b> — the list of words you have visited this session, used by the Ontology journey. It is not saved when the app closes.</li>
     <li><b>A folder bookmark</b> — if you choose a folder to load dictionary files from (for example one in iCloud Drive), the app remembers where it is so it can reopen it. The app reads only the dictionary files you point it at.</li>
   </ul>
-  <p>None of this is sent to Studio Graphē One or to anyone else.</p>
+  <p>None of this is sent to Studio Graphē One or to anyone else, except your history and favourites if you turn on Sync, and then only in a form we can't read.</p>
+
+  <h2 id="sync">Sync (optional)</h2>
+  <p>Sync keeps your history and favourites the same on your Mac, iPhone, iPad and, when those versions are available, Windows and Android. It is off until you turn it on in <b>Settings ▸ Sync</b>.</p>
+  <ul>
+    <li><b>No account.</b> Sync doesn't ask for your name, email address or any other details. Your devices share a private sync key instead, made on your device when you turn Sync on.</li>
+    <li><b>Locked before it leaves your device.</b> Each history item and favourite is encrypted on your device with that key (AES-256) before it is sent. Studio Graphē One's sync service, which runs on Cloudflare, stores only this scrambled data, random-looking identifiers and the time of each change. It can't see which words or articles you saved or what the summaries say, and neither can we. As with any web service, your IP address is seen when your device connects; we don't use it to identify you or to analyse your use.</li>
+    <li><b>Where the key is kept.</b> On Apple devices the key is kept in iCloud Keychain, which Apple encrypts end to end, so it reaches your other Apple devices by itself. The app also shows it as a <b>recovery code</b> and a QR code, for adding a device or recovering your history and favourites if you lose your devices. Anyone with the code can read your synced history and favourites, so keep it private.</li>
+    <li><b>Stopping and deleting.</b> <b>Stop Syncing This Device</b> stops one device. <b>Turn Off Sync on All Devices</b> erases the copy kept for syncing straight away. Each device keeps what it already has. A copy that no device has used for two years is removed automatically, and records of deleted items are removed after 90 days.</li>
+  </ul>
 
   <h2>When the app connects to the internet</h2>
-  <p>The dictionary and thesaurus work without a connection. The app uses the internet in two situations only:</p>
+  <p>The dictionary and thesaurus work without a connection. The app uses the internet in these situations only:</p>
   <ul>
     <li><b>Downloading a larger dictionary or one in another language.</b> In Settings, you can download a bigger size of the English dictionary or a dictionary in another language. The app first fetches the list of what is available, then the files you choose. They are fetched from a public storage bucket on Cloudflare R2. As with any web download, the host can see your IP address and which file you asked for. Studio Graphē One does not receive, keep or analyse these requests, and the app sends nothing else.</li>
     <li><b>The Wikipedia tab.</b> When you choose Wikipedia, the app asks Wikipedia for the article matching the word you are reading, and shows the page inside the app, from the Wikipedia in the language of the dictionary you are using (for example en.wikipedia.org for English). If you have chosen another language for Wikipedia, the app also asks Wikipedia for the same article in that language and shows that page instead. The first time you open the list of Wikipedia languages, the app fetches Wikimedia's public list of Wikipedias from meta.wikimedia.org and keeps it on your device; that request contains nothing about you or the words you look up. The word, your IP address and ordinary web-browsing information go to Wikipedia, which is run by the Wikimedia Foundation and is governed by the
-        <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy" rel="noopener">Wikimedia Privacy Policy</a>. Links to other websites open in your normal browser.</li>
+        <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy" rel="noopener">Wikimedia Privacy Policy</a>. When you star a Wikipedia article, the app also asks Wikipedia for that article's short description and opening paragraph, to make its summary. Links to other websites open in your normal browser.</li>
+    <li><b>Sync, if you turn it on.</b> Your devices send and fetch locked history and favourites, as described under <a href="#sync">Sync</a>.</li>
   </ul>
 
   <h2>Purchases</h2>
@@ -69,7 +81,7 @@
     <li>No analytics or telemetry of any kind.</li>
     <li>No advertising and no advertising identifiers.</li>
     <li>No tracking across apps or websites.</li>
-    <li>No accounts, and no sale, sharing or transfer of personal data — we hold none to share.</li>
+    <li>No accounts, and no sale, sharing or transfer of personal data — we hold nothing about you that we can read.</li>
     <li>No third-party software development kits that collect data.</li>
   </ul>
 
