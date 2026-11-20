@@ -14,6 +14,12 @@ TV Studio One's posts live in `tvstudioone/` (copy `tvstudioone/_TEMPLATE.md`) a
 `--app tvstudioone`: Android only, audiences all / trial / full / expired, buttons openUrl and openSettings, and its own 28
 languages (`tools/app_languages_tvstudioone.json`). Its feed is `docs/TVStudioOne/resources/announcements/announcements.json`.
 
+Scrib's posts live in `scrib/` (copy `scrib/_TEMPLATE.md`) and are checked and written with `--app scrib`: iPhone, iPad
+and Mac (`platforms: ios, macos`), audiences all / trial (the 5-day trial) / full (bought the unlock) / expired, buttons
+openUrl and openSettings, and its own 35 languages (`tools/app_languages_scrib.json`; en-GB is served from en). Its feed is
+`docs/Scrib/resources/announcements/announcements.json`. A post that uses `languages:` needs `minVersion: 1.1.0` or later.
+To check the list against the app: `--check --app scrib --app-strings <Scrib/Scrib/Localizable.xcstrings>`.
+
 The format is defined in `ScriptureStudy_macOS/docs/ANNOUNCEMENTS_INBOX_SPEC.md`.
 
 © 2026 Studio Graphē One Ltd

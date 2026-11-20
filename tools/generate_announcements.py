@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Generate an app's announcements feed from the post files: ScriptureStudy Pro's (the default) or TV Studio One's
-(--app tvstudioone).
+Generate an app's announcements feed from the post files: ScriptureStudy Pro's (the default), TV Studio One's
+(--app tvstudioone) or Scrib's (--app scrib).
 
 What it does
 ------------
@@ -51,8 +51,8 @@ Post file format (see announcements/_TEMPLATE.md)
     [de]
     ...
 
-Two apps
---------
+Three apps
+----------
     --app scripturestudy   (default) posts in announcements/, languages in tools/app_languages.json, feed under
                            docs/ScriptureStudy/, plus the RSS feed and the public news page.
     --app tvstudioone      posts in announcements/tvstudioone/, languages in tools/app_languages_tvstudioone.json
@@ -63,6 +63,13 @@ Two apps
                            android. Audiences: all, trial, full (owns the Lifetime unlock), expired; never basic.
                            Buttons: none, openUrl and openSettings; openCatalogue and openModule show no button there,
                            so they are refused.
+    --app scrib            posts in announcements/scrib/, languages in tools/app_languages_scrib.json (Scrib's own
+                           string catalogue, Scrib/Scrib/Localizable.xcstrings; en-GB is served from en and needs no
+                           text of its own), feed at docs/Scrib/resources/announcements/announcements.json
+                           (https://graphe.one/Scrib/resources/announcements/announcements.json) and nothing else.
+                           The format is the same (schema 1). Scrib is iPhone, iPad and Mac (Catalyst): platforms are
+                           ios and macos. Audiences: all, trial (the 5-day trial), full (bought the unlock) and
+                           expired; never basic. Buttons: none, openUrl and openSettings.
 
 Usage
 -----
@@ -110,6 +117,18 @@ APPS = {
         "actions": ["none", "openSettings", "openUrl"],
         "extras": False,
     },
+    "scrib": {
+        "name": "Scrib",
+        "posts": "announcements/scrib",
+        "feed": "docs/Scrib/resources/announcements",
+        "languages": "tools/app_languages_scrib.json",
+        "platforms": ["ios", "macos"],
+        "audiences": ["all", "trial", "full", "expired"],
+        "actions": ["none", "openSettings", "openUrl"],
+        "extras": False,
+        # Languages the app's catalogue has that are served from another code, so no post needs text for them.
+        "aliases": {"en-GB": "en"},
+    },
 }
 MAX_TITLE = 80      # English only
 MAX_BODY = 600      # English only
@@ -118,7 +137,8 @@ SCHEMA = 1
 PLATFORM_LABELS = {"macos": "macOS", "ios": "iPhone and iPad", "windows": "Windows", "android": "Android"}
 LINK = re.compile(r"\[([^\]\n]+)\]\((https://[^)\s]+)\)")
 BOLD = re.compile(r"\*\*([^*\n]+)\*\*")
-LANG_HEADER = re.compile(r"^\[([A-Za-z]{2,3}(?:-[A-Za-z]{2,4})?)\]\s*$", re.M)
+# A language code: "de", "pt-BR", "zh-Hans", or a numeric region such as "es-419".
+LANG_HEADER = re.compile(r"^\[([A-Za-z]{2,3}(?:-(?:[A-Za-z]{2,4}|\d{3}))?)\]\s*$", re.M)
 VERSION = re.compile(r"^\d+\.\d+(?:\.\d+)?$")
 
 
@@ -140,7 +160,9 @@ def read_language_filter_min_version(root, app="scripturestudy"):
 
 
 def version_tuple(value):
-    return tuple(int(x) for x in value.split("."))
+    """Dotted version as numbers, padded so that 2.4 equals 2.4.0 (as the apps compare them)."""
+    parts = [int(x) for x in value.split(".")]
+    return tuple(parts + [0] * (3 - len(parts)))
 
 
 def parse_post(path, languages, filter_min_version=None, app="scripturestudy"):
@@ -504,6 +526,7 @@ def check_app_languages(languages, xcstrings_path, app="scripturestudy"):
     found = {data.get("sourceLanguage", "en")}
     for entry in data.get("strings", {}).values():
         found.update((entry.get("localizations") or {}).keys())
+    found = {APPS[app].get("aliases", {}).get(code, code) for code in found}
     problems = []
     if found - set(languages):
         problems.append(f"the app has languages missing from {languages_file}: "
@@ -551,7 +574,7 @@ def run(root, today, now, check_only=False, app_strings=None, app="scripturestud
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="Generate an app's announcements feed (ScriptureStudy Pro, or TV Studio One).")
+    ap = argparse.ArgumentParser(description="Generate an app's announcements feed (ScriptureStudy Pro, TV Studio One or Scrib).")
     ap.add_argument("--app", choices=sorted(APPS), default="scripturestudy",
                     help="which app's feed (default scripturestudy)")
     ap.add_argument("--check", action="store_true", help="validate only; write nothing")

@@ -487,5 +487,169 @@ class TVStudioOneTests(unittest.TestCase):
         self.assertTrue(any("app_languages_tvstudioone.json lists languages the app does not have: lv" in e for e in errors), errors)
 
 
+# ---------------------------------------------------------------------------------------- Scrib
+
+SCRIB_LANGUAGES = json.loads((Path(__file__).resolve().parent / "app_languages_scrib.json").read_text(encoding="utf-8"))["languages"]
+SCRIB_FEED = "docs/Scrib/resources/announcements/announcements.json"
+
+
+class ScribSite(Site):
+    """The same throwaway layout, with Scrib's own posts folder and language list."""
+    def __init__(self):
+        super().__init__()
+        (self.root / "announcements" / "scrib").mkdir()
+        (self.root / "tools" / "app_languages_scrib.json").write_text(
+            json.dumps({"languages": SCRIB_LANGUAGES, "languageFilterMinVersion": "1.1.0"}), encoding="utf-8")
+
+    def add(self, name, text):
+        (self.root / "announcements" / "scrib" / name).write_text(text, encoding="utf-8")
+
+    def run(self, **kw):
+        return g.run(self.root, kw.pop("today", TODAY), NOW, app="scrib", **kw)
+
+    def feed(self):
+        return json.loads((self.root / SCRIB_FEED).read_text(encoding="utf-8"))
+
+
+def scrib_post(**kw):
+    kw.setdefault("languages", SCRIB_LANGUAGES)
+    kw.setdefault("platforms", "ios, macos")
+    kw.setdefault("pid", "2026-11-05-app")
+    kw.setdefault("kind", "app")
+    return post_text(**kw)
+
+
+class ScribTests(unittest.TestCase):
+    def setUp(self):
+        self.site = ScribSite()
+
+    def tearDown(self):
+        self.site.dir.cleanup()
+
+    def assertRejected(self, fragment):
+        errors, written = self.site.run()
+        self.assertTrue(any(fragment in e for e in errors), f"expected {fragment!r} in {errors}")
+        self.assertEqual(written, [])
+
+    def test_the_language_list_is_english_and_the_34_translations_without_en_gb(self):
+        self.assertEqual(SCRIB_LANGUAGES[0], "en")
+        self.assertEqual(len(SCRIB_LANGUAGES), 35)
+        self.assertNotIn("en-GB", SCRIB_LANGUAGES)
+        for code in ("es-419", "pt-BR", "pt-PT", "zh-Hans", "zh-Hant", "nb", "ca", "ms", "vi"):
+            self.assertIn(code, SCRIB_LANGUAGES)
+
+    def test_the_feed_is_written_at_the_address_the_app_reads_and_nothing_else(self):
+        errors, written = self.site.run()
+        self.assertEqual(errors, [])
+        self.assertEqual([Path(w).relative_to(self.site.root).as_posix() for w in written], [SCRIB_FEED])
+        feed = self.site.feed()
+        self.assertEqual((feed["schema"], feed["items"]), (1, []))
+        self.assertFalse((self.site.root / "docs/ScriptureStudy").exists(), "the other apps' files are not touched")
+        self.assertFalse((self.site.root / "docs/TVStudioOne").exists())
+
+    def test_a_post_has_every_language_in_the_same_format(self):
+        self.site.add("2026-11-05-app.md", scrib_post())
+        self.assertEqual(self.site.run()[0], [])
+        item = self.site.feed()["items"][0]
+        self.assertEqual(list(item["title"]), SCRIB_LANGUAGES)
+        self.assertEqual(item["platforms"], ["macos", "ios"])
+        self.assertEqual(set(item), {"id", "kind", "published", "expires", "platforms", "minVersion", "maxVersion",
+                                     "audience", "theme", "languages", "title", "body", "action"})
+
+    def test_only_this_apps_folder_is_read(self):
+        (self.site.root / "announcements" / "2026-11-05-weekly.md").write_text(post_text(), encoding="utf-8")
+        self.assertEqual(self.site.run()[0], [])
+        self.assertEqual(self.site.feed()["items"], [])
+
+    def test_a_missing_language_is_refused(self):
+        self.site.add("2026-11-05-app.md", scrib_post(languages=[c for c in SCRIB_LANGUAGES if c != "th"]))
+        self.assertRejected("missing 1 of 35 languages: th")
+
+    def test_it_is_ios_and_macos_only(self):
+        for plat in ("android", "windows", "ios, android"):
+            self.setUp()
+            self.site.add("2026-11-05-app.md", scrib_post(platforms=plat))
+            self.assertRejected("platforms must be ios, macos")
+            self.tearDown()
+        self.setUp()
+        self.site.add("2026-11-05-app.md", scrib_post(platforms=""))
+        self.assertRejected("platforms is empty")
+        self.tearDown()
+        for plat in ("ios", "macos", "macos, ios"):
+            self.setUp()
+            self.site.add("2026-11-05-app.md", scrib_post(platforms=plat))
+            self.assertEqual(self.site.run()[0], [], plat)
+            self.tearDown()
+        self.setUp()
+
+    def test_audiences_are_all_trial_full_and_expired_never_basic(self):
+        for audience in ("all", "trial", "full", "expired"):
+            self.setUp()
+            self.site.add("2026-11-05-app.md", scrib_post(audience=audience))
+            self.assertEqual(self.site.run()[0], [], audience)
+            self.assertEqual(self.site.feed()["items"][0]["audience"], audience)
+            self.tearDown()
+        self.setUp()
+        self.site.add("2026-11-05-app.md", scrib_post(audience="basic"))
+        self.assertRejected("has no basic audience")
+
+    def test_only_open_url_and_open_settings_make_a_button(self):
+        for action, target in (("none", ""), ("openUrl", "https://graphe.one/Scrib/"), ("openSettings", "toolbar")):
+            self.setUp()
+            self.site.add("2026-11-05-app.md", scrib_post(action=action, target=target))
+            self.assertEqual(self.site.run()[0], [], action)
+            self.tearDown()
+        for action, target in (("openCatalogue", ""), ("openModule", "x")):
+            self.setUp()
+            self.site.add("2026-11-05-app.md", scrib_post(action=action, target=target))
+            self.assertRejected("shows no button in Scrib")
+            self.tearDown()
+        self.setUp()
+
+    def test_a_post_for_chosen_languages_needs_minversion_1_1_0(self):
+        self.site.add("2026-11-05-app.md", scrib_post(languages=["en", "de"], languages_field="de"))
+        self.assertRejected("needs minVersion 1.1.0 or later")
+        self.setUp()
+        self.site.add("2026-11-05-app.md", scrib_post(languages=["en", "de"], languages_field="de", min_version="1.1"))
+        self.assertEqual(self.site.run()[0], [])
+
+    def test_a_version_with_a_missing_part_equals_the_same_with_zero(self):
+        self.assertEqual(g.version_tuple("1.1"), g.version_tuple("1.1.0"))
+        self.assertLess(g.version_tuple("1.0.9"), g.version_tuple("1.1"))
+
+    def test_only_the_english_has_a_length_limit(self):
+        text = scrib_post().replace("Body for de.", "B" * 2500).replace("Title de\n", "T" * 300 + "\n")
+        self.site.add("2026-11-05-app.md", text)
+        self.assertEqual(self.site.run()[0], [])
+        self.setUp()
+        self.site.add("2026-11-05-app.md", scrib_post().replace("Body for en.", "B" * 601))
+        self.assertRejected("[en] body is 601 characters")
+
+    def test_the_language_list_matches_the_apps_catalogue_and_en_gb_is_an_alias_of_en(self):
+        catalogue = self.site.root / "Localizable.xcstrings"
+        langs = {c: {} for c in SCRIB_LANGUAGES[1:]}
+        langs["en-GB"] = {}
+        catalogue.write_text(json.dumps({"sourceLanguage": "en", "strings": {"Hi": {"localizations": {**langs}}}}), encoding="utf-8")
+        self.assertEqual(self.site.run(check_only=True, app_strings=str(catalogue))[0], [])
+        langs.pop("th")
+        catalogue.write_text(json.dumps({"sourceLanguage": "en", "strings": {"Hi": {"localizations": {**langs}}}}), encoding="utf-8")
+        errors = self.site.run(check_only=True, app_strings=str(catalogue))[0]
+        self.assertTrue(any("app_languages_scrib.json lists languages the app does not have: th" in e for e in errors), errors)
+
+    def test_a_language_the_app_gains_is_reported(self):
+        catalogue = self.site.root / "Localizable.xcstrings"
+        langs = {c: {} for c in SCRIB_LANGUAGES[1:]}
+        langs["sw"] = {}
+        catalogue.write_text(json.dumps({"sourceLanguage": "en", "strings": {"Hi": {"localizations": {**langs}}}}), encoding="utf-8")
+        errors = self.site.run(check_only=True, app_strings=str(catalogue))[0]
+        self.assertTrue(any("missing from tools/app_languages_scrib.json: sw" in e for e in errors), errors)
+
+    def test_the_real_catalogue_matches_the_real_language_list(self):
+        real = Path("/Users/richardbillings/XcodeOffline/Scrib/Scrib/Localizable.xcstrings")
+        if not real.exists():
+            self.skipTest("Scrib's catalogue is not on this machine")
+        self.assertEqual(self.site.run(check_only=True, app_strings=str(real))[0], [])
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)
