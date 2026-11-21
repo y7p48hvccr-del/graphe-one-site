@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T07:30:24.112840",
+  "generated": "2026-11-21T16:59:15.588974",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -6407,22 +6407,10 @@
       "categories": {
         "Bibles": [
           {
-            "title": "Berean Interlinear Bible New Testament - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English/Bibles/Berean Interlinear Bible New Testament - StudioOneEditions.graphe"
-          },
-          {
             "title": "Bible in Basic English",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English/Bibles/Bible in Basic English.graphe"
-          },
-          {
-            "title": "Christian Standard Bible Anglicised - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English/Bibles/Christian Standard Bible Anglicised - StudioOneEditions.graphe"
           },
           {
             "title": "Ge'ez Bible",
@@ -6431,28 +6419,10 @@
             "path": "English/Bibles/Ge'ez Bible.graphe"
           },
           {
-            "title": "Plain English Version",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English/Bibles/Plain English Version.graphe"
-          },
-          {
-            "title": "The Concordant Literal New Testament, 1966",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English/Bibles/The Concordant Literal New Testament, 1966.graphe"
-          },
-          {
             "title": "World Messianic Bible British Edition - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English/Bibles/World Messianic Bible British Edition - StudioOneEditions.graphe"
-          },
-          {
-            "title": "বাংলা নতুন নিয়ম - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English/Bibles/বাংলা নতুন নিয়ম - StudioOneEditions.graphe"
           }
         ],
         "Commentaries": [
@@ -6515,30 +6485,6 @@
             "author": "J. R. Dummelow",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Dummelow's Commentary on the Holy Bible, edited by J. R. Dummelow and first published in 1909, is a one-volume scholarly commentary covering the entire Protestant canon of Scripture. It was produced by a team of Cambridge scholars and is notable for balancing critical…"
-          },
-          {
-            "title": "A Faithful Version Commentary Notes - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/A Faithful Version Commentary Notes - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "A Student's Guide to New Testament Textu - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/A Student's Guide to New Testament Textu - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "A Student's Guide to New Testament Textual Critici - StudioOneEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/A Student's Guide to New Testament Textual Critici - StudioOneEditions.graphe"
-          },
-          {
-            "title": "A Textual Commentary on the Greek New Te - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/A Textual Commentary on the Greek New Te - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "American Standard Version Marginal Notes - StudioOneModernisedEditions",
@@ -6613,12 +6559,6 @@
             "path": "English/Commentaries/BLB'16.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "BV2020.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/BV2020.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Barnes' Notes on the New Testament - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6643,12 +6583,6 @@
             "summary": "Modernised edition. Joseph Benson's Commentary on the Old and New Testaments is a thorough, verse-by-verse exposition of the entire Bible originally published in five volumes, with a widely circulated edition appearing in 1846. Benson, a prominent Methodist minister and theologian, drew heavily on…"
           },
           {
-            "title": "Berean Interlinear Bible. New Testament. 2016",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Berean Interlinear Bible. New Testament. 2016.graphe"
-          },
-          {
             "title": "Berean Standard Bible Footnotes and Cros - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6659,12 +6593,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Box-c.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Breakthrough Version (BV)",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Breakthrough Version (BV).graphe"
           },
           {
             "title": "Brenton Septuagint Translation",
@@ -6740,18 +6668,6 @@
             "summary": "Original edition. Charles Box Commentaries is a collection of biblical expositions written by Charles Box, a minister and Bible teacher associated with Churches of Christ. The commentaries offer book-by-book studies through both Old and New Testament writings, emphasising practical application and…"
           },
           {
-            "title": "Christian Standard Bible Anglicised",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Christian Standard Bible Anglicised.graphe"
-          },
-          {
-            "title": "Christian Standard Bible, 2017",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Christian Standard Bible, 2017.graphe"
-          },
-          {
             "title": "Clarke's Commentary and Critical Notes on the Bible - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6768,12 +6684,6 @@
             "author": "Adam Clarke",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Adam Clarke's Commentary and Critical Notes on the Bible is a monumental verse-by-verse exposition of the entire Christian Scripture, originally published in eight volumes between 1810 and 1826. Clarke, a Methodist theologian and philologist, brought extensive knowledge of…"
-          },
-          {
-            "title": "College Press Bible Study Textbook Serie - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/College Press Bible Study Textbook Serie - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "College Press Bible Study Textbook Series - StudioOneEditions",
@@ -6848,46 +6758,16 @@
             "path": "English/Commentaries/Commentary on the Psalms - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Common English Bible, 2011",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Common English Bible, 2011.graphe"
-          },
-          {
-            "title": "Complete Jewish Bible, 1998",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Complete Jewish Bible, 1998.graphe"
-          },
-          {
             "title": "Concise Bible Commentary - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Concise Bible Commentary - StudioOneEditions.graphe"
           },
           {
-            "title": "Concise Bible Commentary - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Concise Bible Commentary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Concordant Commentary on the New Testame - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Concordant Commentary on the New Testame - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Contemporary English Version, 1995",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Contemporary English Version, 1995.graphe"
-          },
-          {
-            "title": "Contemporary English Version, 2006 (with Apocrypha)",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Contemporary English Version, 2006 (with Apocrypha).graphe"
           },
           {
             "title": "Critical and Exegetical Commentary on the New Testament - StudioOneEditions",
@@ -6908,12 +6788,6 @@
             "summary": "Modernised edition. Heinrich August Wilhelm Meyer's Critical and Exegetical Commentary on the New Testament is a monumental 21-volume work of German Protestant scholarship, originally published in German and translated into English, covering every book of the New Testament with rigorous…"
           },
           {
-            "title": "Dake's Annotated Reference Bible Study N - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Dake's Annotated Reference Bible Study N - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Dake's Annotated Reference Bible Study Notes - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6924,36 +6798,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/David Guzik Commentary on the Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "David Guzik Commentary on the Bible - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/David Guzik Commentary on the Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Disciples' Literal New Testament - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Disciples' Literal New Testament - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "EHV Study Bible Notes (Evangelical Herit - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/EHV Study Bible Notes (Evangelical Herit - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "ETCBC data on Hebrew bible (BHS, 5th ed.)",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/ETCBC data on Hebrew bible (BHS, 5th ed.).graphe"
-          },
-          {
-            "title": "Easy-to-Read Version, 2006",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Easy-to-Read Version, 2006.graphe"
           },
           {
             "title": "EasyEnglish Bible Commentaries - StudioOneEditions",
@@ -6986,34 +6830,10 @@
             "summary": "Original edition. Ellicott's Commentary on the Whole Bible is a comprehensive verse-by-verse exposition of both the Old and New Testaments, originally issued in eight volumes and edited by Charles John Ellicott, Bishop of Gloucester. Designed expressly for English readers without knowledge of the…"
           },
           {
-            "title": "English Majority Text Version, 2012 Edition with Greek Explanatory Not",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/English Majority Text Version, 2012 Edition with Greek Explanatory Not.graphe"
-          },
-          {
-            "title": "English Standard Version 2001, 2016",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/English Standard Version 2001, 2016.graphe"
-          },
-          {
-            "title": "English Standard Version Anglicised, 2001",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/English Standard Version Anglicised, 2001.graphe"
-          },
-          {
             "title": "English version of the Septuagint Bible, 1851",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/English version of the Septuagint Bible, 1851.graphe"
-          },
-          {
-            "title": "Evangelical Heritage Version (EHV) Comme - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Evangelical Heritage Version (EHV) Comme - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Exposition of the Entire Bible - StudioOneEditions",
@@ -7032,12 +6852,6 @@
             "author": "John Gill",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. John Gill's Exposition of the Entire Bible is a monumental verse-by-verse commentary covering every book of the Old and New Testaments, composed by the prolific Calvinist Baptist theologian John Gill (1697–1771). Originally published in nine folio volumes between 1746 and 1763…"
-          },
-          {
-            "title": "Exposition of the Gospel of John - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Exposition of the Gospel of John - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Exposition of the Whole Bible - StudioOneModernEditions",
@@ -7097,22 +6911,10 @@
             "path": "English/Commentaries/Free Bible Version Commentary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Free Bible Version, New Testament, 2018",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Free Bible Version, New Testament, 2018.graphe"
-          },
-          {
             "title": "GLW.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/GLW.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "GOD'S WORD Translation Translator's Note - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/GOD'S WORD Translation Translator's Note - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Gary Hampton Commentaries - StudioOneEditions",
@@ -7122,12 +6924,6 @@
             "author": "Gary C. Hampton",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Original edition. Gary C. Hampton's commentaries offer verse-by-verse exposition of selected books of the Bible from a Churches of Christ perspective, emphasising practical application and doctrinal soundness. The work engages both textual analysis and apologetic concerns, as evidenced by the…"
-          },
-          {
-            "title": "Good News Translation (US Version)",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Good News Translation (US Version).graphe"
           },
           {
             "title": "Haydock's Catholic Bible Commentary - StudioOneEditions",
@@ -7146,12 +6942,6 @@
             "author": "George Leo Haydock",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Haydock's Catholic Bible Commentary is a comprehensive verse-by-verse commentary on the entire Catholic Bible, originally compiled by George Leo Haydock and drawing heavily on the notes of Challoner, Calmet, and other Catholic scholars. It is written from a traditional Roman…"
-          },
-          {
-            "title": "Holman Christian Standard Bible, 2009",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Holman Christian Standard Bible, 2009.graphe"
           },
           {
             "title": "Horae Hebraicae et Talmudicae (Exercitat - StudioOneModernisedEditions",
@@ -7184,12 +6974,6 @@
             "path": "English/Commentaries/International Bible School Commentary - StudioOneEditions.graphe"
           },
           {
-            "title": "International Bible School Commentary - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/International Bible School Commentary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Introductory Lectures on the Books of Ki - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7200,12 +6984,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Introductory Lectures on the Books of Kings - StudioOneEditions.graphe"
-          },
-          {
-            "title": "J.P. Green Literal Translation, 2000",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/J.P. Green Literal Translation, 2000.graphe"
           },
           {
             "title": "John Trapp Complete Commentary - StudioOneEditions",
@@ -7262,12 +7040,6 @@
             "summary": "Original edition. The 1611 King James Version is the original edition of the Authorised Bible commissioned by King James I of England and produced by a committee of approximately 47 scholars. This module preserves the archaic Early Modern English orthography of the first edition, including the…"
           },
           {
-            "title": "King James Version with Apocrypha, American Edition 1611, 2010",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/King James Version with Apocrypha, American Edition 1611, 2010.graphe"
-          },
-          {
             "title": "King James Version, 2006",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7278,12 +7050,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/King James' Version, 1914.graphe"
-          },
-          {
-            "title": "Koenig-c.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Koenig-c.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Kretzmann's Popular Commentary of the Bible - StudioOneEditions",
@@ -7320,12 +7086,6 @@
             "author": "Johann Peter Lange",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. Lange's Commentary on the Holy Scriptures is a monumental 63-volume critical and exegetical commentary covering the entire Bible, originally authored by Johann Peter Lange and a team of European scholars, and translated and expanded for English readers under the editorship of…"
-          },
-          {
-            "title": "Lexham English Bible, 2012",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Lexham English Bible, 2012.graphe"
           },
           {
             "title": "MDC-c.commentaries - StudioOneModernisedEditions",
@@ -7373,124 +7133,10 @@
             "path": "English/Commentaries/NOG.commentaries - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "New American Bible (Revised Edition)",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New American Bible (Revised Edition).graphe"
-          },
-          {
-            "title": "New American Standard Bible 2020",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New American Standard Bible 2020.graphe"
-          },
-          {
-            "title": "New American Standard Bible, 1995",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New American Standard Bible, 1995.graphe"
-          },
-          {
-            "title": "New Catholic Bible",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Catholic Bible.graphe"
-          },
-          {
-            "title": "New Century Version, 2005",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Century Version, 2005.graphe"
-          },
-          {
-            "title": "New English Translation, 2007",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New English Translation, 2007.graphe"
-          },
-          {
             "title": "New Heart English Bible",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/New Heart English Bible.graphe"
-          },
-          {
-            "title": "New International Version",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New International Version.graphe"
-          },
-          {
-            "title": "New King James Version, 1982",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New King James Version, 1982.graphe"
-          },
-          {
-            "title": "New Living Translation",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Living Translation.graphe"
-          },
-          {
-            "title": "New Living Translation, 2007",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Living Translation, 2007.graphe"
-          },
-          {
-            "title": "New Messianic Version Bible",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Messianic Version Bible.graphe"
-          },
-          {
-            "title": "New Revised Standard Version Catholic Edition, 1993",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Revised Standard Version Catholic Edition, 1993.graphe"
-          },
-          {
-            "title": "New Revised Standard Version Catholic Interconfessional",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Revised Standard Version Catholic Interconfessional.graphe"
-          },
-          {
-            "title": "New Revised Standard Version Updated Edition 2021",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Revised Standard Version Updated Edition 2021.graphe"
-          },
-          {
-            "title": "New Revised Standard Version, 1989",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Revised Standard Version, 1989.graphe"
-          },
-          {
-            "title": "New Revised Standard Version, Anglicised Catholic Edition, 1995",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Revised Standard Version, Anglicised Catholic Edition, 1995.graphe"
-          },
-          {
-            "title": "New Revised Standard Version, Anglicised, 1995",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/New Revised Standard Version, Anglicised, 1995.graphe"
-          },
-          {
-            "title": "Niobi aka Patchworkid's Personal Study B - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Niobi aka Patchworkid's Personal Study B - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Niobi aka Patchworkid's Personal Study Bible Notes",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Niobi aka Patchworkid's Personal Study Bible Notes.graphe"
           },
           {
             "title": "Notes from the Numerical Bible - StudioOneEditions",
@@ -7559,12 +7205,6 @@
             "path": "English/Commentaries/Open English Bible, 2016 (Commonwealth spelling).graphe"
           },
           {
-            "title": "PEV'21.commentaries - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/PEV'21.commentaries - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "PNT-c.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7583,12 +7223,6 @@
             "path": "English/Commentaries/Peake's commentary on the Bible - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Practical Discourses on All the Books of - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Practical Discourses on All the Books of - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Pulpit-c.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7605,24 +7239,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/Restored Holy Bible, 13.0.graphe"
-          },
-          {
-            "title": "Revised Standard Version Catholic Interconfessional",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Revised Standard Version Catholic Interconfessional.graphe"
-          },
-          {
-            "title": "Revised Standard Version Old Tradition 1952",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Revised Standard Version Old Tradition 1952.graphe"
-          },
-          {
-            "title": "Revised Standard Version, 1971",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Revised Standard Version, 1971.graphe"
           },
           {
             "title": "Revised Version with Apocrypha, 1895",
@@ -7655,24 +7271,6 @@
             "summary": "Modernised edition. The Scofield Reference Bible, edited by Cyrus Ingerson Scofield and first published in 1909 with a revised edition in 1917, is an annotated study Bible that became one of the most influential evangelical reference works of the twentieth century. It is widely credited with…"
           },
           {
-            "title": "Select Notes on the International Sunday - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Select Notes on the International Sunday - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Septuagint in American English 2012",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Septuagint in American English 2012.graphe"
-          },
-          {
-            "title": "Septuagint in American English, 2012",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Septuagint in American English, 2012.graphe"
-          },
-          {
             "title": "Septuagint in British-International English 2012",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7703,12 +7301,6 @@
             "path": "English/Commentaries/Study Notes on the Holy Scriptures - StudioOneEditions.graphe"
           },
           {
-            "title": "Study Notes on the Holy Scriptures - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Study Notes on the Holy Scriptures - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Summarized Bible - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7725,12 +7317,6 @@
             "author": "Keith L. Brooks",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. The Summarized Bible by Keith L. Brooks is a concise book-by-book survey of the entire Bible, providing for each book its writer, date of composition, a thematic conclusion, key contents, principal characters, and a brief doctrinal or practical summary. The work is designed as a…"
-          },
-          {
-            "title": "Summarized Bible Commentary",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Summarized Bible Commentary.graphe"
           },
           {
             "title": "Summarized Bible Commentary - StudioOneModernisedEditions",
@@ -7841,12 +7427,6 @@
             "path": "English/Commentaries/The Daily Study Bible- New Testament - StudioOneEditions.graphe"
           },
           {
-            "title": "The Daily Study Bible- New Testament - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Daily Study Bible- New Testament - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "The Expositor's Bible - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -7883,28 +7463,10 @@
             "summary": "Modernised edition. The Fourfold Gospel (1914) by J.W. McGarvey and Philip Y. Pendleton is a harmony of the four Gospels that presents the life of Christ by weaving together the parallel accounts of Matthew, Mark, Luke, and John into a single continuous narrative, accompanied by detailed…"
           },
           {
-            "title": "The Great Commentary of Cornelius à Lapi - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Great Commentary of Cornelius à Lapi - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "The Great Commentary of Cornelius à Lapide",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Great Commentary of Cornelius à Lapide.graphe"
-          },
-          {
             "title": "The Great Texts of the Bible - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English/Commentaries/The Great Texts of the Bible - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "The Kingdom New Testament- A Contemporary Translation - by N. T. Wrigh",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Kingdom New Testament- A Contemporary Translation - by N. T. Wrigh.graphe"
           },
           {
             "title": "The Message of Patmos - StudioOneEditions",
@@ -7923,18 +7485,6 @@
             "author": "David Scott Clark",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. The Message of Patmos (1921) by David Scott Clark is an expository commentary on the Book of Revelation that seeks to interpret the Apocalypse at face value, taking the text literally and cross-referencing it extensively with other portions of Scripture. Clark approaches the…"
-          },
-          {
-            "title": "The New English Bible, 1970",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The New English Bible, 1970.graphe"
-          },
-          {
-            "title": "The Passion Translation, 2017",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Passion Translation, 2017.graphe"
           },
           {
             "title": "The People's Bible - StudioOneEditions",
@@ -7994,18 +7544,6 @@
             "summary": "Modernised edition. The Pulpit Commentary is a monumental Victorian-era homiletic and expository commentary on the entire Bible, produced over a thirty-year period under the general editorship of Joseph S. Exell and H. D. M. Spence-Jones. Comprising 23 volumes and approximately 22,000 pages with…"
           },
           {
-            "title": "The Revelation Record",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Revelation Record.graphe"
-          },
-          {
-            "title": "The Revelation Record - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/The Revelation Record - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "The Sermon Bible - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -8022,12 +7560,6 @@
             "author": "William Robertson Nicoll",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. The Sermon Bible is a multi-volume homiletical commentary edited by W. Robertson Nicoll, compiling thousands of sermon outlines and illustrative extracts from leading Victorian preachers on every chapter of the Bible. It provides preachers with structured outlines, points of…"
-          },
-          {
-            "title": "Through the Bible Commentary - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Through the Bible Commentary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Through the Bible Day by Day - StudioOneEditions",
@@ -8070,12 +7602,6 @@
             "author": "R.A. Torrey",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. The Treasury of Scripture Knowledge is a comprehensive Bible cross-reference work originally compiled by the editors of the Comprehensive Bible (1827) and later associated with R.A. Torrey, containing approximately 500,000 scriptural cross-references linking every verse of the…"
-          },
-          {
-            "title": "Tree of Life Version, 2015",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Tree of Life Version, 2015.graphe"
           },
           {
             "title": "UDB.commentaries - StudioOneModernisedEditions",
@@ -8210,12 +7736,6 @@
             "path": "English/Commentaries/World Messianic Bible British Edition.graphe"
           },
           {
-            "title": "Wycliffe Bible, 2014",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/Wycliffe Bible, 2014.graphe"
-          },
-          {
             "title": "YALL'24.commentaries - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -8334,12 +7854,6 @@
             "path": "English/Devotionals/For the Love of God- A Daily Companion for Discovering the Riches of G.graphe"
           },
           {
-            "title": "For the Love of God- D. A. Carson (Volume 2) - StudioGraphēEditions",
-            "type": "Devotional",
-            "extension": ".graphe",
-            "path": "English/Devotionals/For the Love of God- D. A. Carson (Volume 2) - StudioGraphēEditions.graphe"
-          },
-          {
             "title": "Golden Treasury for the Children of God- C H Bo - StudioGraphēEditions",
             "type": "Devotional",
             "extension": ".graphe",
@@ -8350,12 +7864,6 @@
             "type": "Devotional",
             "extension": ".graphe",
             "path": "English/Devotionals/Golden Treasury, Carl Heinrich von Bogatzky.graphe"
-          },
-          {
-            "title": "Grace for Today by Donald S. Fortner",
-            "type": "Devotional",
-            "extension": ".graphe",
-            "path": "English/Devotionals/Grace for Today by Donald S. Fortner.graphe"
           },
           {
             "title": "Interpreter (Year 1), Charles Haddon Spurgeon",
@@ -8380,12 +7888,6 @@
             "type": "Devotional",
             "extension": ".graphe",
             "path": "English/Devotionals/Music For The Soul, Alexander Maclaren.graphe"
-          },
-          {
-            "title": "One Day at a Time, William MacDonald",
-            "type": "Devotional",
-            "extension": ".graphe",
-            "path": "English/Devotionals/One Day at a Time, William MacDonald.graphe"
           },
           {
             "title": "Our Daily Homily 1, F. B. Meyer",
@@ -8416,12 +7918,6 @@
             "type": "Devotional",
             "extension": ".graphe",
             "path": "English/Devotionals/Our Daily Walk, F. B. Meyer.graphe"
-          },
-          {
-            "title": "Sample-Journal, Jomin Yu",
-            "type": "Devotional",
-            "extension": ".graphe",
-            "path": "English/Devotionals/Sample-Journal, Jomin Yu.graphe"
           },
           {
             "title": "The Bent-Knee Time, Samuel Dickey Gordondescription",
@@ -8473,12 +7969,6 @@
           }
         ],
         "Dictionaries": [
-          {
-            "title": "2000 Illustrations and Quotations for Preachers - StudioGraphēEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/2000 Illustrations and Quotations for Preachers - StudioGraphēEditions.graphe"
-          },
           {
             "title": "A New and Complete Dictionary of the Bible - StudioOneModernEditions",
             "type": "Dictionary",
@@ -8582,12 +8072,6 @@
             "author": "Tony Lozano",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Original edition. Este diccionario bilingüe inglés-español fue compilado por Tony Lozano en la Universidad de Granada, España, proporcionando una cobertura exhaustiva de la terminología utilizada en ciencias de la información y biblioteconomía. Abarca vocabulario de campos relacionados incluyendo…"
-          },
-          {
-            "title": "Dictionary of Bible Types by Walter Wilson",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Dictionary of Bible Types by Walter Wilson.graphe"
           },
           {
             "title": "Dictionary of Christian Biography and Literature - StudioOneEditions",
@@ -8710,12 +8194,6 @@
             "path": "English/Dictionaries/HPM.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Holman Treasury of Key Bible Words (Hebrew) by Eugene E. Carpenter and",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Holman Treasury of Key Bible Words (Hebrew) by Eugene E. Carpenter and.graphe"
-          },
-          {
             "title": "Illustrations of the Bible - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -8748,12 +8226,6 @@
             "author": "Noah Webster",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Modernised edition. The King James Dictionary is a Bible dictionary keyed to the vocabulary of the King James Version of the Bible, drawing on Noah Webster's lexicographical tradition to define words and phrases as they appear in the 1611 Authorized Version. Each entry illustrates the defined term…"
-          },
-          {
-            "title": "Mechanical Translation Dictionary",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Mechanical Translation Dictionary.graphe"
           },
           {
             "title": "Modern Literal Version Definitions - StudioOneEditions",
@@ -8879,12 +8351,6 @@
             "summary": "Modernised edition. The Companion Bible Appendixes are a collection of 198 scholarly appendixes compiled by E. W. Bullinger as supplementary material to his annotated study Bible, The Companion Bible, first published in parts between 1909 and 1922. Each appendix addresses a specific topic of…"
           },
           {
-            "title": "The New Unger’s Bible Dictionary",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/The New Unger’s Bible Dictionary.graphe"
-          },
-          {
             "title": "The Preacher's Complete Homiletic Commentary: Combined Word Book and Dictionary - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -8892,12 +8358,6 @@
             "author": "Joseph S. Exell",
             "publisher": "Studio Graphē One Ltd",
             "summary": "Original edition. The Combined Word Book and Dictionary is the concordance and lexical companion volume to The Preacher's Complete Homiletic Commentary on the Books of the Bible, a monumental Victorian-era preaching resource. It provides a comprehensive alphabetical index of biblical vocabulary…"
-          },
-          {
-            "title": "Theological Dictionary of the New Testament (abridged) by Kittel",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Theological Dictionary of the New Testament (abridged) by Kittel.graphe"
           },
           {
             "title": "Thompson Chain Reference",
@@ -9203,22 +8663,10 @@
             "path": "English/Lexicons/Strong's Exhaustive Concordance (Enhanced).graphe"
           },
           {
-            "title": "The Complete Word Study Dictionary",
-            "type": "Lexicon",
-            "extension": ".graphe",
-            "path": "English/Lexicons/The Complete Word Study Dictionary.graphe"
-          },
-          {
             "title": "The Greek-English Lexicon of the 'The Greek New Testament, Produced at",
             "type": "Lexicon",
             "extension": ".graphe",
             "path": "English/Lexicons/The Greek-English Lexicon of the 'The Greek New Testament, Produced at.graphe"
-          },
-          {
-            "title": "The Vocabulary of the Greek Testament, 1929",
-            "type": "Lexicon",
-            "extension": ".graphe",
-            "path": "English/Lexicons/The Vocabulary of the Greek Testament, 1929.graphe"
           },
           {
             "title": "The unabridged Brown-Driver-Briggs Hebrew and English Lexicon combined",
@@ -9239,12 +8687,6 @@
             "type": "Module",
             "extension": ".graphe",
             "path": "English/Other/Cross references from Chinese Union Version.graphe"
-          },
-          {
-            "title": "Cross references from New International Version, 2011",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Cross references from New International Version, 2011.graphe"
           },
           {
             "title": "Cross references from Russian Synodal Bible tranlslation",
@@ -9289,12 +8731,6 @@
             "path": "English/Other/English word-forms.graphe"
           },
           {
-            "title": "Eni Baalantı gagauz dilindä, 2006",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Eni Baalantı gagauz dilindä, 2006.graphe"
-          },
-          {
             "title": "Karaqalpaq tilindegi Muxaddes Kitap, 2016",
             "type": "Module",
             "extension": ".graphe",
@@ -9305,30 +8741,6 @@
             "type": "Module",
             "extension": ".graphe",
             "path": "English/Other/Magyar Bibliatársulat új fordítású Bibliája.graphe"
-          },
-          {
-            "title": "Mukaddes Kitap Terjime Instituty, Injil türkmen dilinde.",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Mukaddes Kitap Terjime Instituty, Injil türkmen dilinde..graphe"
-          },
-          {
-            "title": "Mukaddes Kitap Terjime Instituty, Mukaddes Kitap türkmen dilinde.",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Mukaddes Kitap Terjime Instituty, Mukaddes Kitap türkmen dilinde..graphe"
-          },
-          {
-            "title": "O‘zbek tilidagi Injil (2008)",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/O‘zbek tilidagi Injil (2008).graphe"
-          },
-          {
-            "title": "O‘zbek tilidagi Muqaddas Kitob (2013), Muqaddas Kitob Tarjima qilish I",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/O‘zbek tilidagi Muqaddas Kitob (2013), Muqaddas Kitob Tarjima qilish I.graphe"
           },
           {
             "title": "Parallel Passages in New Testament Quoted from Old Testament",
@@ -9355,64 +8767,10 @@
             "path": "English/Other/Sväté písmo - Jeruzalemská Biblia.graphe"
           },
           {
-            "title": "Tradução Brasileira, 2010",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Tradução Brasileira, 2010.graphe"
-          },
-          {
-            "title": "Јаҥы Кереес, Алтай тили",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Јаҥы Кереес, Алтай тили.graphe"
-          },
-          {
-            "title": "Библейски текст- Ревизирано издание, 2001 г., на ревизираното издание",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Библейски текст- Ревизирано издание, 2001 г., на ревизираното издание.graphe"
-          },
-          {
-            "title": "Библия, нов превод от оригиналните езици (с неканоничните книги)",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Библия, нов превод от оригиналните езици (с неканоничните книги).graphe"
-          },
-          {
-            "title": "Библия, ревизирано издание",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Библия, ревизирано издание.graphe"
-          },
-          {
-            "title": "Ени Бааланты гагауз дилиндӓ, 2006",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Ени Бааланты гагауз дилиндӓ, 2006.graphe"
-          },
-          {
-            "title": "Иисус Христос Хуҫамӑр",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Иисус Христос Хуҫамӑр.graphe"
-          },
-          {
-            "title": "Инжил, Библия таржама гьабиялъул институт Москва 2008",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Инжил, Библия таржама гьабиялъул институт Москва 2008.graphe"
-          },
-          {
             "title": "Инжил- Матфейла ГIяхI хабар; Лукала гІяхІ хабар, 2013",
             "type": "Module",
             "extension": ".graphe",
             "path": "English/Other/Инжил- Матфейла ГIяхI хабар; Лукала гІяхІ хабар, 2013.graphe"
-          },
-          {
-            "title": "Инжилдең (Яңы Ғәһедтең) башҡорт теленә тәржемәһе.",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Инжилдең (Яңы Ғәһедтең) башҡорт теленә тәржемәһе..graphe"
           },
           {
             "title": "Карақалпақ тилиндеги Мухаддес Китап, 2016",
@@ -9421,76 +8779,16 @@
             "path": "English/Other/Карақалпақ тилиндеги Мухаддес Китап, 2016.graphe"
           },
           {
-            "title": "Киелі кітап",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Киелі кітап.graphe"
-          },
-          {
-            "title": "Лукайин Китаб Месигь Іисайихъас Идже Хабар, 2005",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Лукайин Китаб Месигь Іисайихъас Идже Хабар, 2005.graphe"
-          },
-          {
-            "title": "Мукаддес Китап Терҗиме Институты, Инҗил түркмен дилинде.",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Мукаддес Китап Терҗиме Институты, Инҗил түркмен дилинде..graphe"
-          },
-          {
             "title": "Мукъаддес Китап къырымтатар тилинде, 2008",
             "type": "Module",
             "extension": ".graphe",
             "path": "English/Other/Мукъаддес Китап къырымтатар тилинде, 2008.graphe"
           },
           {
-            "title": "Мукъаддес Китап, 2016",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Мукъаддес Китап, 2016.graphe"
-          },
-          {
-            "title": "Новый Завет на бурятском языке, 1972",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Новый Завет на бурятском языке, 1972.graphe"
-          },
-          {
-            "title": "Руфэ, Инус бегъымбар, Лукас, 2009",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Руфэ, Инус бегъымбар, Лукас, 2009.graphe"
-          },
-          {
             "title": "Святой Библия - StudioOneEditions",
             "type": "Module",
             "extension": ".graphe",
             "path": "English/Other/Святой Библия - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Сулайбан авараглис аᴴкълова, 2013",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Сулайбан авараглис аᴴкълова, 2013.graphe"
-          },
-          {
-            "title": "Сульманэди Цунмин Хуа",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Сульманэди Цунмин Хуа.graphe"
-          },
-          {
-            "title": "Ўзбек тилидаги Инжил (2008)",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Ўзбек тилидаги Инжил (2008).graphe"
-          },
-          {
-            "title": "Ўзбек тилидаги Муқаддас Китоб (ЎЗМК), 2013",
-            "type": "Module",
-            "extension": ".graphe",
-            "path": "English/Other/Ўзбек тилидаги Муқаддас Китоб (ЎЗМК), 2013.graphe"
           },
           {
             "title": "Шин Бооцан, Эклц, Рут, Цецн Селвгүд, Псалмс, 2013",
@@ -9598,24 +8896,6 @@
       "categories": {
         "Bibles": [
           {
-            "title": "21st Century King James Version - StudioGraphēEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/21st Century King James Version - StudioGraphēEditions.graphe"
-          },
-          {
-            "title": "A Faithful Version",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/A Faithful Version.graphe"
-          },
-          {
-            "title": "A Faithful Version with Commentary. Special 2nd - StudioGraphēEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/A Faithful Version with Commentary. Special 2nd - StudioGraphēEditions.graphe"
-          },
-          {
             "title": "American King James Version with embedded Strong's Numbers, Red letter",
             "type": "Bible",
             "extension": ".graphe",
@@ -9632,42 +8912,6 @@
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/American Standard Version 1901 (with Strong's numbers).graphe"
-          },
-          {
-            "title": "An Understandable Version - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/An Understandable Version - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Analytical Literal Translation - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Analytical Literal Translation - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Apostolic Bible Polyglot. English",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Apostolic Bible Polyglot. English.graphe"
-          },
-          {
-            "title": "Aramaic Of The Peshitta- Lamsa, 1933 - LBP",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Aramaic Of The Peshitta- Lamsa, 1933 - LBP.graphe"
-          },
-          {
-            "title": "Berean Literal Bible (BLB)",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Berean Literal Bible (BLB).graphe"
-          },
-          {
-            "title": "Berean Reader’s Bible",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Berean Reader’s Bible.graphe"
           },
           {
             "title": "Berean Standard Bible",
@@ -9688,24 +8932,6 @@
             "path": "English (United States)/Bibles/Bishops' Bible, 1572.graphe"
           },
           {
-            "title": "Bond Slave Version",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Bond Slave Version.graphe"
-          },
-          {
-            "title": "Breakthrough KJV",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Breakthrough KJV.graphe"
-          },
-          {
-            "title": "Breakthrough Version New Testament - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Breakthrough Version New Testament - StudioOneEditions.graphe"
-          },
-          {
             "title": "Brenton Septuagint Translation - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
@@ -9716,36 +8942,6 @@
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Catholic Public Domain Version, 2009.graphe"
-          },
-          {
-            "title": "Christian Standard Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Christian Standard Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Common English Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Common English Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Complete Jewish Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Complete Jewish Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Contemporary English Version - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Contemporary English Version - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Context Group Version, 2010",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Context Group Version, 2010.graphe"
           },
           {
             "title": "Coverdale Bible, 1535",
@@ -9766,12 +8962,6 @@
             "path": "English (United States)/Bibles/Darby Translation, 1890.graphe"
           },
           {
-            "title": "Disciples’ Literal New Testament, 2011",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Disciples’ Literal New Testament, 2011.graphe"
-          },
-          {
             "title": "Douay Rheims Bible",
             "type": "Bible",
             "extension": ".graphe",
@@ -9782,12 +8972,6 @@
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Douay-Rheims Bible, Challoner Revision, 1752.graphe"
-          },
-          {
-            "title": "Easy-to-Read Version - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Easy-to-Read Version - StudioOneEditions.graphe"
           },
           {
             "title": "EasyEnglish Bible",
@@ -9802,52 +8986,10 @@
             "path": "English (United States)/Bibles/English Jubilee 2000 Bible.graphe"
           },
           {
-            "title": "English Majority Text Version - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/English Majority Text Version - StudioOneEditions.graphe"
-          },
-          {
-            "title": "English Standard Version - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/English Standard Version - StudioOneEditions.graphe"
-          },
-          {
-            "title": "English Standard Version Anglicised - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/English Standard Version Anglicised - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Evangelical Heritage Version - 2021",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Evangelical Heritage Version - 2021.graphe"
-          },
-          {
-            "title": "Evangelical Heritage Version, 2017",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Evangelical Heritage Version, 2017.graphe"
-          },
-          {
-            "title": "Far Above All, 2005",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Far Above All, 2005.graphe"
-          },
-          {
             "title": "Free Bible Version",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Free Bible Version.graphe"
-          },
-          {
-            "title": "Free Bible Version New Testament with Psalms",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Free Bible Version New Testament with Psalms.graphe"
           },
           {
             "title": "Geneva Bible, 1587",
@@ -9856,88 +8998,16 @@
             "path": "English (United States)/Bibles/Geneva Bible, 1587.graphe"
           },
           {
-            "title": "God's Living Word",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/God's Living Word.graphe"
-          },
-          {
             "title": "God's Word",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/God's Word.graphe"
           },
           {
-            "title": "God's Word to the Nations Version",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/God's Word to the Nations Version.graphe"
-          },
-          {
-            "title": "God’s Word",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/God’s Word.graphe"
-          },
-          {
-            "title": "Good News Bible",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Good News Bible.graphe"
-          },
-          {
-            "title": "Good News Translation - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Good News Translation - StudioOneEditions.graphe"
-          },
-          {
             "title": "Great Bible, 1539",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Great Bible, 1539.graphe"
-          },
-          {
-            "title": "Hebraic King James Version with embedded Strong's Numbers",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Hebraic King James Version with embedded Strong's Numbers.graphe"
-          },
-          {
-            "title": "Holman Christian Standard Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Holman Christian Standard Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Holy Bible Recovery Version, 2003",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Holy Bible Recovery Version, 2003.graphe"
-          },
-          {
-            "title": "Holy Bible, New International Version (Anglicised) - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Holy Bible, New International Version (Anglicised) - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Holy New Covenant",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Holy New Covenant.graphe"
-          },
-          {
-            "title": "International Children’s Bible",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/International Children’s Bible.graphe"
-          },
-          {
-            "title": "International Standard Version",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/International Standard Version.graphe"
           },
           {
             "title": "James Murdock Translation of the Peshitta, 1851",
@@ -9964,34 +9034,10 @@
             "path": "English (United States)/Bibles/John Worsley's New Testament, 1770.graphe"
           },
           {
-            "title": "Jonathan Mitchell New Testament",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Jonathan Mitchell New Testament.graphe"
-          },
-          {
-            "title": "King James 2000",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/King James 2000.graphe"
-          },
-          {
-            "title": "King James 3 - The Literal Translation, 2005",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/King James 3 - The Literal Translation, 2005.graphe"
-          },
-          {
             "title": "King James Bible 1611- Pure Cambridge Edition, ca 1900",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/King James Bible 1611- Pure Cambridge Edition, ca 1900.graphe"
-          },
-          {
-            "title": "King James Clarified NT",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/King James Clarified NT.graphe"
           },
           {
             "title": "King James Version - StudioOneEditions",
@@ -10010,12 +9056,6 @@
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/King James Version of 1611-1769 with Strong's numbers.graphe"
-          },
-          {
-            "title": "King James Version with Apocrypha, American Editio - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/King James Version with Apocrypha, American Editio - StudioOneEditions.graphe"
           },
           {
             "title": "King James Version, 1769",
@@ -10042,100 +9082,10 @@
             "path": "English (United States)/Bibles/Leeser Old Testament.graphe"
           },
           {
-            "title": "Lexham English Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Lexham English Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Lighthouse Bible",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Lighthouse Bible.graphe"
-          },
-          {
-            "title": "Literal Standard Version",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Literal Standard Version.graphe"
-          },
-          {
-            "title": "Literal Translation of the Holy Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Literal Translation of the Holy Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Living Bible",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Living Bible.graphe"
-          },
-          {
-            "title": "Modern English Version",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Modern English Version.graphe"
-          },
-          {
-            "title": "Modern King James Version of the Holy Bible 1962",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Modern King James Version of the Holy Bible 1962.graphe"
-          },
-          {
-            "title": "Modern Literal Version, 2019",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Modern Literal Version, 2019.graphe"
-          },
-          {
             "title": "Montgomery New Testament (1924) by Helen Barrett Montgomery",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Montgomery New Testament (1924) by Helen Barrett Montgomery.graphe"
-          },
-          {
-            "title": "Names of God Bible, 2011",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Names of God Bible, 2011.graphe"
-          },
-          {
-            "title": "New American Bible, Revised Edition - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New American Bible, Revised Edition - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New American Standard Bible",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New American Standard Bible.graphe"
-          },
-          {
-            "title": "New American Standard Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New American Standard Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New Century Version - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Century Version - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New English Translation - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New English Translation - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New European Version, 2011",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New European Version, 2011.graphe"
           },
           {
             "title": "New Heart English Bible (NHEB) - StudioGraphēEditions",
@@ -10174,142 +9124,16 @@
             "path": "English (United States)/Bibles/New Heart English Bible Special Edition (Jesus Messiah), Red letter ed.graphe"
           },
           {
-            "title": "New International Reader's Version",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New International Reader's Version.graphe"
-          },
-          {
-            "title": "New International Version - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New International Version - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New International Version, 1978, Red letter edition",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New International Version, 1978, Red letter edition.graphe"
-          },
-          {
-            "title": "New Jerusalem Bible, 1985",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Jerusalem Bible, 1985.graphe"
-          },
-          {
-            "title": "New King James Version - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New King James Version - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New Life Version",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Life Version.graphe"
-          },
-          {
-            "title": "New Living Translation - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Living Translation - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New Matthew Bible, 2016",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Matthew Bible, 2016.graphe"
-          },
-          {
-            "title": "New Messianic Version Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Messianic Version Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New Revised Standard Version Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Revised Standard Version Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New Revised Standard Version Bible- Catholic Editi - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Revised Standard Version Bible- Catholic Editi - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New Revised Standard Version Catholic Interconfess - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Revised Standard Version Catholic Interconfess - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New Revised Standard Version Updated Edition - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Revised Standard Version Updated Edition - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New Revised Standard Version, Anglicised - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Revised Standard Version, Anglicised - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New Revised Standard Version, Anglicised Catholic - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Revised Standard Version, Anglicised Catholic - StudioOneEditions.graphe"
-          },
-          {
-            "title": "New Simplified Bible, 2004",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Simplified Bible, 2004.graphe"
-          },
-          {
-            "title": "New Testament for Everyone, 2011",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Testament for Everyone, 2011.graphe"
-          },
-          {
-            "title": "New Testament in Worldwide English",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Testament in Worldwide English.graphe"
-          },
-          {
             "title": "New Testament, American Bible Union, 1865",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/New Testament, American Bible Union, 1865.graphe"
           },
           {
-            "title": "New Weymouth Version NT- Jesus Messiah Edition. Red color edition",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/New Weymouth Version NT- Jesus Messiah Edition. Red color edition.graphe"
-          },
-          {
-            "title": "Niobi Study Bible",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Niobi Study Bible.graphe"
-          },
-          {
             "title": "Noyes' New Testament, 1869",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Noyes' New Testament, 1869.graphe"
-          },
-          {
-            "title": "Numeric New Testament",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Numeric New Testament.graphe"
           },
           {
             "title": "Open English Bible - StudioOneEditions",
@@ -10330,28 +9154,10 @@
             "path": "English (United States)/Bibles/Open English Bible, New Testament and Psalms, 2010.graphe"
           },
           {
-            "title": "Orthodox Jewish Bible",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Orthodox Jewish Bible.graphe"
-          },
-          {
             "title": "Peshitta Etheridge Translation, 1849",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Peshitta Etheridge Translation, 1849.graphe"
-          },
-          {
-            "title": "Phillips New Testament",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Phillips New Testament.graphe"
-          },
-          {
-            "title": "Radiate New Testament",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Radiate New Testament.graphe"
           },
           {
             "title": "Restored Holy Bible - StudioOneEditions",
@@ -10360,40 +9166,10 @@
             "path": "English (United States)/Bibles/Restored Holy Bible - StudioOneEditions.graphe"
           },
           {
-            "title": "Restored Names King James Version, 1934",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Restored Names King James Version, 1934.graphe"
-          },
-          {
             "title": "Revised 1833 Webster Version with Strongs",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Revised 1833 Webster Version with Strongs.graphe"
-          },
-          {
-            "title": "Revised King James New Testament (2000)",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Revised King James New Testament (2000).graphe"
-          },
-          {
-            "title": "Revised Standard Version - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Revised Standard Version - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Revised Standard Version Catholic Edition",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Revised Standard Version Catholic Edition.graphe"
-          },
-          {
-            "title": "Revised Standard Version Catholic Edition - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Revised Standard Version Catholic Edition - StudioOneEditions.graphe"
           },
           {
             "title": "Revised Version with Apocrypha - StudioOneEditions",
@@ -10408,28 +9184,10 @@
             "path": "English (United States)/Bibles/Revised Version, 1885.graphe"
           },
           {
-            "title": "Revised Webster Update",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Revised Webster Update.graphe"
-          },
-          {
             "title": "Rotherhams Emphasized Bible, 1902",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Rotherhams Emphasized Bible, 1902.graphe"
-          },
-          {
-            "title": "Saint Joseph New Catholic Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Saint Joseph New Catholic Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "Samaritan Pentateuch in English, 2013",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Samaritan Pentateuch in English, 2013.graphe"
           },
           {
             "title": "Septuagint in American English - StudioOneEditions",
@@ -10456,40 +9214,16 @@
             "path": "English (United States)/Bibles/Smith's Literal Translation.graphe"
           },
           {
-            "title": "Spoken English New Testament, 2012",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Spoken English New Testament, 2012.graphe"
-          },
-          {
             "title": "The 1599 Geneva Bible - StudioGraphēEditions",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/The 1599 Geneva Bible - StudioGraphēEditions.graphe"
           },
           {
-            "title": "The Apostles' Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Apostles' Bible - StudioOneEditions.graphe"
-          },
-          {
-            "title": "The Common Edition New Testament, 1999",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Common Edition New Testament, 1999.graphe"
-          },
-          {
             "title": "The Darby Translation Bible, 1890",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/The Darby Translation Bible, 1890.graphe"
-          },
-          {
-            "title": "The Eastern Greek Orthodox New Testament",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Eastern Greek Orthodox New Testament.graphe"
           },
           {
             "title": "The Emphatic Diaglott, 1864",
@@ -10504,40 +9238,10 @@
             "path": "English (United States)/Bibles/The Godbey New Testament, 1902.graphe"
           },
           {
-            "title": "The Kingdom New Testament- A Contemporary Translat - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Kingdom New Testament- A Contemporary Translat - StudioOneEditions.graphe"
-          },
-          {
             "title": "The Living Oracles New Testament - StudioOneEditions",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/The Living Oracles New Testament - StudioOneEditions.graphe"
-          },
-          {
-            "title": "The Logos Bible, 1972",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Logos Bible, 1972.graphe"
-          },
-          {
-            "title": "The Message",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Message.graphe"
-          },
-          {
-            "title": "The Modern King James Version of the Holy Bible - StudioGraphēEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Modern King James Version of the Holy Bible - StudioGraphēEditions.graphe"
-          },
-          {
-            "title": "The New English Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The New English Bible - StudioOneEditions.graphe"
           },
           {
             "title": "The New Testament a New Translation, Moffatt, 1913",
@@ -10546,40 +9250,16 @@
             "path": "English (United States)/Bibles/The New Testament a New Translation, Moffatt, 1913.graphe"
           },
           {
-            "title": "The New Testament- A Conservative Version - StudioGraphēEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The New Testament- A Conservative Version - StudioGraphēEditions.graphe"
-          },
-          {
-            "title": "The Passion Translation - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Passion Translation - StudioOneEditions.graphe"
-          },
-          {
             "title": "The Peschito Syriac New Testament",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/The Peschito Syriac New Testament.graphe"
           },
           {
-            "title": "The Remedy, 2020",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Remedy, 2020.graphe"
-          },
-          {
             "title": "The Riverside New Testament, 1923",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/The Riverside New Testament, 1923.graphe"
-          },
-          {
-            "title": "The Scriptures 2009",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Scriptures 2009.graphe"
           },
           {
             "title": "The Scriptures, 1998",
@@ -10600,46 +9280,10 @@
             "path": "English (United States)/Bibles/The Sovereign Creator Has Spoken | 2016 Wilbur N. Pickering.graphe"
           },
           {
-            "title": "The Text-Critical English New Testament",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/The Text-Critical English New Testament.graphe"
-          },
-          {
-            "title": "Third Millennium Bible, 1998",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Third Millennium Bible, 1998.graphe"
-          },
-          {
-            "title": "Thomas Nelson, 2011",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Thomas Nelson, 2011.graphe"
-          },
-          {
             "title": "Thomson LXX & NT, 1808",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Thomson LXX & NT, 1808.graphe"
-          },
-          {
-            "title": "Today's New International Version, 2005",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Today's New International Version, 2005.graphe"
-          },
-          {
-            "title": "Translation for Translators",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Translation for Translators.graphe"
-          },
-          {
-            "title": "Tree of Life Version - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Tree of Life Version - StudioOneEditions.graphe"
           },
           {
             "title": "Tyndale Bible",
@@ -10666,22 +9310,10 @@
             "path": "English (United States)/Bibles/Updated Brenton English Septuagint.graphe"
           },
           {
-            "title": "Updated King James Version",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Updated King James Version.graphe"
-          },
-          {
             "title": "Webster's Bible Translation, 1833",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Webster's Bible Translation, 1833.graphe"
-          },
-          {
-            "title": "Welcome Bible",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Welcome Bible.graphe"
           },
           {
             "title": "Wesley's New Testament",
@@ -10706,12 +9338,6 @@
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/William Baxter Godbey New Testament, 1902.graphe"
-          },
-          {
-            "title": "Word of Yahweh, 2003",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Word of Yahweh, 2003.graphe"
           },
           {
             "title": "World English Bible (with Strong's numbers)",
@@ -10744,28 +9370,10 @@
             "path": "English (United States)/Bibles/World Messianic Bible.graphe"
           },
           {
-            "title": "Wycliffe Bible - StudioOneEditions",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Wycliffe Bible - StudioOneEditions.graphe"
-          },
-          {
             "title": "Wycliffe Bible, 1395",
             "type": "Bible",
             "extension": ".graphe",
             "path": "English (United States)/Bibles/Wycliffe Bible, 1395.graphe"
-          },
-          {
-            "title": "Wycliffe's Bible with Modern Spelling",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Wycliffe's Bible with Modern Spelling.graphe"
-          },
-          {
-            "title": "Y'all Version Bible",
-            "type": "Bible",
-            "extension": ".graphe",
-            "path": "English (United States)/Bibles/Y'all Version Bible.graphe"
           },
           {
             "title": "Young's Literal Translation",
@@ -10806,18 +9414,6 @@
             "path": "English (United States)/Commentaries/Brenton Septuagint Translation - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Contemporary English Version, 1995 - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English (United States)/Commentaries/Contemporary English Version, 1995 - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Contemporary English Version, 2006 (with - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English (United States)/Commentaries/Contemporary English Version, 2006 (with - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Easy-to-Read Version, 2006 - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -10834,12 +9430,6 @@
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English (United States)/Commentaries/King James Version, 2006 - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "Lexham English Bible, 2012 - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English (United States)/Commentaries/Lexham English Bible, 2012 - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "New American Bible (Revised Edition) - StudioOneModernisedEditions",
@@ -10866,22 +9456,10 @@
             "path": "English (United States)/Commentaries/New English Translation, 2007 - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "New International Version - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English (United States)/Commentaries/New International Version - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "The Holy Bible, New International Versio - StudioOneModernisedEditions",
             "type": "Commentary",
             "extension": ".graphe",
             "path": "English (United States)/Commentaries/The Holy Bible, New International Versio - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "The Passion Translation, 2017 - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English (United States)/Commentaries/The Passion Translation, 2017 - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "Wycliffe Bible, 2014 - StudioOneModernisedEditions",
