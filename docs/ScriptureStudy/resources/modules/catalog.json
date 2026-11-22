@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T23:18:27.188577",
+  "generated": "2026-11-22T23:35:28.516654",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -5915,10 +5915,16 @@
             "path": "English/Dictionaries/Nave's Topical Bible.graphe"
           },
           {
-            "title": "PCBL.dictionary - StudioOneModernisedEditions",
+            "title": "PCBL - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/PCBL.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/PCBL - StudioOneEditions.graphe"
+          },
+          {
+            "title": "PCBL - StudioOneModernEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "English/Dictionaries/PCBL - StudioOneModernEditions.graphe"
           },
           {
             "title": "People's Dictionary of the Bible - StudioOneEditions",
@@ -6184,10 +6190,10 @@
             "path": "English/Dictionaries/en-pt-B.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "en-ru-M.dictionary - StudioOneModernisedEditions",
+            "title": "en-ru-M - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/en-ru-M.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/en-ru-M - StudioOneEditions.graphe"
           },
           {
             "title": "en-ru-M2.dictionary - StudioOneModernisedEditions",
