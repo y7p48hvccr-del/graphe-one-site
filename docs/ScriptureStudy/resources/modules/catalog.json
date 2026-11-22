@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T23:00:35.545157",
+  "generated": "2026-11-22T23:11:55.562573",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -6206,6 +6206,12 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/en-ru.dictionary - StudioOneModernisedEditions.graphe"
+          },
+          {
+            "title": "en-sr - StudioOneEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "English/Dictionaries/en-sr - StudioOneEditions.graphe"
           },
           {
             "title": "en-sr.dictionary - StudioOneModernisedEditions",
