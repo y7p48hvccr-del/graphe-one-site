@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T23:35:28.516654",
+  "generated": "2026-11-23T01:00:43.593740",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -6112,10 +6112,10 @@
             "path": "English/Dictionaries/en-ar.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "en-be.dictionary - StudioOneModernisedEditions",
+            "title": "en-be - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/en-be.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/en-be - StudioOneEditions.graphe"
           },
           {
             "title": "en-de-B.dictionary - StudioOneModernisedEditions",
@@ -6190,28 +6190,28 @@
             "path": "English/Dictionaries/en-pt-B.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
+            "title": "en-ru - StudioOneEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "English/Dictionaries/en-ru - StudioOneEditions.graphe"
+          },
+          {
             "title": "en-ru-M - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/en-ru-M - StudioOneEditions.graphe"
           },
           {
-            "title": "en-ru-M2.dictionary - StudioOneModernisedEditions",
+            "title": "en-ru-M2 - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/en-ru-M2.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/en-ru-M2 - StudioOneEditions.graphe"
           },
           {
             "title": "en-ru-U.dictionary - StudioOneModernisedEditions",
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/en-ru-U.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "en-ru.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/en-ru.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "en-sr - StudioOneEditions",
