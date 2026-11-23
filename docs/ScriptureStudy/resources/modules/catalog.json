@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T10:27:29.141913",
+  "generated": "2026-11-23T10:52:38.771552",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -4138,12 +4138,6 @@
             "summary": "Modernised edition. Dummelow's Commentary on the Holy Bible, edited by J. R. Dummelow and first published in 1909, is a one-volume scholarly commentary covering the entire Protestant canon of Scripture. It was produced by a team of Cambridge scholars and is notable for balancing critical…"
           },
           {
-            "title": "American Standard Version Marginal Notes - StudioOneModernisedEditions",
-            "type": "Commentary",
-            "extension": ".graphe",
-            "path": "English/Commentaries/American Standard Version Marginal Notes - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "An Exposition of the Epistle to the Hebrews - StudioOneEditions",
             "type": "Commentary",
             "extension": ".graphe",
@@ -6124,12 +6118,6 @@
             "path": "English/Dictionaries/en-be - StudioOneEditions.graphe"
           },
           {
-            "title": "en-de-B.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/en-de-B.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "en-de.dictionary - StudioOneModernisedEditions",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -6154,12 +6142,6 @@
             "path": "English/Dictionaries/en-hu - StudioOneEditions.graphe"
           },
           {
-            "title": "en-ko-B.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/en-ko-B.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "en-ko-P.dictionary - StudioOneModernisedEditions",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -6182,18 +6164,6 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/en-no.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "en-pl-B.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/en-pl-B.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "en-pt-B.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/en-pt-B.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "en-ru - StudioOneEditions",
