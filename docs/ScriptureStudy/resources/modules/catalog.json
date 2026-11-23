@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T10:52:38.771552",
+  "generated": "2026-11-23T11:37:39.331443",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -5660,10 +5660,16 @@
             "path": "English/Dictionaries/Bridge.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Buck.dictionary - StudioOneModernisedEditions",
+            "title": "Buck - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/Buck.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/Buck - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Buck - StudioOneModernEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "English/Dictionaries/Buck - StudioOneModernEditions.graphe"
           },
           {
             "title": "Condensed Biblical Cyclopedia - StudioOneEditions",
@@ -5690,22 +5696,34 @@
             "path": "English/Dictionaries/Cyclopedia of Biblical, Theological and Ecclesiastical Literature, Str.graphe"
           },
           {
-            "title": "DAC.dictionary - StudioOneModernisedEditions",
+            "title": "DAC - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/DAC.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/DAC - StudioOneEditions.graphe"
           },
           {
-            "title": "DCG.dictionary - StudioOneModernisedEditions",
+            "title": "DAC - StudioOneModernEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/DCG.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/DAC - StudioOneModernEditions.graphe"
           },
           {
-            "title": "DPBN.dictionary - StudioOneModernisedEditions",
+            "title": "DCG - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/DPBN.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/DCG - StudioOneEditions.graphe"
+          },
+          {
+            "title": "DCG - StudioOneModernEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "English/Dictionaries/DCG - StudioOneModernEditions.graphe"
+          },
+          {
+            "title": "DPBN - StudioOneEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "English/Dictionaries/DPBN - StudioOneEditions.graphe"
           },
           {
             "title": "Diccionario Bíblico Inglés-Español de Babilonia - StudioOneEditions",
@@ -5785,10 +5803,16 @@
             "path": "English/Dictionaries/Etym.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Fausset's Bible Dictionary - Andrew Robert Fausset",
+            "title": "Faus - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/Fausset's Bible Dictionary - Andrew Robert Fausset.graphe"
+            "path": "English/Dictionaries/Faus - StudioOneEditions.graphe"
+          },
+          {
+            "title": "Faus - StudioOneModernEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "English/Dictionaries/Faus - StudioOneModernEditions.graphe"
           },
           {
             "title": "Feathers for Arrows - StudioOneEditions",
@@ -5827,22 +5851,22 @@
             "summary": "Modernised edition. Figures of Speech Used in the Bible by E. W. Bullinger (1898) is a monumental reference work cataloguing over 200 distinct rhetorical and literary figures of speech found throughout the biblical text. Bullinger systematically defines each figure of speech, traces its Greek or…"
           },
           {
-            "title": "FreGBM.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/FreGBM.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "HBD.dictionary - StudioOneModernisedEditions",
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/HBD.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "HPM.dictionary - StudioOneModernisedEditions",
+            "title": "HPMCD - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/HPM.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/HPMCD - StudioOneEditions.graphe"
+          },
+          {
+            "title": "HPMCD - StudioOneModernEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "English/Dictionaries/HPMCD - StudioOneModernEditions.graphe"
           },
           {
             "title": "Illustrations of the Bible - StudioOneEditions",
@@ -6023,12 +6047,6 @@
             "path": "English/Dictionaries/Thompson Chain Reference.graphe"
           },
           {
-            "title": "Topical.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/Topical.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "Torrey's New Topical Textbook - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
@@ -6059,10 +6077,16 @@
             "path": "English/Dictionaries/VineOT.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "Webster's Dictionary",
+            "title": "WD1 - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/Webster's Dictionary.graphe"
+            "path": "English/Dictionaries/WD1 - StudioOneEditions.graphe"
+          },
+          {
+            "title": "WD1 - StudioOneModernEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "English/Dictionaries/WD1 - StudioOneModernEditions.graphe"
           },
           {
             "title": "Webster's Dictionary 1828 - StudioOneEditions",
@@ -6130,10 +6154,10 @@
             "path": "English/Dictionaries/en-es.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "en-fr.dictionary - StudioOneModernisedEditions",
+            "title": "en-fr - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/en-fr.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/en-fr - StudioOneEditions.graphe"
           },
           {
             "title": "en-hu - StudioOneEditions",
@@ -6142,22 +6166,16 @@
             "path": "English/Dictionaries/en-hu - StudioOneEditions.graphe"
           },
           {
-            "title": "en-ko-P.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/en-ko-P.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
             "title": "en-la.dictionary - StudioOneModernisedEditions",
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/en-la.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
-            "title": "en-lv.dictionary - StudioOneModernisedEditions",
+            "title": "en-lv - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/en-lv.dictionary - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/en-lv - StudioOneEditions.graphe"
           },
           {
             "title": "en-no.dictionary - StudioOneModernisedEditions",
@@ -6206,12 +6224,6 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "English/Dictionaries/en-uk-A.dictionary - StudioOneModernisedEditions.graphe"
-          },
-          {
-            "title": "en-uk-L.dictionary - StudioOneModernisedEditions",
-            "type": "Dictionary",
-            "extension": ".graphe",
-            "path": "English/Dictionaries/en-uk-L.dictionary - StudioOneModernisedEditions.graphe"
           },
           {
             "title": "en-uk.dictionary - StudioOneModernisedEditions",
@@ -7695,6 +7707,12 @@
             "type": "Dictionary",
             "extension": ".graphe",
             "path": "French/Dictionaries/Francia-Magyar szótár.graphe"
+          },
+          {
+            "title": "GBDM1 - StudioOneEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "French/Dictionaries/GBDM1 - StudioOneEditions.graphe"
           },
           {
             "title": "Un Dictionnaire biblique française - 1849 - StudioGraphēEditions",
