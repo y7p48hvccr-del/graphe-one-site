@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T01:00:43.593740",
+  "generated": "2026-11-23T10:24:16.760828",
   "source": "r2:modules-studioeditions/GrapheModules/",
   "languages": [
     {
@@ -5630,10 +5630,16 @@
             "summary": "Modernised edition. George Morrish's Bible dictionary is a comprehensive one-volume reference work covering the persons, places, and topics of both the Old and New Testaments, written from a conservative evangelical perspective. It provides succinct yet thorough entries on Hebrew and Greek terms…"
           },
           {
-            "title": "A Theological and Syntactical Biblical D - StudioOneModernisedEditions",
+            "title": "ATSBD - StudioOneEditions",
             "type": "Dictionary",
             "extension": ".graphe",
-            "path": "English/Dictionaries/A Theological and Syntactical Biblical D - StudioOneModernisedEditions.graphe"
+            "path": "English/Dictionaries/ATSBD - StudioOneEditions.graphe"
+          },
+          {
+            "title": "ATSBD - StudioOneModernEditions",
+            "type": "Dictionary",
+            "extension": ".graphe",
+            "path": "English/Dictionaries/ATSBD - StudioOneModernEditions.graphe"
           },
           {
             "title": "Biblical and Theological Dictionary - StudioOneEditions",
