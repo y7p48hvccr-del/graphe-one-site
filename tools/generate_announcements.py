@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate an app's announcements feed from the post files: ScriptureStudy Pro's (the default), TV Studio One's
-(--app tvstudioone) or Scrib's (--app scrib).
+(--app tvstudioone), Scrib's (--app scrib) or Graphē Dictionary's (--app graphedictionary).
 
 What it does
 ------------
@@ -70,6 +70,15 @@ Three apps
                            The format is the same (schema 1). Scrib is iPhone, iPad and Mac (Catalyst): platforms are
                            ios and macos. Audiences: all, trial (the 5-day trial), full (bought the unlock) and
                            expired; never basic. Buttons: none, openUrl and openSettings.
+    --app graphedictionary posts in announcements/graphedictionary/, languages in
+                           tools/app_languages_graphedictionary.json (Graphē Dictionary's own string catalogue,
+                           Graphe Dictionary/Graphe Dictionary/Localizable.xcstrings), feed at
+                           docs/GrapheDictionary/resources/announcements/announcements.json
+                           (https://graphe.one/GrapheDictionary/resources/announcements/announcements.json) and nothing
+                           else. The format is the same (schema 1). Graphē Dictionary is iPhone, iPad and Mac: platforms
+                           are ios and macos. Audiences: all, trial (the 7-day trial), full (bought Unlock Everything)
+                           and expired (the free version once the trial is over); never basic. Buttons: none, openUrl
+                           and openSettings.
 
 Usage
 -----
@@ -128,6 +137,16 @@ APPS = {
         "extras": False,
         # Languages the app's catalogue has that are served from another code, so no post needs text for them.
         "aliases": {"en-GB": "en"},
+    },
+    "graphedictionary": {
+        "name": "Graphē Dictionary",
+        "posts": "announcements/graphedictionary",
+        "feed": "docs/GrapheDictionary/resources/announcements",
+        "languages": "tools/app_languages_graphedictionary.json",
+        "platforms": ["ios", "macos"],
+        "audiences": ["all", "trial", "full", "expired"],
+        "actions": ["none", "openSettings", "openUrl"],
+        "extras": False,
     },
 }
 MAX_TITLE = 80      # English only
@@ -574,7 +593,7 @@ def run(root, today, now, check_only=False, app_strings=None, app="scripturestud
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="Generate an app's announcements feed (ScriptureStudy Pro, TV Studio One or Scrib).")
+    ap = argparse.ArgumentParser(description="Generate an app's announcements feed (ScriptureStudy Pro, TV Studio One, Scrib or Graphē Dictionary).")
     ap.add_argument("--app", choices=sorted(APPS), default="scripturestudy",
                     help="which app's feed (default scripturestudy)")
     ap.add_argument("--check", action="store_true", help="validate only; write nothing")
