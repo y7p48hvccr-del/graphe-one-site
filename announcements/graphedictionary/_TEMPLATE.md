@@ -6,7 +6,7 @@ expires: 2026-12-15
 platforms: ios, macos        Graphē Dictionary is iPhone, iPad and Mac
 minVersion:
 maxVersion:
-audience: all                 all | full | trial | expired   (full = bought Unlock Everything; trial = the 7-day trial; expired = the free version after it; there is no basic)
+audience: all                 all | full | trial | expired   (full = Unlock Everything, and the trial; trial = the 7-day trial only; expired = the free version after it; there is no basic)
 theme: standard               standard | update | new
 languages:                    optional: only users whose app language is listed see it (blank = everyone)
 action: none                  none | openSettings | openUrl   (openCatalogue and openModule show no button here)

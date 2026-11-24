@@ -76,8 +76,8 @@ Three apps
                            docs/GrapheDictionary/resources/announcements/announcements.json
                            (https://graphe.one/GrapheDictionary/resources/announcements/announcements.json) and nothing
                            else. The format is the same (schema 1). Graphē Dictionary is iPhone, iPad and Mac: platforms
-                           are ios and macos. Audiences: all, trial (the 7-day trial), full (bought Unlock Everything)
-                           and expired (the free version once the trial is over); never basic. Buttons: none, openUrl
+                           are ios and macos. Audiences: all, trial (the 7-day trial), full (Unlock Everything, and the
+                           trial) and expired (the free version once the trial is over); never basic. Buttons: none, openUrl
                            and openSettings.
 
 Usage
