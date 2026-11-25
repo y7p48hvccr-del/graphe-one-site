@@ -1,5 +1,69 @@
 {
   "schema": 1,
-  "generated": "2026-11-25T00:07:14Z",
-  "items": []
+  "generated": "2026-11-25T00:10:33Z",
+  "items": [
+    {
+      "id": "2026-11-25-app",
+      "kind": "app",
+      "published": "2026-11-25",
+      "expires": "2026-12-25",
+      "platforms": [
+        "macos",
+        "ios"
+      ],
+      "minVersion": null,
+      "maxVersion": null,
+      "audience": "all",
+      "theme": null,
+      "languages": null,
+      "title": {
+        "en": "test",
+        "cs": "test",
+        "de": "Test",
+        "el": "δοκιμή",
+        "es": "prueba",
+        "fr": "test",
+        "id": "uji",
+        "it": "prova",
+        "ja": "テスト",
+        "ko": "테스트",
+        "ku": "test",
+        "ms": "ujian",
+        "nl": "test",
+        "pl": "test",
+        "pt-PT": "teste",
+        "ru": "тест",
+        "th": "ทดสอบ",
+        "tr": "test",
+        "vi": "kiểm tra",
+        "zh-Hans": "测试"
+      },
+      "body": {
+        "en": "TEST",
+        "cs": "TEST",
+        "de": "TEST",
+        "el": "ΔΟΚΙΜΗ",
+        "es": "PRUEBA",
+        "fr": "TEST",
+        "id": "UJI",
+        "it": "PROVA",
+        "ja": "テスト",
+        "ko": "테스트",
+        "ku": "TEST",
+        "ms": "UJIAN",
+        "nl": "TEST",
+        "pl": "TEST",
+        "pt-PT": "TESTE",
+        "ru": "ТЕСТ",
+        "th": "ทดสอบ",
+        "tr": "TEST",
+        "vi": "KIỂM TRA",
+        "zh-Hans": "测试"
+      },
+      "action": {
+        "type": "none",
+        "target": null
+      }
+    }
+  ]
 }
