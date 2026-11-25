@@ -1,5 +1,84 @@
 {
   "schema": 1,
-  "generated": "2026-11-24T21:54:58Z",
-  "items": []
+  "generated": "2026-11-25T11:38:22Z",
+  "items": [
+    {
+      "id": "2026-11-24-app",
+      "kind": "app",
+      "published": "2026-11-24",
+      "expires": "2026-12-24",
+      "platforms": [
+        "android"
+      ],
+      "minVersion": null,
+      "maxVersion": null,
+      "audience": "all",
+      "theme": null,
+      "languages": null,
+      "title": {
+        "en": "Test",
+        "bg": "Тест",
+        "cs": "Test",
+        "da": "Test",
+        "de": "Test",
+        "el": "Δοκιμή",
+        "es": "Prueba",
+        "fi": "Testi",
+        "fr": "Test",
+        "hi": "परीक्षण",
+        "hr": "Test",
+        "hu": "Test",
+        "id": "Tes",
+        "it": "Test",
+        "lt": "Bandymas",
+        "lv": "Pārbaude",
+        "nb": "Test",
+        "nl": "Test",
+        "pl": "Test",
+        "pt": "Teste",
+        "ro": "Test",
+        "ru": "Тест",
+        "sk": "Test",
+        "sv": "Test",
+        "ta": "சோதனை",
+        "te": "పরీక్ష",
+        "tr": "Test",
+        "uk": "Тест"
+      },
+      "body": {
+        "en": "Test",
+        "bg": "Тест",
+        "cs": "Test",
+        "da": "Test",
+        "de": "Test",
+        "el": "Δοκιμή",
+        "es": "Prueba",
+        "fi": "Testi",
+        "fr": "Test",
+        "hi": "परीक्षण",
+        "hr": "Test",
+        "hu": "Test",
+        "id": "Tes",
+        "it": "Test",
+        "lt": "Bandymas",
+        "lv": "Pārbaude",
+        "nb": "Test",
+        "nl": "Test",
+        "pl": "Test",
+        "pt": "Teste",
+        "ro": "Test",
+        "ru": "Тест",
+        "sk": "Test",
+        "sv": "Test",
+        "ta": "சோதனை",
+        "te": "పరీక్ష",
+        "tr": "Test",
+        "uk": "Тест"
+      },
+      "action": {
+        "type": "none",
+        "target": null
+      }
+    }
+  ]
 }
