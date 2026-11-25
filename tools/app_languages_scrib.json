@@ -37,6 +37,6 @@
     "zh-Hans",
     "zh-Hant"
   ],
-  "languageFilterMinVersion": "1.1.0",
+  "languageFilterMinVersion": "1.0.9",
   "_languageFilterMinVersion": "The first Scrib version that understands a post's `languages` field. Ship the build that adds the inbox as exactly this version (or change this value to match)."
 }

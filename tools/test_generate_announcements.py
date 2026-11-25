@@ -499,7 +499,7 @@ class ScribSite(Site):
         super().__init__()
         (self.root / "announcements" / "scrib").mkdir()
         (self.root / "tools" / "app_languages_scrib.json").write_text(
-            json.dumps({"languages": SCRIB_LANGUAGES, "languageFilterMinVersion": "1.1.0"}), encoding="utf-8")
+            json.dumps({"languages": SCRIB_LANGUAGES, "languageFilterMinVersion": "1.0.9"}), encoding="utf-8")
 
     def add(self, name, text):
         (self.root / "announcements" / "scrib" / name).write_text(text, encoding="utf-8")
@@ -606,9 +606,9 @@ class ScribTests(unittest.TestCase):
             self.tearDown()
         self.setUp()
 
-    def test_a_post_for_chosen_languages_needs_minversion_1_1_0(self):
+    def test_a_post_for_chosen_languages_needs_minversion_1_0_9(self):
         self.site.add("2026-11-05-app.md", scrib_post(languages=["en", "de"], languages_field="de"))
-        self.assertRejected("needs minVersion 1.1.0 or later")
+        self.assertRejected("needs minVersion 1.0.9 or later")
         self.setUp()
         self.site.add("2026-11-05-app.md", scrib_post(languages=["en", "de"], languages_field="de", min_version="1.1"))
         self.assertEqual(self.site.run()[0], [])
