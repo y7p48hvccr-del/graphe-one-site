@@ -22,6 +22,6 @@
     "vi",
     "zh-Hans"
   ],
-  "languageFilterMinVersion": "1.1.1",
-  "_languageFilterMinVersion": "The first Graphē Dictionary version that understands a post's `languages` field: 1.1.1 (build 3), the version that adds the inbox. If the inbox ships in another version, change this value to match."
+  "languageFilterMinVersion": "1.0.1",
+  "_languageFilterMinVersion": "The first Graphē Dictionary version that understands a post's `languages` field: 1.0.1, the first release, which ships with the inbox. If that changes, change this value to match."
 }
