@@ -565,17 +565,17 @@ class ScribTests(unittest.TestCase):
         self.site.add("2026-11-05-app.md", scrib_post(languages=[c for c in SCRIB_LANGUAGES if c != "th"]))
         self.assertRejected("missing 1 of 35 languages: th")
 
-    def test_it_is_ios_and_macos_only(self):
-        for plat in ("android", "windows", "ios, android"):
+    def test_it_is_ios_macos_and_android_only(self):
+        for plat in ("windows", "ios, windows"):
             self.setUp()
             self.site.add("2026-11-05-app.md", scrib_post(platforms=plat))
-            self.assertRejected("platforms must be ios, macos")
+            self.assertRejected("platforms must be ios, macos, android")
             self.tearDown()
         self.setUp()
         self.site.add("2026-11-05-app.md", scrib_post(platforms=""))
         self.assertRejected("platforms is empty")
         self.tearDown()
-        for plat in ("ios", "macos", "macos, ios"):
+        for plat in ("ios", "macos", "macos, ios", "android", "ios, macos, android"):
             self.setUp()
             self.site.add("2026-11-05-app.md", scrib_post(platforms=plat))
             self.assertEqual(self.site.run()[0], [], plat)

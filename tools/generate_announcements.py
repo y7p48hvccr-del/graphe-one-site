@@ -67,8 +67,8 @@ Three apps
                            string catalogue, Scrib/Scrib/Localizable.xcstrings; en-GB is served from en and needs no
                            text of its own), feed at docs/Scrib/resources/announcements/announcements.json
                            (https://graphe.one/Scrib/resources/announcements/announcements.json) and nothing else.
-                           The format is the same (schema 1). Scrib is iPhone, iPad and Mac (Catalyst): platforms are
-                           ios and macos. Audiences: all, trial (the 5-day trial), full (bought the unlock) and
+                           The format is the same (schema 1). Scrib is iPhone, iPad, Mac (Catalyst) and Android:
+                           platforms are ios, macos and android. Audiences: all, trial (the 5-day trial), full (bought the unlock) and
                            expired; never basic. Buttons: none, openUrl and openSettings.
     --app graphedictionary posts in announcements/graphedictionary/, languages in
                            tools/app_languages_graphedictionary.json (Graphē Dictionary's own string catalogue,
@@ -131,7 +131,7 @@ APPS = {
         "posts": "announcements/scrib",
         "feed": "docs/Scrib/resources/announcements",
         "languages": "tools/app_languages_scrib.json",
-        "platforms": ["ios", "macos"],
+        "platforms": ["ios", "macos", "android"],
         "audiences": ["all", "trial", "full", "expired"],
         "actions": ["none", "openSettings", "openUrl"],
         "extras": False,
